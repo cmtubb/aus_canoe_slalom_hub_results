@@ -33,6 +33,11 @@ The results JSON format is documented in the hub series repo README.
 - **Standings:** women's and men's combined, then C1M, K1M, C1W and K1W, with each race's points and the total.
 - **Races:** the races in the season, with dates and status.
 - **How it works:** the points rules.
+- **Paddler page:** select any name to see that paddler across every season:
+  - a summary of their combined, C1 and K1 ranks and points in each season
+  - their place and points at each race
+
+  Names are matched across seasons by first name and surname, ignoring case. The browser back button returns to the page the name was selected from.
 - **Search** filters every table by name.
 - **Show details** adds the working behind the standings, which is what the debug pdf shows:
   - each race's placings and points for each class
@@ -44,6 +49,7 @@ Useful page URLs for testing:
 
 - `?season=2023&cls=K1M&detail=1`: a season and class, with details
 - `?q=watson`: search every table
+- `?paddler=lucy+casserley`: a paddler page
 - `?view=races`: the races tab
 - `?view=about`: the "How it works" tab
 
