@@ -15,23 +15,6 @@
     --text: #1f2933;
     --bg: #ffffff;
     --stripe: #f7f9fb;
-    --warn-bg: #fff7e6;
-    --warn-border: #f0c36d;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      color-scheme: dark;
-      --accent: #6ea8fe;
-      --accent-soft: #1c2a3f;
-      --on-accent: #0d1520;
-      --border: #2f3a48;
-      --muted: #9aa5b1;
-      --text: #e4e8ed;
-      --bg: #12161c;
-      --stripe: #181e26;
-      --warn-bg: #2d2512;
-      --warn-border: #8a6d2b;
-    }
   }
   * { box-sizing: border-box; }
   [hidden] { display: none !important; }
@@ -77,19 +60,12 @@
   .card .scroll { margin-top: 4px; }
   .card h4 { margin: 10px 0 0; font-size: 0.9rem; }
   .card p { margin: 0; color: var(--muted); font-size: 0.85rem; }
-  .warn {
-    background: var(--warn-bg); border: 1px solid var(--warn-border); border-radius: 6px;
-    padding: 8px 10px; margin-top: 12px; max-width: 680px;
-  }
-  .warn ul { margin: 4px 0 0; padding-left: 20px; }
   .note, .empty { color: var(--muted); margin-top: 12px; }
   .about { max-width: 680px; margin-top: 8px; }
   .about h2 { margin-top: 20px; }
   .about p, .about li { margin: 6px 0; }
   .about ul { padding-left: 20px; }
   code { background: var(--stripe); padding: 1px 4px; border-radius: 3px; }
-  footer { margin-top: 24px; color: var(--muted); font-size: 0.85rem; max-width: 680px; }
-  footer p { margin: 4px 0; overflow-wrap: anywhere; }
 </style>
 </head>
 <body>
@@ -131,14 +107,11 @@
   <ul>
     <li>Each race's placings and points in every class.</li>
     <li>The number placed at each race (the field) and the N used in the points formula.</li>
-    <li>Possible duplicate names, and where the published results came from.</li>
   </ul>
 
   <h2>Published results</h2>
   <p>These are the official published results. Points already published for a race don't change when later races are added.</p>
 </section>
-
-<footer id="footer" hidden></footer>
 
 <script>
 const params = new URLSearchParams(location.search);
@@ -235,23 +208,12 @@ function raceCards(data, cl, match) {
   return cards.length ? h('div', { class: 'cards' }, cards) : null;
 }
 
-function duplicatesNote(data, classes) {
-  const items = classes.flatMap(cl => (data.possible_duplicates[cl] || []).map(([a, b]) =>
-    h('li', {}, `${cl}: ${fullName(a)} / ${fullName(b)}`)));
-  if (!items.length) return null;
-  return h('div', { class: 'warn' },
-    h('strong', {}, 'Possible duplicate names. '),
-    'These are counted as different paddlers:',
-    h('ul', {}, items));
-}
-
 function classSection(data, cl, match) {
   const table = standingsTable(data.classes[cl].standings,
     completedRaces(data).map(r => ({ label: r.short, title: r.name, value: e => e.points[r.id] })),
     'Total', 'total', match);
   if (!table || !state.detail) return table;
   return [
-    duplicatesNote(data, [cl]),
     table,
     h('h3', {}, `${cl} race rankings`),
     raceCards(data, cl, match),
@@ -264,13 +226,7 @@ function combinedSection(data, group, match) {
     const key = cl.slice(0, 2).toLowerCase();
     return { label: key.toUpperCase(), title: `${cl} total`, value: e => e[key] };
   });
-  const table = standingsTable(combined.standings, cols, 'Avg', 'avg', match);
-  if (!table || !state.detail) return table;
-  return [
-    duplicatesNote(data, combined.classes),
-    table,
-    h('p', { class: 'note' }, `C1 and K1 are the ${combined.classes.join(' and ')} totals. Avg = (C1 + K1) ÷ 2, rounded.`),
-  ];
+  return standingsTable(combined.standings, cols, 'Avg', 'avg', match);
 }
 
 function sections(data) {
@@ -300,19 +256,6 @@ function racesTable(data) {
       }))))));
 }
 
-function renderFooter(data) {
-  const footer = document.getElementById('footer');
-  footer.hidden = !state.detail || !data;
-  if (footer.hidden) return;
-  const g = data.generated;
-  const when = new Date(g.date).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' });
-  footer.replaceChildren(
-    h('p', {}, 'Calculated from ', h('code', {}, g.source),
-      g.git_commit ? [' at commit ', h('code', {}, g.git_commit.slice(0, 7))] : null, ` on ${when}.`),
-    h('p', {}, 'Race points: ', h('code', {}, data.rules.race_points)),
-    h('p', {}, 'Combined: ', h('code', {}, data.rules.combined)));
-}
-
 function setState(changes) {
   Object.assign(state, changes);
   const p = new URLSearchParams();
@@ -339,7 +282,6 @@ function render() {
   subs.hidden = true;
 
   const data = seasonData[state.season];
-  renderFooter(data);
   if (about) return;
   if (!data) {
     content.replaceChildren(h('p', { class: 'note' }, 'Loading results…'));

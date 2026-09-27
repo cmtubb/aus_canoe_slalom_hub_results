@@ -37,8 +37,6 @@ The results JSON format is documented in the hub series repo README.
 - **Show details** adds the working behind the standings, which is what the debug pdf shows:
   - each race's placings and points for each class
   - the field size and the N used in the points formula
-  - possible duplicate names
-  - where and when the results were calculated
 
 Equal ranks are shown as "=13". The "Show details" setting is remembered in the browser.
 
