@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Australian Canoe Slalom Hub Series</title>
+<style>
+  :root {
+    color-scheme: light;
+    --accent: #1f6fd6;
+    --accent-soft: #e8f1fc;
+    --on-accent: #ffffff;
+    --border: #d9dee5;
+    --muted: #6b7280;
+    --text: #1f2933;
+    --bg: #ffffff;
+    --stripe: #f7f9fb;
+    --warn-bg: #fff7e6;
+    --warn-border: #f0c36d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --accent: #6ea8fe;
+      --accent-soft: #1c2a3f;
+      --on-accent: #0d1520;
+      --border: #2f3a48;
+      --muted: #9aa5b1;
+      --text: #e4e8ed;
+      --bg: #12161c;
+      --stripe: #181e26;
+      --warn-bg: #2d2512;
+      --warn-border: #8a6d2b;
+    }
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body {
+    margin: 0;
+    padding: 12px 16px 24px;
+    font: 14px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+  }
+  h1 { font-size: 1.4rem; margin: 0; color: var(--accent); }
+  .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin: 10px 0 0; }
+  .controls label { display: inline-flex; align-items: center; gap: 6px; }
+  select, .search {
+    font: inherit; color: var(--text); background: var(--bg);
+    padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px;
+  }
+  .search { flex: 1 1 180px; min-width: 0; max-width: 300px; }
+  select:focus, .search:focus { outline: 2px solid var(--accent); outline-offset: -1px; border-color: transparent; }
+  input[type="checkbox"] { accent-color: var(--accent); width: 16px; height: 16px; margin: 0; }
+  .tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; }
+  .tabs button {
+    font: inherit; padding: 5px 11px; border: 1px solid var(--border); border-radius: 999px;
+    background: var(--bg); color: var(--text); cursor: pointer;
+  }
+  .tabs button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+  .tabs.sub button { border-radius: 6px; padding: 4px 10px; }
+  .tabs.sub button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+  .info { margin: 14px 0 0; color: var(--muted); }
+  h2 { font-size: 1.05rem; margin: 18px 0 6px; }
+  h3 { font-size: 0.95rem; margin: 22px 0 4px; }
+  .scroll { overflow-x: auto; margin-top: 10px; }
+  table { border-collapse: collapse; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  th, td { padding: 4px 8px; border-bottom: 1px solid var(--border); text-align: right; }
+  th { background: var(--accent-soft); font-weight: 600; font-size: 0.85rem; }
+  th[title] { cursor: help; }
+  td.l, th.l { text-align: left; }
+  tbody tr:nth-child(even) td { background: var(--stripe); }
+  td.total { font-weight: 600; }
+  td.dim, span.dim { color: var(--muted); }
+  .cards { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start; }
+  .card { max-width: 100%; }
+  .card .scroll { margin-top: 4px; }
+  .card h4 { margin: 10px 0 0; font-size: 0.9rem; }
+  .card p { margin: 0; color: var(--muted); font-size: 0.85rem; }
+  .warn {
+    background: var(--warn-bg); border: 1px solid var(--warn-border); border-radius: 6px;
+    padding: 8px 10px; margin-top: 12px; max-width: 680px;
+  }
+  .warn ul { margin: 4px 0 0; padding-left: 20px; }
+  .note, .empty { color: var(--muted); margin-top: 12px; }
+  .about { max-width: 680px; margin-top: 8px; }
+  .about h2 { margin-top: 20px; }
+  .about p, .about li { margin: 6px 0; }
+  .about ul { padding-left: 20px; }
+  code { background: var(--stripe); padding: 1px 4px; border-radius: 3px; }
+  footer { margin-top: 24px; color: var(--muted); font-size: 0.85rem; max-width: 680px; }
+  footer p { margin: 4px 0; overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<h1 id="title">Australian Canoe Slalom Hub Series</h1>
+<div class="controls">
+  <label>Season <select id="season" aria-label="Season"></select></label>
+  <input class="search" id="search" type="search" placeholder="Search by name…" autocomplete="off" aria-label="Search by name">
+  <label><input type="checkbox" id="detail"> Show details</label>
+</div>
+<nav class="tabs" id="views"></nav>
+<nav class="tabs sub" id="subs"></nav>
+<div id="content"><p class="note">Loading results…</p></div>
+
+<section class="about" id="about" hidden>
+  <h2>The series</h2>
+  <p>The Hub Series ranks paddlers across the state championships and the Australian Age Nationals. Each race's official results decide the placings in C1M, K1M, C1W and K1W. Those placings are turned into points.</p>
+
+  <h2>Race points</h2>
+  <p>In each class at each race, the winner gets 1000 points and every place after that gets an equal share less:</p>
+  <p><code>points = 1000 − (place − 1) × 1000 ÷ N</code>, rounded to the nearest whole number (halves round up).</p>
+  <ul>
+    <li><strong>N</strong> is the number of paddlers placed in the class at that race, with a minimum of 5. Small fields don't give away big gaps for single places. With 2 paddlers, points are 1000 and 800. With 8 paddlers they are 1000, 875, 750, 625, 500, 375, 250 and 125.</li>
+    <li>Missing a race scores 0 for that race.</li>
+  </ul>
+
+  <h2>Class standings</h2>
+  <ul>
+    <li>Your total in a class is the sum of your points from every race in that class. Every race counts.</li>
+    <li>Paddlers with the same total share the rank, shown as “=13”. The next rank is skipped (=13, =13, 15).</li>
+  </ul>
+
+  <h2>Combined standings</h2>
+  <p>The women's (C1W + K1W) and men's (C1M + K1M) combined standings average the two class totals:</p>
+  <p><code>Avg = (C1 total + K1 total) ÷ 2</code>, rounded to the nearest whole number (halves round up).</p>
+  <p>If you race only one class, the other counts as 0, so paddling both classes is rewarded.</p>
+
+  <h2>Show details</h2>
+  <p>This adds the working behind the standings:</p>
+  <ul>
+    <li>Each race's placings and points in every class.</li>
+    <li>The number placed at each race (the field) and the N used in the points formula.</li>
+    <li>Possible duplicate names, and where the published results came from.</li>
+  </ul>
+
+  <h2>Published results</h2>
+  <p>These are the official published results. Points already published for a race don't change when later races are added.</p>
+</section>
+
+<footer id="footer" hidden></footer>
+
+<script>
+const params = new URLSearchParams(location.search);
+const state = {
+  season: params.get('season'),
+  view: params.get('view') || 'standings',
+  sub: params.get('cls') || 'women',
+  q: params.get('q') || '',
+  detail: params.has('detail') ? params.get('detail') === '1' : storedDetail(),
+};
+const VIEWS = [['standings', 'Standings'], ['races', 'Races'], ['about', 'How it works']];
+
+let seasons = [];
+const seasonData = {};
+const loading = {};
+
+function storedDetail() {
+  try { return localStorage.getItem('detail') === '1'; } catch { return false; }
+}
+
+function storeDetail(on) {
+  try { localStorage.setItem('detail', on ? '1' : '0'); } catch { /* storage unavailable */ }
+}
+
+const norm = s => s.toLowerCase().split(/\s+/).filter(Boolean).join(' ');
+const fullName = e => `${e.firstname} ${e.surname}`;
+const cap = s => s[0].toUpperCase() + s.slice(1);
+
+function h(tag, attrs = {}, ...children) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k.startsWith('on')) el[k] = v;
+    else if (k.startsWith('aria-')) el.setAttribute(k, String(v));
+    else if (v !== false && v != null) el.setAttribute(k, v === true ? '' : v);
+  }
+  for (const c of children.flat(Infinity)) if (c != null && c !== false) el.append(c);
+  return el;
+}
+
+async function getJSON(file) {
+  const res = await fetch(file);
+  if (!res.ok) throw new Error(`${file}: HTTP ${res.status}`);
+  return res.json();
+}
+
+function loadSeason(dir) {
+  const s = seasons.find(x => x.dir === dir);
+  loading[dir] = loading[dir] || getJSON(`${s.dir}/${s.file}`).then(d => { seasonData[dir] = d; });
+  return loading[dir];
+}
+
+function rankLabels(rows) {
+  const counts = {};
+  for (const r of rows) counts[r.rank] = (counts[r.rank] || 0) + 1;
+  return r => counts[r.rank] > 1 ? `=${r.rank}` : String(r.rank);
+}
+
+const completedRaces = data => data.races.filter(r => r.status === 'completed');
+
+function standingsTable(rows, cols, totalLabel, totalKey, match) {
+  const shown = rows.filter(match);
+  if (!shown.length) return null;
+  const label = rankLabels(rows);
+  return h('div', { class: 'scroll' }, h('table', {},
+    h('thead', {}, h('tr', {},
+      h('th', {}, 'Rank'), h('th', { class: 'l' }, 'Athlete'),
+      cols.map(c => h('th', { title: c.title }, c.label)),
+      h('th', {}, totalLabel))),
+    h('tbody', {}, shown.map(r => h('tr', {},
+      h('td', {}, label(r)),
+      h('td', { class: 'l' }, fullName(r)),
+      cols.map(c => { const v = c.value(r) || 0; return h('td', { class: v ? null : 'dim' }, String(v)); }),
+      h('td', { class: 'total' }, String(r[totalKey])))))));
+}
+
+function fieldNote(race) {
+  const min = race.n_used > race.field_size ? ' (minimum)' : '';
+  return `Field ${race.field_size} · N = ${race.n_used}${min}`;
+}
+
+function raceCards(data, cl, match) {
+  const cards = completedRaces(data).map(race => {
+    const res = data.classes[cl].races[race.id];
+    const shown = res.placings.filter(match);
+    if (!shown.length) return null;
+    return h('div', { class: 'card' },
+      h('h4', {}, `${race.short} · ${race.name}`),
+      h('p', {}, fieldNote(res)),
+      h('div', { class: 'scroll' }, h('table', {},
+        h('thead', {}, h('tr', {}, h('th', {}, 'Place'), h('th', { class: 'l' }, 'Athlete'), h('th', {}, 'Points'))),
+        h('tbody', {}, shown.map(p => h('tr', {},
+          h('td', {}, String(p.place)), h('td', { class: 'l' }, fullName(p)), h('td', {}, String(p.points))))))));
+  }).filter(Boolean);
+  return cards.length ? h('div', { class: 'cards' }, cards) : null;
+}
+
+function duplicatesNote(data, classes) {
+  const items = classes.flatMap(cl => (data.possible_duplicates[cl] || []).map(([a, b]) =>
+    h('li', {}, `${cl}: ${fullName(a)} / ${fullName(b)}`)));
+  if (!items.length) return null;
+  return h('div', { class: 'warn' },
+    h('strong', {}, 'Possible duplicate names. '),
+    'These are counted as different paddlers:',
+    h('ul', {}, items));
+}
+
+function classSection(data, cl, match) {
+  const table = standingsTable(data.classes[cl].standings,
+    completedRaces(data).map(r => ({ label: r.short, title: r.name, value: e => e.points[r.id] })),
+    'Total', 'total', match);
+  if (!table || !state.detail) return table;
+  return [
+    duplicatesNote(data, [cl]),
+    table,
+    h('h3', {}, `${cl} race rankings`),
+    raceCards(data, cl, match),
+  ];
+}
+
+function combinedSection(data, group, match) {
+  const combined = data.combined[group];
+  const cols = combined.classes.map(cl => {
+    const key = cl.slice(0, 2).toLowerCase();
+    return { label: key.toUpperCase(), title: `${cl} total`, value: e => e[key] };
+  });
+  const table = standingsTable(combined.standings, cols, 'Avg', 'avg', match);
+  if (!table || !state.detail) return table;
+  return [
+    duplicatesNote(data, combined.classes),
+    table,
+    h('p', { class: 'note' }, `C1 and K1 are the ${combined.classes.join(' and ')} totals. Avg = (C1 + K1) ÷ 2, rounded.`),
+  ];
+}
+
+function sections(data) {
+  return [
+    ...Object.keys(data.combined).map(g => ({
+      key: g, title: `${cap(g)} combined`, build: m => combinedSection(data, g, m) })),
+    ...Object.keys(data.classes).map(cl => ({
+      key: cl, title: cl, build: m => classSection(data, cl, m) })),
+  ];
+}
+
+function racesTable(data) {
+  const classes = Object.keys(data.classes);
+  return h('div', { class: 'scroll' }, h('table', {},
+    h('thead', {}, h('tr', {},
+      h('th', { class: 'l' }, 'Race'), h('th', { class: 'l' }, 'Dates'), h('th', { class: 'l' }, 'Status'),
+      state.detail && classes.map(cl => h('th', { title: `${cl}: number placed (N used)` }, cl)))),
+    h('tbody', {}, data.races.map(race => h('tr', {},
+      h('td', { class: 'l' }, `${race.name} (${race.short})`),
+      h('td', { class: 'l' }, race.dates_display),
+      h('td', { class: race.status === 'completed' ? 'l' : 'l dim' }, cap(race.status)),
+      state.detail && classes.map(cl => {
+        const res = data.classes[cl].races[race.id];
+        if (!res) return h('td', { class: 'dim' }, '–');
+        return h('td', {}, String(res.field_size),
+          res.n_used !== res.field_size ? h('span', { class: 'dim' }, ` (N ${res.n_used})`) : null);
+      }))))));
+}
+
+function renderFooter(data) {
+  const footer = document.getElementById('footer');
+  footer.hidden = !state.detail || !data;
+  if (footer.hidden) return;
+  const g = data.generated;
+  const when = new Date(g.date).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' });
+  footer.replaceChildren(
+    h('p', {}, 'Calculated from ', h('code', {}, g.source),
+      g.git_commit ? [' at commit ', h('code', {}, g.git_commit.slice(0, 7))] : null, ` on ${when}.`),
+    h('p', {}, 'Race points: ', h('code', {}, data.rules.race_points)),
+    h('p', {}, 'Combined: ', h('code', {}, data.rules.combined)));
+}
+
+function setState(changes) {
+  Object.assign(state, changes);
+  const p = new URLSearchParams();
+  if (state.season !== seasons[0].dir) p.set('season', state.season);
+  if (state.view !== 'standings') p.set('view', state.view);
+  if (state.sub !== 'women') p.set('cls', state.sub);
+  if (state.q) p.set('q', state.q);
+  if (state.detail) p.set('detail', '1');
+  history.replaceState(null, '', p.toString() ? `?${p}` : location.pathname);
+  render();
+}
+
+function render() {
+  document.getElementById('season').value = state.season;
+  document.getElementById('detail').checked = state.detail;
+  document.getElementById('views').replaceChildren(...VIEWS.map(([key, label]) =>
+    h('button', { 'aria-pressed': state.view === key, onclick: () => setState({ view: key }) }, label)));
+
+  const content = document.getElementById('content');
+  const subs = document.getElementById('subs');
+  const about = state.view === 'about';
+  document.getElementById('about').hidden = !about;
+  content.hidden = about;
+  subs.hidden = true;
+
+  const data = seasonData[state.season];
+  renderFooter(data);
+  if (about) return;
+  if (!data) {
+    content.replaceChildren(h('p', { class: 'note' }, 'Loading results…'));
+    loadSeason(state.season).then(render, err => content.replaceChildren(
+      h('p', { class: 'empty' }, `Could not load results (${err.message}).`)));
+    return;
+  }
+
+  document.getElementById('title').textContent = data.series.name;
+  document.title = `${data.series.name} ${data.series.year}`;
+  const done = completedRaces(data).length;
+  const progress = done === data.races.length
+    ? `Final standings for ${data.series.year}.`
+    : `Standings for ${data.series.year} after ${done} of ${data.races.length} races.`;
+
+  if (state.view === 'races') {
+    content.replaceChildren(h('p', { class: 'info' }, `Races in the ${data.series.year} series.`), racesTable(data));
+    return;
+  }
+
+  const secs = sections(data);
+  if (!secs.some(s => s.key === state.sub)) state.sub = secs[0].key;
+  const q = norm(state.q);
+  const match = e => !q || norm(fullName(e)).includes(q);
+
+  subs.hidden = !!q;
+  subs.replaceChildren(...secs.map(s =>
+    h('button', { 'aria-pressed': s.key === state.sub, onclick: () => setState({ sub: s.key }) }, s.title)));
+
+  content.replaceChildren(h('p', { class: 'info' }, `${progress} Each race awards up to 1000 points per class.`));
+  if (q) {
+    const found = secs.map(s => [s, s.build(match)]).filter(([, el]) => el);
+    if (!found.length) content.append(h('p', { class: 'empty' }, `No paddlers matching “${state.q}”.`));
+    for (const [s, el] of found) content.append(h('h2', {}, s.title), ...[el].flat().filter(Boolean));
+  } else {
+    const el = secs.find(s => s.key === state.sub).build(match);
+    content.append(...[el || h('p', { class: 'empty' }, 'No results.')].flat().filter(Boolean));
+  }
+}
+
+async function main() {
+  try {
+    seasons = await getJSON('seasons.json');
+  } catch (err) {
+    document.getElementById('content').replaceChildren(
+      h('p', { class: 'empty' }, `Could not load results (${err.message}).`));
+    return;
+  }
+  if (!seasons.some(s => s.dir === state.season)) state.season = seasons[0].dir;
+  if (!VIEWS.some(([key]) => key === state.view)) state.view = 'standings';
+
+  const select = document.getElementById('season');
+  select.replaceChildren(...seasons.map(s => h('option', { value: s.dir }, s.label)));
+  select.onchange = () => setState({ season: select.value });
+
+  const detail = document.getElementById('detail');
+  detail.onchange = () => { storeDetail(detail.checked); setState({ detail: detail.checked }); };
+
+  const search = document.getElementById('search');
+  search.value = state.q;
+  search.oninput = () => setState({ q: search.value, view: 'standings' });
+
+  render();
+}
+
+main();
+</script>
+</body>
+</html>

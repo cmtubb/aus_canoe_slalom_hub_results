@@ -1,0 +1,6 @@
+[project]
+name = "aus-canoe-slalom-hub-results"
+version = "0.1.0"
+description = "Australian Canoe Slalom Hub Series results web page"
+requires-python = ">=3.14"
+dependencies = []

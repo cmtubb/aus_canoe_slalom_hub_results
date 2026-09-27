@@ -1,0 +1,5946 @@
+{
+  "schema_version": 1,
+  "series": {
+    "name": "Australian Canoe Slalom Hub Series",
+    "year": "2023/2024"
+  },
+  "generated": {
+    "source": "raw_results_2023/races.json",
+    "git_commit": "fd8d24f35acd8acce726fd0f1c50948714070192",
+    "date": "2026-09-27T16:19:03"
+  },
+  "rules": {
+    "max_points": 1000,
+    "min_n": 5,
+    "race_points": "round_half_up(scaling * (max_points - (place - 1) * max_points / max(min_n, field_size)))",
+    "combined": "round_half_up((C1 total + K1 total) / 2)"
+  },
+  "races": [
+    {
+      "id": "wa_state_champs_2023",
+      "short": "WA",
+      "name": "Western Australia State Championships",
+      "start_date": "2023-08-26",
+      "end_date": "2023-08-27",
+      "dates_display": "26 - 27 August 2023",
+      "status": "completed",
+      "scaling": 1.0
+    },
+    {
+      "id": "nsw_state_champs_2023",
+      "short": "NSW",
+      "name": "New South Wales State Championships",
+      "start_date": "2023-10-28",
+      "end_date": "2023-10-29",
+      "dates_display": "28 - 29 October 2023",
+      "status": "completed",
+      "scaling": 1.0
+    },
+    {
+      "id": "vic_state_champs_2023",
+      "short": "VIC",
+      "name": "Victoria State Championships",
+      "start_date": "2023-11-25",
+      "end_date": "2023-11-26",
+      "dates_display": "25 - 26 November 2023",
+      "status": "completed",
+      "scaling": 1.0
+    },
+    {
+      "id": "tas_state_champs_2023",
+      "short": "TAS",
+      "name": "Tasmania State Championships",
+      "start_date": "2023-12-01",
+      "end_date": "2023-12-03",
+      "dates_display": "1 - 3 December 2023",
+      "status": "completed",
+      "scaling": 1.0
+    },
+    {
+      "id": "age_nationals_2024",
+      "short": "AGE",
+      "name": "Australia AGE Nationals",
+      "start_date": "2024-01-04",
+      "end_date": "2024-01-07",
+      "dates_display": "4 - 7 January 2024",
+      "status": "completed",
+      "scaling": 1.0
+    }
+  ],
+  "classes": {
+    "C1M": {
+      "standings": [
+        {
+          "rank": 1,
+          "firstname": "Declan",
+          "surname": "ELLIS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 923,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 1000
+          },
+          "total": 1923
+        },
+        {
+          "rank": 2,
+          "firstname": "Warwick",
+          "surname": "DRAPER",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 750,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 958
+          },
+          "total": 1708
+        },
+        {
+          "rank": 3,
+          "firstname": "Dominic",
+          "surname": "CURTIN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 769,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 917
+          },
+          "total": 1686
+        },
+        {
+          "rank": 4,
+          "firstname": "Hunter",
+          "surname": "FLORISSON",
+          "points": {
+            "wa_state_champs_2023": 800,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 750
+          },
+          "total": 1550
+        },
+        {
+          "rank": 5,
+          "firstname": "Ewan",
+          "surname": "MACKIE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 692,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 792
+          },
+          "total": 1484
+        },
+        {
+          "rank": 6,
+          "firstname": "James",
+          "surname": "STAMP",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 667,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 708
+          },
+          "total": 1375
+        },
+        {
+          "rank": 7,
+          "firstname": "Toby",
+          "surname": "WATKINS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 1000,
+            "age_nationals_2024": 333
+          },
+          "total": 1333
+        },
+        {
+          "rank": 8,
+          "firstname": "Charlie",
+          "surname": "SHAMIEH",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 500,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 667
+          },
+          "total": 1167
+        },
+        {
+          "rank": 9,
+          "firstname": "Bradley",
+          "surname": "WOOD",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 538,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 500
+          },
+          "total": 1038
+        },
+        {
+          "rank": 10,
+          "firstname": "Kaylen",
+          "surname": "BASSETT",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 1000,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 1000
+        },
+        {
+          "rank": 10,
+          "firstname": "Tristan",
+          "surname": "CARTER",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 1000,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 1000
+        },
+        {
+          "rank": 10,
+          "firstname": "George",
+          "surname": "PANKHURST",
+          "points": {
+            "wa_state_champs_2023": 1000,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 1000
+        },
+        {
+          "rank": 13,
+          "firstname": "Ben",
+          "surname": "ROSS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 917,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 917
+        },
+        {
+          "rank": 14,
+          "firstname": "Daniel",
+          "surname": "SHAMIEH",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 875
+          },
+          "total": 875
+        },
+        {
+          "rank": 15,
+          "firstname": "Lachlan",
+          "surname": "BASSETT",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 846,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 846
+        },
+        {
+          "rank": 16,
+          "firstname": "Robert",
+          "surname": "MCCONNELL",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 417,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 417
+          },
+          "total": 834
+        },
+        {
+          "rank": 17,
+          "firstname": "Archie",
+          "surname": "NELSON",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 833,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 833
+        },
+        {
+          "rank": 17,
+          "firstname": "Justin",
+          "surname": "BOOCOCK",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 833
+          },
+          "total": 833
+        },
+        {
+          "rank": 19,
+          "firstname": "Oscar",
+          "surname": "CAPES",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 250,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 542
+          },
+          "total": 792
+        },
+        {
+          "rank": 20,
+          "firstname": "Josh",
+          "surname": "FRASER",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 167,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 583
+          },
+          "total": 750
+        },
+        {
+          "rank": 21,
+          "firstname": "Fergus",
+          "surname": "PAGE-BROWN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 625
+          },
+          "total": 625
+        },
+        {
+          "rank": 22,
+          "firstname": "Lucien",
+          "surname": "DELFOUR",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 615,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 615
+        },
+        {
+          "rank": 23,
+          "firstname": "Richard",
+          "surname": "MERJAN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 583,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 583
+        },
+        {
+          "rank": 24,
+          "firstname": "Luke",
+          "surname": "DELANEY",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 308,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 208
+          },
+          "total": 516
+        },
+        {
+          "rank": 25,
+          "firstname": "Josh",
+          "surname": "JORDAN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 462,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 462
+        },
+        {
+          "rank": 26,
+          "firstname": "Rhys",
+          "surname": "MACRAE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 458
+          },
+          "total": 458
+        },
+        {
+          "rank": 27,
+          "firstname": "Matt",
+          "surname": "DELANEY",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 385,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 385
+        },
+        {
+          "rank": 28,
+          "firstname": "Alex",
+          "surname": "REDLICH",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 83,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 292
+          },
+          "total": 375
+        },
+        {
+          "rank": 28,
+          "firstname": "Matthew",
+          "surname": "DELANEY",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 375
+          },
+          "total": 375
+        },
+        {
+          "rank": 30,
+          "firstname": "Jack",
+          "surname": "PEAD",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 333,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 333
+        },
+        {
+          "rank": 31,
+          "firstname": "Zack",
+          "surname": "KYSELA",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 250
+          },
+          "total": 250
+        },
+        {
+          "rank": 32,
+          "firstname": "Colin",
+          "surname": "CALDERWOOD",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 231,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 231
+        },
+        {
+          "rank": 33,
+          "firstname": "Scott",
+          "surname": "BRAIN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 167
+          },
+          "total": 167
+        },
+        {
+          "rank": 34,
+          "firstname": "Jye",
+          "surname": "DEAVES",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 77,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 83
+          },
+          "total": 160
+        },
+        {
+          "rank": 35,
+          "firstname": "Tom",
+          "surname": "BILLAUT",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 154,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 154
+        },
+        {
+          "rank": 36,
+          "firstname": "Aidan",
+          "surname": "MENZIES",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 125
+          },
+          "total": 125
+        },
+        {
+          "rank": 37,
+          "firstname": "Oliver",
+          "surname": "GEORGE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 42
+          },
+          "total": 42
+        }
+      ],
+      "races": {
+        "wa_state_champs_2023": {
+          "field_size": 2,
+          "n_used": 5,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "George",
+              "surname": "PANKHURST",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Hunter",
+              "surname": "FLORISSON",
+              "points": 800
+            }
+          ]
+        },
+        "nsw_state_champs_2023": {
+          "field_size": 13,
+          "n_used": 13,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Kaylen",
+              "surname": "BASSETT",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Declan",
+              "surname": "ELLIS",
+              "points": 923
+            },
+            {
+              "place": 3,
+              "firstname": "Lachlan",
+              "surname": "BASSETT",
+              "points": 846
+            },
+            {
+              "place": 4,
+              "firstname": "Dominic",
+              "surname": "CURTIN",
+              "points": 769
+            },
+            {
+              "place": 5,
+              "firstname": "Ewan",
+              "surname": "MACKIE",
+              "points": 692
+            },
+            {
+              "place": 6,
+              "firstname": "Lucien",
+              "surname": "DELFOUR",
+              "points": 615
+            },
+            {
+              "place": 7,
+              "firstname": "Bradley",
+              "surname": "WOOD",
+              "points": 538
+            },
+            {
+              "place": 8,
+              "firstname": "Josh",
+              "surname": "JORDAN",
+              "points": 462
+            },
+            {
+              "place": 9,
+              "firstname": "Matt",
+              "surname": "DELANEY",
+              "points": 385
+            },
+            {
+              "place": 10,
+              "firstname": "Luke",
+              "surname": "DELANEY",
+              "points": 308
+            },
+            {
+              "place": 11,
+              "firstname": "Colin",
+              "surname": "CALDERWOOD",
+              "points": 231
+            },
+            {
+              "place": 12,
+              "firstname": "Tom",
+              "surname": "BILLAUT",
+              "points": 154
+            },
+            {
+              "place": 13,
+              "firstname": "Jye",
+              "surname": "DEAVES",
+              "points": 77
+            }
+          ]
+        },
+        "vic_state_champs_2023": {
+          "field_size": 12,
+          "n_used": 12,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Tristan",
+              "surname": "CARTER",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Ben",
+              "surname": "ROSS",
+              "points": 917
+            },
+            {
+              "place": 3,
+              "firstname": "Archie",
+              "surname": "NELSON",
+              "points": 833
+            },
+            {
+              "place": 4,
+              "firstname": "Warwick",
+              "surname": "DRAPER",
+              "points": 750
+            },
+            {
+              "place": 5,
+              "firstname": "James",
+              "surname": "STAMP",
+              "points": 667
+            },
+            {
+              "place": 6,
+              "firstname": "Richard",
+              "surname": "MERJAN",
+              "points": 583
+            },
+            {
+              "place": 7,
+              "firstname": "Charlie",
+              "surname": "SHAMIEH",
+              "points": 500
+            },
+            {
+              "place": 8,
+              "firstname": "Robert",
+              "surname": "MCCONNELL",
+              "points": 417
+            },
+            {
+              "place": 9,
+              "firstname": "Jack",
+              "surname": "PEAD",
+              "points": 333
+            },
+            {
+              "place": 10,
+              "firstname": "Oscar",
+              "surname": "CAPES",
+              "points": 250
+            },
+            {
+              "place": 11,
+              "firstname": "Josh",
+              "surname": "FRASER",
+              "points": 167
+            },
+            {
+              "place": 12,
+              "firstname": "Alex",
+              "surname": "REDLICH",
+              "points": 83
+            }
+          ]
+        },
+        "tas_state_champs_2023": {
+          "field_size": 1,
+          "n_used": 5,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Toby",
+              "surname": "WATKINS",
+              "points": 1000
+            }
+          ]
+        },
+        "age_nationals_2024": {
+          "field_size": 24,
+          "n_used": 24,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Declan",
+              "surname": "ELLIS",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Warwick",
+              "surname": "DRAPER",
+              "points": 958
+            },
+            {
+              "place": 3,
+              "firstname": "Dominic",
+              "surname": "CURTIN",
+              "points": 917
+            },
+            {
+              "place": 4,
+              "firstname": "Daniel",
+              "surname": "SHAMIEH",
+              "points": 875
+            },
+            {
+              "place": 5,
+              "firstname": "Justin",
+              "surname": "BOOCOCK",
+              "points": 833
+            },
+            {
+              "place": 6,
+              "firstname": "Ewan",
+              "surname": "MACKIE",
+              "points": 792
+            },
+            {
+              "place": 7,
+              "firstname": "Hunter",
+              "surname": "FLORISSON",
+              "points": 750
+            },
+            {
+              "place": 8,
+              "firstname": "James",
+              "surname": "STAMP",
+              "points": 708
+            },
+            {
+              "place": 9,
+              "firstname": "Charlie",
+              "surname": "SHAMIEH",
+              "points": 667
+            },
+            {
+              "place": 10,
+              "firstname": "Fergus",
+              "surname": "PAGE-BROWN",
+              "points": 625
+            },
+            {
+              "place": 11,
+              "firstname": "Josh",
+              "surname": "FRASER",
+              "points": 583
+            },
+            {
+              "place": 12,
+              "firstname": "Oscar",
+              "surname": "CAPES",
+              "points": 542
+            },
+            {
+              "place": 13,
+              "firstname": "Bradley",
+              "surname": "WOOD",
+              "points": 500
+            },
+            {
+              "place": 14,
+              "firstname": "Rhys",
+              "surname": "MACRAE",
+              "points": 458
+            },
+            {
+              "place": 15,
+              "firstname": "Robert",
+              "surname": "MCCONNELL",
+              "points": 417
+            },
+            {
+              "place": 16,
+              "firstname": "Matthew",
+              "surname": "DELANEY",
+              "points": 375
+            },
+            {
+              "place": 17,
+              "firstname": "Toby",
+              "surname": "WATKINS",
+              "points": 333
+            },
+            {
+              "place": 18,
+              "firstname": "Alex",
+              "surname": "REDLICH",
+              "points": 292
+            },
+            {
+              "place": 19,
+              "firstname": "Zack",
+              "surname": "KYSELA",
+              "points": 250
+            },
+            {
+              "place": 20,
+              "firstname": "Luke",
+              "surname": "DELANEY",
+              "points": 208
+            },
+            {
+              "place": 21,
+              "firstname": "Scott",
+              "surname": "BRAIN",
+              "points": 167
+            },
+            {
+              "place": 22,
+              "firstname": "Aidan",
+              "surname": "MENZIES",
+              "points": 125
+            },
+            {
+              "place": 23,
+              "firstname": "Jye",
+              "surname": "DEAVES",
+              "points": 83
+            },
+            {
+              "place": 24,
+              "firstname": "Oliver",
+              "surname": "GEORGE",
+              "points": 42
+            }
+          ]
+        }
+      }
+    },
+    "K1M": {
+      "standings": [
+        {
+          "rank": 1,
+          "firstname": "Sevan",
+          "surname": "BILLAUT",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 762,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 938,
+            "age_nationals_2024": 789
+          },
+          "total": 2489
+        },
+        {
+          "rank": 2,
+          "firstname": "Justin",
+          "surname": "BOOCOCK",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 1000,
+            "age_nationals_2024": 895
+          },
+          "total": 1895
+        },
+        {
+          "rank": 3,
+          "firstname": "Riley",
+          "surname": "GALEA",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 889,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 1000
+          },
+          "total": 1889
+        },
+        {
+          "rank": 4,
+          "firstname": "Declan",
+          "surname": "ELLIS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 952,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 921
+          },
+          "total": 1873
+        },
+        {
+          "rank": 5,
+          "firstname": "Dominic",
+          "surname": "CURTIN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 905,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 947
+          },
+          "total": 1852
+        },
+        {
+          "rank": 6,
+          "firstname": "Hunter",
+          "surname": "FLORISSON",
+          "points": {
+            "wa_state_champs_2023": 917,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 908
+          },
+          "total": 1825
+        },
+        {
+          "rank": 7,
+          "firstname": "Warwick",
+          "surname": "DRAPER",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 815,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 974
+          },
+          "total": 1789
+        },
+        {
+          "rank": 8,
+          "firstname": "Alastair",
+          "surname": "ANDERSON",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 741,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 961
+          },
+          "total": 1702
+        },
+        {
+          "rank": 9,
+          "firstname": "James",
+          "surname": "STAMP",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 704,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 987
+          },
+          "total": 1691
+        },
+        {
+          "rank": 10,
+          "firstname": "Fergus",
+          "surname": "PAGE-BROWN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 875,
+            "age_nationals_2024": 737
+          },
+          "total": 1612
+        },
+        {
+          "rank": 11,
+          "firstname": "Bradley",
+          "surname": "WOOD",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 810,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 724
+          },
+          "total": 1534
+        },
+        {
+          "rank": 12,
+          "firstname": "Craig",
+          "surname": "ELLIOTT",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 714,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 776
+          },
+          "total": 1490
+        },
+        {
+          "rank": 13,
+          "firstname": "Chris",
+          "surname": "TUBB",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 667,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 816
+          },
+          "total": 1483
+        },
+        {
+          "rank": 14,
+          "firstname": "Charlie",
+          "surname": "SHAMIEH",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 593,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 882
+          },
+          "total": 1475
+        },
+        {
+          "rank": 15,
+          "firstname": "Robert",
+          "surname": "MCCONNELL",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 630,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 803
+          },
+          "total": 1433
+        },
+        {
+          "rank": 16,
+          "firstname": "Luca",
+          "surname": "FAELIS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 556,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 868
+          },
+          "total": 1424
+        },
+        {
+          "rank": 17,
+          "firstname": "Josh",
+          "surname": "FRASER",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 667,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 645
+          },
+          "total": 1312
+        },
+        {
+          "rank": 18,
+          "firstname": "Kevin",
+          "surname": "SONGBERG",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 619,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 684
+          },
+          "total": 1303
+        },
+        {
+          "rank": 19,
+          "firstname": "Toby",
+          "surname": "WATKINS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 688,
+            "age_nationals_2024": 553
+          },
+          "total": 1241
+        },
+        {
+          "rank": 20,
+          "firstname": "Munro",
+          "surname": "MACQUEEN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 625,
+            "age_nationals_2024": 605
+          },
+          "total": 1230
+        },
+        {
+          "rank": 21,
+          "firstname": "Ewan",
+          "surname": "MACKIE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 381,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 829
+          },
+          "total": 1210
+        },
+        {
+          "rank": 22,
+          "firstname": "Cooper",
+          "surname": "AULT",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 519,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 658
+          },
+          "total": 1177
+        },
+        {
+          "rank": 23,
+          "firstname": "Tom",
+          "surname": "BILLAUT",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 238,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 438,
+            "age_nationals_2024": 395
+          },
+          "total": 1071
+        },
+        {
+          "rank": 24,
+          "firstname": "Doug",
+          "surname": "HEMER",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 563,
+            "age_nationals_2024": 487
+          },
+          "total": 1050
+        },
+        {
+          "rank": 25,
+          "firstname": "Scott",
+          "surname": "BRAIN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 444,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 592
+          },
+          "total": 1036
+        },
+        {
+          "rank": 26,
+          "firstname": "Chris",
+          "surname": "RUNTING",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 333,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 671
+          },
+          "total": 1004
+        },
+        {
+          "rank": 27,
+          "firstname": "George",
+          "surname": "PANKHURST",
+          "points": {
+            "wa_state_champs_2023": 1000,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 1000
+        },
+        {
+          "rank": 27,
+          "firstname": "Lucien",
+          "surname": "DELFOUR",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 1000,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 1000
+        },
+        {
+          "rank": 27,
+          "firstname": "Tristan",
+          "surname": "CARTER",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 1000,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 1000
+        },
+        {
+          "rank": 30,
+          "firstname": "Gary",
+          "surname": "NELSON",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 429,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 566
+          },
+          "total": 995
+        },
+        {
+          "rank": 31,
+          "firstname": "Ben",
+          "surname": "ROSS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 963,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 963
+        },
+        {
+          "rank": 32,
+          "firstname": "Luke",
+          "surname": "DELANEY",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 476,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 474
+          },
+          "total": 950
+        },
+        {
+          "rank": 33,
+          "firstname": "Daniel",
+          "surname": "SHAMIEH",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 934
+          },
+          "total": 934
+        },
+        {
+          "rank": 34,
+          "firstname": "Sebastian",
+          "surname": "MONTALTO",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 926,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 926
+        },
+        {
+          "rank": 35,
+          "firstname": "Merle",
+          "surname": "LONG",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 857,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 857
+        },
+        {
+          "rank": 36,
+          "firstname": "Rhys",
+          "surname": "MACRAE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 855
+          },
+          "total": 855
+        },
+        {
+          "rank": 36,
+          "firstname": "Ben",
+          "surname": "LEE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 500,
+            "age_nationals_2024": 355
+          },
+          "total": 855
+        },
+        {
+          "rank": 38,
+          "firstname": "Joshua",
+          "surname": "MONTALTO",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 852,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 852
+        },
+        {
+          "rank": 39,
+          "firstname": "Anton",
+          "surname": "KING",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 842
+          },
+          "total": 842
+        },
+        {
+          "rank": 40,
+          "firstname": "Cody",
+          "surname": "POPE",
+          "points": {
+            "wa_state_champs_2023": 833,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 833
+        },
+        {
+          "rank": 41,
+          "firstname": "Zack",
+          "surname": "KYSELA",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 370,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 461
+          },
+          "total": 831
+        },
+        {
+          "rank": 42,
+          "firstname": "Andrew",
+          "surname": "HOUGHTON",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 813,
+            "age_nationals_2024": 0
+          },
+          "total": 813
+        },
+        {
+          "rank": 43,
+          "firstname": "Aiden",
+          "surname": "O'CALLAGHAN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 778,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 778
+        },
+        {
+          "rank": 44,
+          "firstname": "Maximilian",
+          "surname": "MYERS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 763
+          },
+          "total": 763
+        },
+        {
+          "rank": 45,
+          "firstname": "Lucas",
+          "surname": "KENT",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 259,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 500
+          },
+          "total": 759
+        },
+        {
+          "rank": 46,
+          "firstname": "Cam",
+          "surname": "FOLDER",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 750,
+            "age_nationals_2024": 0
+          },
+          "total": 750
+        },
+        {
+          "rank": 46,
+          "firstname": "Luke",
+          "surname": "DOOLEY",
+          "points": {
+            "wa_state_champs_2023": 750,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 750
+        },
+        {
+          "rank": 46,
+          "firstname": "James",
+          "surname": "MCLAUGHLIN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 750
+          },
+          "total": 750
+        },
+        {
+          "rank": 49,
+          "firstname": "Michael",
+          "surname": "COX",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 296,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 421
+          },
+          "total": 717
+        },
+        {
+          "rank": 50,
+          "firstname": "Brian",
+          "surname": "CORK",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 711
+          },
+          "total": 711
+        },
+        {
+          "rank": 51,
+          "firstname": "Connor",
+          "surname": "JACOB",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 697
+          },
+          "total": 697
+        },
+        {
+          "rank": 52,
+          "firstname": "Rhys",
+          "surname": "MCRAE",
+          "points": {
+            "wa_state_champs_2023": 667,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 667
+        },
+        {
+          "rank": 53,
+          "firstname": "Dan",
+          "surname": "ANDREWS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 632
+          },
+          "total": 632
+        },
+        {
+          "rank": 54,
+          "firstname": "Chris",
+          "surname": "DELANEY",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 286,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 342
+          },
+          "total": 628
+        },
+        {
+          "rank": 55,
+          "firstname": "Matthew",
+          "surname": "DELANEY",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 618
+          },
+          "total": 618
+        },
+        {
+          "rank": 56,
+          "firstname": "Zlatan",
+          "surname": "IBRAHIMBEGOVIC",
+          "points": {
+            "wa_state_champs_2023": 583,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 583
+        },
+        {
+          "rank": 57,
+          "firstname": "Beau",
+          "surname": "JACOB",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 579
+          },
+          "total": 579
+        },
+        {
+          "rank": 58,
+          "firstname": "James",
+          "surname": "DEAKIN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 571,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 571
+        },
+        {
+          "rank": 59,
+          "firstname": "Oscar",
+          "surname": "CAPES",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 539
+          },
+          "total": 539
+        },
+        {
+          "rank": 60,
+          "firstname": "Simon",
+          "surname": "WATSON",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 526
+          },
+          "total": 526
+        },
+        {
+          "rank": 61,
+          "firstname": "Matt",
+          "surname": "DELANEY",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 524,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 524
+        },
+        {
+          "rank": 62,
+          "firstname": "Cameron",
+          "surname": "FOLDER",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 513
+          },
+          "total": 513
+        },
+        {
+          "rank": 63,
+          "firstname": "Grayson",
+          "surname": "PEPI",
+          "points": {
+            "wa_state_champs_2023": 500,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 500
+        },
+        {
+          "rank": 64,
+          "firstname": "Philip",
+          "surname": "MINGERULLI",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 481,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 481
+        },
+        {
+          "rank": 65,
+          "firstname": "Alex",
+          "surname": "REDLICH",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 111,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 368
+          },
+          "total": 479
+        },
+        {
+          "rank": 66,
+          "firstname": "Warren",
+          "surname": "ELMS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 447
+          },
+          "total": 447
+        },
+        {
+          "rank": 67,
+          "firstname": "Peter",
+          "surname": "MENZIES",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 434
+          },
+          "total": 434
+        },
+        {
+          "rank": 68,
+          "firstname": "James",
+          "surname": "SAWERS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 185,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 237
+          },
+          "total": 422
+        },
+        {
+          "rank": 69,
+          "firstname": "Jimmy",
+          "surname": "AITCHISON",
+          "points": {
+            "wa_state_champs_2023": 417,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 417
+        },
+        {
+          "rank": 70,
+          "firstname": "Tom",
+          "surname": "HOWARD",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 408
+          },
+          "total": 408
+        },
+        {
+          "rank": 71,
+          "firstname": "Luca",
+          "surname": "THAVARASAH",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 407,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 407
+        },
+        {
+          "rank": 72,
+          "firstname": "Aidan",
+          "surname": "MENZIES",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 382
+          },
+          "total": 382
+        },
+        {
+          "rank": 73,
+          "firstname": "Roland",
+          "surname": "HEMER",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 125,
+            "age_nationals_2024": 250
+          },
+          "total": 375
+        },
+        {
+          "rank": 73,
+          "firstname": "Russell",
+          "surname": "HORTON",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 375,
+            "age_nationals_2024": 0
+          },
+          "total": 375
+        },
+        {
+          "rank": 75,
+          "firstname": "Kai",
+          "surname": "STAFFORD",
+          "points": {
+            "wa_state_champs_2023": 83,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 276
+          },
+          "total": 359
+        },
+        {
+          "rank": 76,
+          "firstname": "Zayd",
+          "surname": "BHAYAT",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 37,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 316
+          },
+          "total": 353
+        },
+        {
+          "rank": 77,
+          "firstname": "Dougal",
+          "surname": "FOLDER",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 63,
+            "age_nationals_2024": 289
+          },
+          "total": 352
+        },
+        {
+          "rank": 78,
+          "firstname": "Stephen",
+          "surname": "TUBB",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 190,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 145
+          },
+          "total": 335
+        },
+        {
+          "rank": 79,
+          "firstname": "Robin",
+          "surname": "SANDERS",
+          "points": {
+            "wa_state_champs_2023": 333,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 333
+        },
+        {
+          "rank": 79,
+          "firstname": "Josh",
+          "surname": "JORDAN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 333,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 333
+        },
+        {
+          "rank": 81,
+          "firstname": "Maximus",
+          "surname": "KARAMZALIS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 329
+          },
+          "total": 329
+        },
+        {
+          "rank": 82,
+          "firstname": "Johnathan",
+          "surname": "KNOX",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 313,
+            "age_nationals_2024": 0
+          },
+          "total": 313
+        },
+        {
+          "rank": 83,
+          "firstname": "Samuel",
+          "surname": "LINDUS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 303
+          },
+          "total": 303
+        },
+        {
+          "rank": 84,
+          "firstname": "Colin",
+          "surname": "CALDERWOOD",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 143,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 158
+          },
+          "total": 301
+        },
+        {
+          "rank": 85,
+          "firstname": "Alex",
+          "surname": "ELLUL",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 263
+          },
+          "total": 263
+        },
+        {
+          "rank": 86,
+          "firstname": "Dave",
+          "surname": "LINDUS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 250,
+            "age_nationals_2024": 0
+          },
+          "total": 250
+        },
+        {
+          "rank": 86,
+          "firstname": "Bevan",
+          "surname": "DASHWOOD",
+          "points": {
+            "wa_state_champs_2023": 250,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 250
+        },
+        {
+          "rank": 88,
+          "firstname": "David",
+          "surname": "LINDUS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 224
+          },
+          "total": 224
+        },
+        {
+          "rank": 89,
+          "firstname": "Archie",
+          "surname": "NELSON",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 222,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 222
+        },
+        {
+          "rank": 90,
+          "firstname": "Dominic",
+          "surname": "MARINELLI",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 211
+          },
+          "total": 211
+        },
+        {
+          "rank": 91,
+          "firstname": "Heath",
+          "surname": "KYRIAKOU",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 197
+          },
+          "total": 197
+        },
+        {
+          "rank": 92,
+          "firstname": "Sam",
+          "surname": "LINDUS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 188,
+            "age_nationals_2024": 0
+          },
+          "total": 188
+        },
+        {
+          "rank": 93,
+          "firstname": "Alex",
+          "surname": "XU",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 184
+          },
+          "total": 184
+        },
+        {
+          "rank": 94,
+          "firstname": "Joseph",
+          "surname": "MENZIES",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 171
+          },
+          "total": 171
+        },
+        {
+          "rank": 95,
+          "firstname": "Andrew",
+          "surname": "POPE",
+          "points": {
+            "wa_state_champs_2023": 167,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 167
+        },
+        {
+          "rank": 96,
+          "firstname": "Jye",
+          "surname": "DEAVES",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 48,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 105
+          },
+          "total": 153
+        },
+        {
+          "rank": 97,
+          "firstname": "Alexander",
+          "surname": "ELLUL",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 148,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 148
+        },
+        {
+          "rank": 98,
+          "firstname": "James",
+          "surname": "SHORT",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 132
+          },
+          "total": 132
+        },
+        {
+          "rank": 99,
+          "firstname": "Hugo",
+          "surname": "LETHBRIDGE-FORD",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 118
+          },
+          "total": 118
+        },
+        {
+          "rank": 100,
+          "firstname": "Ethan",
+          "surname": "ASHTYN-SMITH",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 95,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 95
+        },
+        {
+          "rank": 101,
+          "firstname": "Oliver",
+          "surname": "GEORGE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 92
+          },
+          "total": 92
+        },
+        {
+          "rank": 102,
+          "firstname": "Marcel",
+          "surname": "ARGENT",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 79
+          },
+          "total": 79
+        },
+        {
+          "rank": 103,
+          "firstname": "Edward",
+          "surname": "REDLICH",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 74,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 74
+        },
+        {
+          "rank": 104,
+          "firstname": "William",
+          "surname": "NASSERALLAH",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 66
+          },
+          "total": 66
+        },
+        {
+          "rank": 105,
+          "firstname": "Riley",
+          "surname": "TYEBJI",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 53
+          },
+          "total": 53
+        },
+        {
+          "rank": 106,
+          "firstname": "Jacob",
+          "surname": "HILL",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 39
+          },
+          "total": 39
+        },
+        {
+          "rank": 107,
+          "firstname": "Chehan",
+          "surname": "PERERA",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 26
+          },
+          "total": 26
+        },
+        {
+          "rank": 108,
+          "firstname": "Louis",
+          "surname": "DING",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 13
+          },
+          "total": 13
+        }
+      ],
+      "races": {
+        "wa_state_champs_2023": {
+          "field_size": 12,
+          "n_used": 12,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "George",
+              "surname": "PANKHURST",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Hunter",
+              "surname": "FLORISSON",
+              "points": 917
+            },
+            {
+              "place": 3,
+              "firstname": "Cody",
+              "surname": "POPE",
+              "points": 833
+            },
+            {
+              "place": 4,
+              "firstname": "Luke",
+              "surname": "DOOLEY",
+              "points": 750
+            },
+            {
+              "place": 5,
+              "firstname": "Rhys",
+              "surname": "MCRAE",
+              "points": 667
+            },
+            {
+              "place": 6,
+              "firstname": "Zlatan",
+              "surname": "IBRAHIMBEGOVIC",
+              "points": 583
+            },
+            {
+              "place": 7,
+              "firstname": "Grayson",
+              "surname": "PEPI",
+              "points": 500
+            },
+            {
+              "place": 8,
+              "firstname": "Jimmy",
+              "surname": "AITCHISON",
+              "points": 417
+            },
+            {
+              "place": 9,
+              "firstname": "Robin",
+              "surname": "SANDERS",
+              "points": 333
+            },
+            {
+              "place": 10,
+              "firstname": "Bevan",
+              "surname": "DASHWOOD",
+              "points": 250
+            },
+            {
+              "place": 11,
+              "firstname": "Andrew",
+              "surname": "POPE",
+              "points": 167
+            },
+            {
+              "place": 12,
+              "firstname": "Kai",
+              "surname": "STAFFORD",
+              "points": 83
+            }
+          ]
+        },
+        "nsw_state_champs_2023": {
+          "field_size": 21,
+          "n_used": 21,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Lucien",
+              "surname": "DELFOUR",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Declan",
+              "surname": "ELLIS",
+              "points": 952
+            },
+            {
+              "place": 3,
+              "firstname": "Dominic",
+              "surname": "CURTIN",
+              "points": 905
+            },
+            {
+              "place": 4,
+              "firstname": "Merle",
+              "surname": "LONG",
+              "points": 857
+            },
+            {
+              "place": 5,
+              "firstname": "Bradley",
+              "surname": "WOOD",
+              "points": 810
+            },
+            {
+              "place": 6,
+              "firstname": "Sevan",
+              "surname": "BILLAUT",
+              "points": 762
+            },
+            {
+              "place": 7,
+              "firstname": "Craig",
+              "surname": "ELLIOTT",
+              "points": 714
+            },
+            {
+              "place": 8,
+              "firstname": "Chris",
+              "surname": "TUBB",
+              "points": 667
+            },
+            {
+              "place": 9,
+              "firstname": "Kevin",
+              "surname": "SONGBERG",
+              "points": 619
+            },
+            {
+              "place": 10,
+              "firstname": "James",
+              "surname": "DEAKIN",
+              "points": 571
+            },
+            {
+              "place": 11,
+              "firstname": "Matt",
+              "surname": "DELANEY",
+              "points": 524
+            },
+            {
+              "place": 12,
+              "firstname": "Luke",
+              "surname": "DELANEY",
+              "points": 476
+            },
+            {
+              "place": 13,
+              "firstname": "Gary",
+              "surname": "NELSON",
+              "points": 429
+            },
+            {
+              "place": 14,
+              "firstname": "Ewan",
+              "surname": "MACKIE",
+              "points": 381
+            },
+            {
+              "place": 15,
+              "firstname": "Josh",
+              "surname": "JORDAN",
+              "points": 333
+            },
+            {
+              "place": 16,
+              "firstname": "Chris",
+              "surname": "DELANEY",
+              "points": 286
+            },
+            {
+              "place": 17,
+              "firstname": "Tom",
+              "surname": "BILLAUT",
+              "points": 238
+            },
+            {
+              "place": 18,
+              "firstname": "Stephen",
+              "surname": "TUBB",
+              "points": 190
+            },
+            {
+              "place": 19,
+              "firstname": "Colin",
+              "surname": "CALDERWOOD",
+              "points": 143
+            },
+            {
+              "place": 20,
+              "firstname": "Ethan",
+              "surname": "ASHTYN-SMITH",
+              "points": 95
+            },
+            {
+              "place": 21,
+              "firstname": "Jye",
+              "surname": "DEAVES",
+              "points": 48
+            }
+          ]
+        },
+        "vic_state_champs_2023": {
+          "field_size": 27,
+          "n_used": 27,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Tristan",
+              "surname": "CARTER",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Ben",
+              "surname": "ROSS",
+              "points": 963
+            },
+            {
+              "place": 3,
+              "firstname": "Sebastian",
+              "surname": "MONTALTO",
+              "points": 926
+            },
+            {
+              "place": 4,
+              "firstname": "Riley",
+              "surname": "GALEA",
+              "points": 889
+            },
+            {
+              "place": 5,
+              "firstname": "Joshua",
+              "surname": "MONTALTO",
+              "points": 852
+            },
+            {
+              "place": 6,
+              "firstname": "Warwick",
+              "surname": "DRAPER",
+              "points": 815
+            },
+            {
+              "place": 7,
+              "firstname": "Aiden",
+              "surname": "O'CALLAGHAN",
+              "points": 778
+            },
+            {
+              "place": 8,
+              "firstname": "Alastair",
+              "surname": "ANDERSON",
+              "points": 741
+            },
+            {
+              "place": 9,
+              "firstname": "James",
+              "surname": "STAMP",
+              "points": 704
+            },
+            {
+              "place": 10,
+              "firstname": "Josh",
+              "surname": "FRASER",
+              "points": 667
+            },
+            {
+              "place": 11,
+              "firstname": "Robert",
+              "surname": "MCCONNELL",
+              "points": 630
+            },
+            {
+              "place": 12,
+              "firstname": "Charlie",
+              "surname": "SHAMIEH",
+              "points": 593
+            },
+            {
+              "place": 13,
+              "firstname": "Luca",
+              "surname": "FAELIS",
+              "points": 556
+            },
+            {
+              "place": 14,
+              "firstname": "Cooper",
+              "surname": "AULT",
+              "points": 519
+            },
+            {
+              "place": 15,
+              "firstname": "Philip",
+              "surname": "MINGERULLI",
+              "points": 481
+            },
+            {
+              "place": 16,
+              "firstname": "Scott",
+              "surname": "BRAIN",
+              "points": 444
+            },
+            {
+              "place": 17,
+              "firstname": "Luca",
+              "surname": "THAVARASAH",
+              "points": 407
+            },
+            {
+              "place": 18,
+              "firstname": "Zack",
+              "surname": "KYSELA",
+              "points": 370
+            },
+            {
+              "place": 19,
+              "firstname": "Chris",
+              "surname": "RUNTING",
+              "points": 333
+            },
+            {
+              "place": 20,
+              "firstname": "Michael",
+              "surname": "COX",
+              "points": 296
+            },
+            {
+              "place": 21,
+              "firstname": "Lucas",
+              "surname": "KENT",
+              "points": 259
+            },
+            {
+              "place": 22,
+              "firstname": "Archie",
+              "surname": "NELSON",
+              "points": 222
+            },
+            {
+              "place": 23,
+              "firstname": "James",
+              "surname": "SAWERS",
+              "points": 185
+            },
+            {
+              "place": 24,
+              "firstname": "Alexander",
+              "surname": "ELLUL",
+              "points": 148
+            },
+            {
+              "place": 25,
+              "firstname": "Alex",
+              "surname": "REDLICH",
+              "points": 111
+            },
+            {
+              "place": 26,
+              "firstname": "Edward",
+              "surname": "REDLICH",
+              "points": 74
+            },
+            {
+              "place": 27,
+              "firstname": "Zayd",
+              "surname": "BHAYAT",
+              "points": 37
+            }
+          ]
+        },
+        "tas_state_champs_2023": {
+          "field_size": 16,
+          "n_used": 16,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Justin",
+              "surname": "BOOCOCK",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Sevan",
+              "surname": "BILLAUT",
+              "points": 938
+            },
+            {
+              "place": 3,
+              "firstname": "Fergus",
+              "surname": "PAGE-BROWN",
+              "points": 875
+            },
+            {
+              "place": 4,
+              "firstname": "Andrew",
+              "surname": "HOUGHTON",
+              "points": 813
+            },
+            {
+              "place": 5,
+              "firstname": "Cam",
+              "surname": "FOLDER",
+              "points": 750
+            },
+            {
+              "place": 6,
+              "firstname": "Toby",
+              "surname": "WATKINS",
+              "points": 688
+            },
+            {
+              "place": 7,
+              "firstname": "Munro",
+              "surname": "MACQUEEN",
+              "points": 625
+            },
+            {
+              "place": 8,
+              "firstname": "Doug",
+              "surname": "HEMER",
+              "points": 563
+            },
+            {
+              "place": 9,
+              "firstname": "Ben",
+              "surname": "LEE",
+              "points": 500
+            },
+            {
+              "place": 10,
+              "firstname": "Tom",
+              "surname": "BILLAUT",
+              "points": 438
+            },
+            {
+              "place": 11,
+              "firstname": "Russell",
+              "surname": "HORTON",
+              "points": 375
+            },
+            {
+              "place": 12,
+              "firstname": "Johnathan",
+              "surname": "KNOX",
+              "points": 313
+            },
+            {
+              "place": 13,
+              "firstname": "Dave",
+              "surname": "LINDUS",
+              "points": 250
+            },
+            {
+              "place": 14,
+              "firstname": "Sam",
+              "surname": "LINDUS",
+              "points": 188
+            },
+            {
+              "place": 15,
+              "firstname": "Roland",
+              "surname": "HEMER",
+              "points": 125
+            },
+            {
+              "place": 16,
+              "firstname": "Dougal",
+              "surname": "FOLDER",
+              "points": 63
+            }
+          ]
+        },
+        "age_nationals_2024": {
+          "field_size": 76,
+          "n_used": 76,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Riley",
+              "surname": "GALEA",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "James",
+              "surname": "STAMP",
+              "points": 987
+            },
+            {
+              "place": 3,
+              "firstname": "Warwick",
+              "surname": "DRAPER",
+              "points": 974
+            },
+            {
+              "place": 4,
+              "firstname": "Alastair",
+              "surname": "ANDERSON",
+              "points": 961
+            },
+            {
+              "place": 5,
+              "firstname": "Dominic",
+              "surname": "CURTIN",
+              "points": 947
+            },
+            {
+              "place": 6,
+              "firstname": "Daniel",
+              "surname": "SHAMIEH",
+              "points": 934
+            },
+            {
+              "place": 7,
+              "firstname": "Declan",
+              "surname": "ELLIS",
+              "points": 921
+            },
+            {
+              "place": 8,
+              "firstname": "Hunter",
+              "surname": "FLORISSON",
+              "points": 908
+            },
+            {
+              "place": 9,
+              "firstname": "Justin",
+              "surname": "BOOCOCK",
+              "points": 895
+            },
+            {
+              "place": 10,
+              "firstname": "Charlie",
+              "surname": "SHAMIEH",
+              "points": 882
+            },
+            {
+              "place": 11,
+              "firstname": "Luca",
+              "surname": "FAELIS",
+              "points": 868
+            },
+            {
+              "place": 12,
+              "firstname": "Rhys",
+              "surname": "MACRAE",
+              "points": 855
+            },
+            {
+              "place": 13,
+              "firstname": "Anton",
+              "surname": "KING",
+              "points": 842
+            },
+            {
+              "place": 14,
+              "firstname": "Ewan",
+              "surname": "MACKIE",
+              "points": 829
+            },
+            {
+              "place": 15,
+              "firstname": "Chris",
+              "surname": "TUBB",
+              "points": 816
+            },
+            {
+              "place": 16,
+              "firstname": "Robert",
+              "surname": "MCCONNELL",
+              "points": 803
+            },
+            {
+              "place": 17,
+              "firstname": "Sevan",
+              "surname": "BILLAUT",
+              "points": 789
+            },
+            {
+              "place": 18,
+              "firstname": "Craig",
+              "surname": "ELLIOTT",
+              "points": 776
+            },
+            {
+              "place": 19,
+              "firstname": "Maximilian",
+              "surname": "MYERS",
+              "points": 763
+            },
+            {
+              "place": 20,
+              "firstname": "James",
+              "surname": "MCLAUGHLIN",
+              "points": 750
+            },
+            {
+              "place": 21,
+              "firstname": "Fergus",
+              "surname": "PAGE-BROWN",
+              "points": 737
+            },
+            {
+              "place": 22,
+              "firstname": "Bradley",
+              "surname": "WOOD",
+              "points": 724
+            },
+            {
+              "place": 23,
+              "firstname": "Brian",
+              "surname": "CORK",
+              "points": 711
+            },
+            {
+              "place": 24,
+              "firstname": "Connor",
+              "surname": "JACOB",
+              "points": 697
+            },
+            {
+              "place": 25,
+              "firstname": "Kevin",
+              "surname": "SONGBERG",
+              "points": 684
+            },
+            {
+              "place": 26,
+              "firstname": "Chris",
+              "surname": "RUNTING",
+              "points": 671
+            },
+            {
+              "place": 27,
+              "firstname": "Cooper",
+              "surname": "AULT",
+              "points": 658
+            },
+            {
+              "place": 28,
+              "firstname": "Josh",
+              "surname": "FRASER",
+              "points": 645
+            },
+            {
+              "place": 29,
+              "firstname": "Dan",
+              "surname": "ANDREWS",
+              "points": 632
+            },
+            {
+              "place": 30,
+              "firstname": "Matthew",
+              "surname": "DELANEY",
+              "points": 618
+            },
+            {
+              "place": 31,
+              "firstname": "Munro",
+              "surname": "MACQUEEN",
+              "points": 605
+            },
+            {
+              "place": 32,
+              "firstname": "Scott",
+              "surname": "BRAIN",
+              "points": 592
+            },
+            {
+              "place": 33,
+              "firstname": "Beau",
+              "surname": "JACOB",
+              "points": 579
+            },
+            {
+              "place": 34,
+              "firstname": "Gary",
+              "surname": "NELSON",
+              "points": 566
+            },
+            {
+              "place": 35,
+              "firstname": "Toby",
+              "surname": "WATKINS",
+              "points": 553
+            },
+            {
+              "place": 36,
+              "firstname": "Oscar",
+              "surname": "CAPES",
+              "points": 539
+            },
+            {
+              "place": 37,
+              "firstname": "Simon",
+              "surname": "WATSON",
+              "points": 526
+            },
+            {
+              "place": 38,
+              "firstname": "Cameron",
+              "surname": "FOLDER",
+              "points": 513
+            },
+            {
+              "place": 39,
+              "firstname": "Lucas",
+              "surname": "KENT",
+              "points": 500
+            },
+            {
+              "place": 40,
+              "firstname": "Doug",
+              "surname": "HEMER",
+              "points": 487
+            },
+            {
+              "place": 41,
+              "firstname": "Luke",
+              "surname": "DELANEY",
+              "points": 474
+            },
+            {
+              "place": 42,
+              "firstname": "Zack",
+              "surname": "KYSELA",
+              "points": 461
+            },
+            {
+              "place": 43,
+              "firstname": "Warren",
+              "surname": "ELMS",
+              "points": 447
+            },
+            {
+              "place": 44,
+              "firstname": "Peter",
+              "surname": "MENZIES",
+              "points": 434
+            },
+            {
+              "place": 45,
+              "firstname": "Michael",
+              "surname": "COX",
+              "points": 421
+            },
+            {
+              "place": 46,
+              "firstname": "Tom",
+              "surname": "HOWARD",
+              "points": 408
+            },
+            {
+              "place": 47,
+              "firstname": "Tom",
+              "surname": "BILLAUT",
+              "points": 395
+            },
+            {
+              "place": 48,
+              "firstname": "Aidan",
+              "surname": "MENZIES",
+              "points": 382
+            },
+            {
+              "place": 49,
+              "firstname": "Alex",
+              "surname": "REDLICH",
+              "points": 368
+            },
+            {
+              "place": 50,
+              "firstname": "Ben",
+              "surname": "LEE",
+              "points": 355
+            },
+            {
+              "place": 51,
+              "firstname": "Chris",
+              "surname": "DELANEY",
+              "points": 342
+            },
+            {
+              "place": 52,
+              "firstname": "Maximus",
+              "surname": "KARAMZALIS",
+              "points": 329
+            },
+            {
+              "place": 53,
+              "firstname": "Zayd",
+              "surname": "BHAYAT",
+              "points": 316
+            },
+            {
+              "place": 54,
+              "firstname": "Samuel",
+              "surname": "LINDUS",
+              "points": 303
+            },
+            {
+              "place": 55,
+              "firstname": "Dougal",
+              "surname": "FOLDER",
+              "points": 289
+            },
+            {
+              "place": 56,
+              "firstname": "Kai",
+              "surname": "STAFFORD",
+              "points": 276
+            },
+            {
+              "place": 57,
+              "firstname": "Alex",
+              "surname": "ELLUL",
+              "points": 263
+            },
+            {
+              "place": 58,
+              "firstname": "Roland",
+              "surname": "HEMER",
+              "points": 250
+            },
+            {
+              "place": 59,
+              "firstname": "James",
+              "surname": "SAWERS",
+              "points": 237
+            },
+            {
+              "place": 60,
+              "firstname": "David",
+              "surname": "LINDUS",
+              "points": 224
+            },
+            {
+              "place": 61,
+              "firstname": "Dominic",
+              "surname": "MARINELLI",
+              "points": 211
+            },
+            {
+              "place": 62,
+              "firstname": "Heath",
+              "surname": "KYRIAKOU",
+              "points": 197
+            },
+            {
+              "place": 63,
+              "firstname": "Alex",
+              "surname": "XU",
+              "points": 184
+            },
+            {
+              "place": 64,
+              "firstname": "Joseph",
+              "surname": "MENZIES",
+              "points": 171
+            },
+            {
+              "place": 65,
+              "firstname": "Colin",
+              "surname": "CALDERWOOD",
+              "points": 158
+            },
+            {
+              "place": 66,
+              "firstname": "Stephen",
+              "surname": "TUBB",
+              "points": 145
+            },
+            {
+              "place": 67,
+              "firstname": "James",
+              "surname": "SHORT",
+              "points": 132
+            },
+            {
+              "place": 68,
+              "firstname": "Hugo",
+              "surname": "LETHBRIDGE-FORD",
+              "points": 118
+            },
+            {
+              "place": 69,
+              "firstname": "Jye",
+              "surname": "DEAVES",
+              "points": 105
+            },
+            {
+              "place": 70,
+              "firstname": "Oliver",
+              "surname": "GEORGE",
+              "points": 92
+            },
+            {
+              "place": 71,
+              "firstname": "Marcel",
+              "surname": "ARGENT",
+              "points": 79
+            },
+            {
+              "place": 72,
+              "firstname": "William",
+              "surname": "NASSERALLAH",
+              "points": 66
+            },
+            {
+              "place": 73,
+              "firstname": "Riley",
+              "surname": "TYEBJI",
+              "points": 53
+            },
+            {
+              "place": 74,
+              "firstname": "Jacob",
+              "surname": "HILL",
+              "points": 39
+            },
+            {
+              "place": 75,
+              "firstname": "Chehan",
+              "surname": "PERERA",
+              "points": 26
+            },
+            {
+              "place": 76,
+              "firstname": "Louis",
+              "surname": "DING",
+              "points": 13
+            }
+          ]
+        }
+      }
+    },
+    "C1W": {
+      "standings": [
+        {
+          "rank": 1,
+          "firstname": "Sarah",
+          "surname": "CROSBEE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 1000,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 818
+          },
+          "total": 1818
+        },
+        {
+          "rank": 2,
+          "firstname": "Georgie",
+          "surname": "O'CALLAGHAN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 800,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 1000
+          },
+          "total": 1800
+        },
+        {
+          "rank": 3,
+          "firstname": "Alexandra",
+          "surname": "ZARB",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 1000,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 727
+          },
+          "total": 1727
+        },
+        {
+          "rank": 4,
+          "firstname": "Emily",
+          "surname": "HOGBIN-BOURNE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 667,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 636
+          },
+          "total": 1303
+        },
+        {
+          "rank": 5,
+          "firstname": "Freja",
+          "surname": "BOOCOCK",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 800,
+            "age_nationals_2024": 455
+          },
+          "total": 1255
+        },
+        {
+          "rank": 6,
+          "firstname": "Ada",
+          "surname": "MACKIE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 500,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 545
+          },
+          "total": 1045
+        },
+        {
+          "rank": 7,
+          "firstname": "Claire",
+          "surname": "CLEMENTS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 1000,
+            "age_nationals_2024": 0
+          },
+          "total": 1000
+        },
+        {
+          "rank": 7,
+          "firstname": "Isabella",
+          "surname": "FLORISSON",
+          "points": {
+            "wa_state_champs_2023": 1000,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 1000
+        },
+        {
+          "rank": 9,
+          "firstname": "Codie",
+          "surname": "DAVIDSON",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 909
+          },
+          "total": 909
+        },
+        {
+          "rank": 10,
+          "firstname": "Georgia",
+          "surname": "RANKIN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 833,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 833
+        },
+        {
+          "rank": 11,
+          "firstname": "Maggie",
+          "surname": "CARR",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 333,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 91
+          },
+          "total": 424
+        },
+        {
+          "rank": 12,
+          "firstname": "Ally",
+          "surname": "CORK",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 364
+          },
+          "total": 364
+        },
+        {
+          "rank": 13,
+          "firstname": "Kate",
+          "surname": "DELANEY",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 167,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 182
+          },
+          "total": 349
+        },
+        {
+          "rank": 14,
+          "firstname": "Madeline",
+          "surname": "BOOCOCK",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 273
+          },
+          "total": 273
+        }
+      ],
+      "races": {
+        "wa_state_champs_2023": {
+          "field_size": 1,
+          "n_used": 5,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Isabella",
+              "surname": "FLORISSON",
+              "points": 1000
+            }
+          ]
+        },
+        "nsw_state_champs_2023": {
+          "field_size": 6,
+          "n_used": 6,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Alexandra",
+              "surname": "ZARB",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Georgia",
+              "surname": "RANKIN",
+              "points": 833
+            },
+            {
+              "place": 3,
+              "firstname": "Emily",
+              "surname": "HOGBIN-BOURNE",
+              "points": 667
+            },
+            {
+              "place": 4,
+              "firstname": "Ada",
+              "surname": "MACKIE",
+              "points": 500
+            },
+            {
+              "place": 5,
+              "firstname": "Maggie",
+              "surname": "CARR",
+              "points": 333
+            },
+            {
+              "place": 6,
+              "firstname": "Kate",
+              "surname": "DELANEY",
+              "points": 167
+            }
+          ]
+        },
+        "vic_state_champs_2023": {
+          "field_size": 2,
+          "n_used": 5,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Sarah",
+              "surname": "CROSBEE",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Georgie",
+              "surname": "O'CALLAGHAN",
+              "points": 800
+            }
+          ]
+        },
+        "tas_state_champs_2023": {
+          "field_size": 2,
+          "n_used": 5,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Claire",
+              "surname": "CLEMENTS",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Freja",
+              "surname": "BOOCOCK",
+              "points": 800
+            }
+          ]
+        },
+        "age_nationals_2024": {
+          "field_size": 11,
+          "n_used": 11,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Georgie",
+              "surname": "O'CALLAGHAN",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Codie",
+              "surname": "DAVIDSON",
+              "points": 909
+            },
+            {
+              "place": 3,
+              "firstname": "Sarah",
+              "surname": "CROSBEE",
+              "points": 818
+            },
+            {
+              "place": 4,
+              "firstname": "Alexandra",
+              "surname": "ZARB",
+              "points": 727
+            },
+            {
+              "place": 5,
+              "firstname": "Emily",
+              "surname": "HOGBIN-BOURNE",
+              "points": 636
+            },
+            {
+              "place": 6,
+              "firstname": "Ada",
+              "surname": "MACKIE",
+              "points": 545
+            },
+            {
+              "place": 7,
+              "firstname": "Freja",
+              "surname": "BOOCOCK",
+              "points": 455
+            },
+            {
+              "place": 8,
+              "firstname": "Ally",
+              "surname": "CORK",
+              "points": 364
+            },
+            {
+              "place": 9,
+              "firstname": "Madeline",
+              "surname": "BOOCOCK",
+              "points": 273
+            },
+            {
+              "place": 10,
+              "firstname": "Kate",
+              "surname": "DELANEY",
+              "points": 182
+            },
+            {
+              "place": 11,
+              "firstname": "Maggie",
+              "surname": "CARR",
+              "points": 91
+            }
+          ]
+        }
+      }
+    },
+    "K1W": {
+      "standings": [
+        {
+          "rank": 1,
+          "firstname": "Sarah",
+          "surname": "CROSBEE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 1000,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 935
+          },
+          "total": 1935
+        },
+        {
+          "rank": 2,
+          "firstname": "Ada",
+          "surname": "MACKIE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 938,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 871
+          },
+          "total": 1809
+        },
+        {
+          "rank": 3,
+          "firstname": "Alexandra",
+          "surname": "ZARB",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 875,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 839
+          },
+          "total": 1714
+        },
+        {
+          "rank": 4,
+          "firstname": "Freja",
+          "surname": "BOOCOCK",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 857,
+            "age_nationals_2024": 806
+          },
+          "total": 1663
+        },
+        {
+          "rank": 5,
+          "firstname": "Abigail",
+          "surname": "WATSON",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 857,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 774
+          },
+          "total": 1631
+        },
+        {
+          "rank": 6,
+          "firstname": "Emily",
+          "surname": "HOGBIN-BOURNE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 813,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 742
+          },
+          "total": 1555
+        },
+        {
+          "rank": 7,
+          "firstname": "Georgie",
+          "surname": "O'CALLAGHAN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 429,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 1000
+          },
+          "total": 1429
+        },
+        {
+          "rank": 8,
+          "firstname": "Olivia",
+          "surname": "OATES",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 714,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 548
+          },
+          "total": 1262
+        },
+        {
+          "rank": 9,
+          "firstname": "Maggie",
+          "surname": "CARR",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 750,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 484
+          },
+          "total": 1234
+        },
+        {
+          "rank": 10,
+          "firstname": "Marlene",
+          "surname": "DAVEY",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 714,
+            "age_nationals_2024": 516
+          },
+          "total": 1230
+        },
+        {
+          "rank": 11,
+          "firstname": "Isabella",
+          "surname": "FLORISSON",
+          "points": {
+            "wa_state_champs_2023": 600,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 581
+          },
+          "total": 1181
+        },
+        {
+          "rank": 12,
+          "firstname": "Kate",
+          "surname": "DELANEY",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 688,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 452
+          },
+          "total": 1140
+        },
+        {
+          "rank": 13,
+          "firstname": "Georgia",
+          "surname": "RANKIN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 1000,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 1000
+        },
+        {
+          "rank": 13,
+          "firstname": "Claire",
+          "surname": "CLEMENTS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 1000,
+            "age_nationals_2024": 0
+          },
+          "total": 1000
+        },
+        {
+          "rank": 13,
+          "firstname": "Georgina",
+          "surname": "COLLIN",
+          "points": {
+            "wa_state_champs_2023": 1000,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 1000
+        },
+        {
+          "rank": 16,
+          "firstname": "Amelia",
+          "surname": "WATSON",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 571,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 419
+          },
+          "total": 990
+        },
+        {
+          "rank": 17,
+          "firstname": "Nina",
+          "surname": "MUELLER",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 968
+          },
+          "total": 968
+        },
+        {
+          "rank": 18,
+          "firstname": "Codie",
+          "surname": "DAVIDSON",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 903
+          },
+          "total": 903
+        },
+        {
+          "rank": 19,
+          "firstname": "Alzbeta",
+          "surname": "DVORAKOVA",
+          "points": {
+            "wa_state_champs_2023": 800,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 800
+        },
+        {
+          "rank": 20,
+          "firstname": "Perri",
+          "surname": "HUTCHINGS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 563,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 161
+          },
+          "total": 724
+        },
+        {
+          "rank": 21,
+          "firstname": "Jen",
+          "surname": "BOOCOCK",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 710
+          },
+          "total": 710
+        },
+        {
+          "rank": 22,
+          "firstname": "Eliza",
+          "surname": "HERBERT",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 500,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 194
+          },
+          "total": 694
+        },
+        {
+          "rank": 23,
+          "firstname": "Madeline",
+          "surname": "BOOCOCK",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 677
+          },
+          "total": 677
+        },
+        {
+          "rank": 24,
+          "firstname": "Ally",
+          "surname": "CORK",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 645
+          },
+          "total": 645
+        },
+        {
+          "rank": 25,
+          "firstname": "Louise",
+          "surname": "GATES",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 625,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 625
+        },
+        {
+          "rank": 26,
+          "firstname": "Imogen",
+          "surname": "LEIGH",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 613
+          },
+          "total": 613
+        },
+        {
+          "rank": 27,
+          "firstname": "Finn",
+          "surname": "STEPHENSON",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 571,
+            "age_nationals_2024": 0
+          },
+          "total": 571
+        },
+        {
+          "rank": 28,
+          "firstname": "Lara",
+          "surname": "WYLIE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 313,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 226
+          },
+          "total": 539
+        },
+        {
+          "rank": 29,
+          "firstname": "Emma",
+          "surname": "STEEL",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 438,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 438
+        },
+        {
+          "rank": 30,
+          "firstname": "Millie",
+          "surname": "LINDUS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 429,
+            "age_nationals_2024": 0
+          },
+          "total": 429
+        },
+        {
+          "rank": 31,
+          "firstname": "Maggie",
+          "surname": "POTUGUNTLA",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 286,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 129
+          },
+          "total": 415
+        },
+        {
+          "rank": 32,
+          "firstname": "Khloe",
+          "surname": "SCHWARZER",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 375,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 32
+          },
+          "total": 407
+        },
+        {
+          "rank": 33,
+          "firstname": "Mary",
+          "surname": "DARK",
+          "points": {
+            "wa_state_champs_2023": 400,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 400
+        },
+        {
+          "rank": 34,
+          "firstname": "Ella",
+          "surname": "MARINELLI",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 387
+          },
+          "total": 387
+        },
+        {
+          "rank": 35,
+          "firstname": "Jasmin",
+          "surname": "MUIR",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 355
+          },
+          "total": 355
+        },
+        {
+          "rank": 36,
+          "firstname": "Michelle",
+          "surname": "DELANEY",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 323
+          },
+          "total": 323
+        },
+        {
+          "rank": 37,
+          "firstname": "Amelia",
+          "surname": "LINDUS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 290
+          },
+          "total": 290
+        },
+        {
+          "rank": 38,
+          "firstname": "Hannah",
+          "surname": "BROWN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 286,
+            "age_nationals_2024": 0
+          },
+          "total": 286
+        },
+        {
+          "rank": 39,
+          "firstname": "Lucy",
+          "surname": "CASSERLEY",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 188,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 97
+          },
+          "total": 285
+        },
+        {
+          "rank": 40,
+          "firstname": "Kate",
+          "surname": "ANDREWS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 258
+          },
+          "total": 258
+        },
+        {
+          "rank": 41,
+          "firstname": "Sophie",
+          "surname": "LENNIE",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 250,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 250
+        },
+        {
+          "rank": 42,
+          "firstname": "Georgette",
+          "surname": "DOHERTY",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 143,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 65
+          },
+          "total": 208
+        },
+        {
+          "rank": 43,
+          "firstname": "Matilda",
+          "surname": "LEWIS",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 0,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 143,
+            "age_nationals_2024": 0
+          },
+          "total": 143
+        },
+        {
+          "rank": 44,
+          "firstname": "Madeline",
+          "surname": "BLACKLOCK",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 125,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 125
+        },
+        {
+          "rank": 45,
+          "firstname": "Pippa",
+          "surname": "FREEMAN",
+          "points": {
+            "wa_state_champs_2023": 0,
+            "nsw_state_champs_2023": 63,
+            "vic_state_champs_2023": 0,
+            "tas_state_champs_2023": 0,
+            "age_nationals_2024": 0
+          },
+          "total": 63
+        }
+      ],
+      "races": {
+        "wa_state_champs_2023": {
+          "field_size": 4,
+          "n_used": 5,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Georgina",
+              "surname": "COLLIN",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Alzbeta",
+              "surname": "DVORAKOVA",
+              "points": 800
+            },
+            {
+              "place": 3,
+              "firstname": "Isabella",
+              "surname": "FLORISSON",
+              "points": 600
+            },
+            {
+              "place": 4,
+              "firstname": "Mary",
+              "surname": "DARK",
+              "points": 400
+            }
+          ]
+        },
+        "nsw_state_champs_2023": {
+          "field_size": 16,
+          "n_used": 16,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Georgia",
+              "surname": "RANKIN",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Ada",
+              "surname": "MACKIE",
+              "points": 938
+            },
+            {
+              "place": 3,
+              "firstname": "Alexandra",
+              "surname": "ZARB",
+              "points": 875
+            },
+            {
+              "place": 4,
+              "firstname": "Emily",
+              "surname": "HOGBIN-BOURNE",
+              "points": 813
+            },
+            {
+              "place": 5,
+              "firstname": "Maggie",
+              "surname": "CARR",
+              "points": 750
+            },
+            {
+              "place": 6,
+              "firstname": "Kate",
+              "surname": "DELANEY",
+              "points": 688
+            },
+            {
+              "place": 7,
+              "firstname": "Louise",
+              "surname": "GATES",
+              "points": 625
+            },
+            {
+              "place": 8,
+              "firstname": "Perri",
+              "surname": "HUTCHINGS",
+              "points": 563
+            },
+            {
+              "place": 9,
+              "firstname": "Eliza",
+              "surname": "HERBERT",
+              "points": 500
+            },
+            {
+              "place": 10,
+              "firstname": "Emma",
+              "surname": "STEEL",
+              "points": 438
+            },
+            {
+              "place": 11,
+              "firstname": "Khloe",
+              "surname": "SCHWARZER",
+              "points": 375
+            },
+            {
+              "place": 12,
+              "firstname": "Lara",
+              "surname": "WYLIE",
+              "points": 313
+            },
+            {
+              "place": 13,
+              "firstname": "Sophie",
+              "surname": "LENNIE",
+              "points": 250
+            },
+            {
+              "place": 14,
+              "firstname": "Lucy",
+              "surname": "CASSERLEY",
+              "points": 188
+            },
+            {
+              "place": 15,
+              "firstname": "Madeline",
+              "surname": "BLACKLOCK",
+              "points": 125
+            },
+            {
+              "place": 16,
+              "firstname": "Pippa",
+              "surname": "FREEMAN",
+              "points": 63
+            }
+          ]
+        },
+        "vic_state_champs_2023": {
+          "field_size": 7,
+          "n_used": 7,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Sarah",
+              "surname": "CROSBEE",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Abigail",
+              "surname": "WATSON",
+              "points": 857
+            },
+            {
+              "place": 3,
+              "firstname": "Olivia",
+              "surname": "OATES",
+              "points": 714
+            },
+            {
+              "place": 4,
+              "firstname": "Amelia",
+              "surname": "WATSON",
+              "points": 571
+            },
+            {
+              "place": 5,
+              "firstname": "Georgie",
+              "surname": "O'CALLAGHAN",
+              "points": 429
+            },
+            {
+              "place": 6,
+              "firstname": "Maggie",
+              "surname": "POTUGUNTLA",
+              "points": 286
+            },
+            {
+              "place": 7,
+              "firstname": "Georgette",
+              "surname": "DOHERTY",
+              "points": 143
+            }
+          ]
+        },
+        "tas_state_champs_2023": {
+          "field_size": 7,
+          "n_used": 7,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Claire",
+              "surname": "CLEMENTS",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Freja",
+              "surname": "BOOCOCK",
+              "points": 857
+            },
+            {
+              "place": 3,
+              "firstname": "Marlene",
+              "surname": "DAVEY",
+              "points": 714
+            },
+            {
+              "place": 4,
+              "firstname": "Finn",
+              "surname": "STEPHENSON",
+              "points": 571
+            },
+            {
+              "place": 5,
+              "firstname": "Millie",
+              "surname": "LINDUS",
+              "points": 429
+            },
+            {
+              "place": 6,
+              "firstname": "Hannah",
+              "surname": "BROWN",
+              "points": 286
+            },
+            {
+              "place": 7,
+              "firstname": "Matilda",
+              "surname": "LEWIS",
+              "points": 143
+            }
+          ]
+        },
+        "age_nationals_2024": {
+          "field_size": 31,
+          "n_used": 31,
+          "placings": [
+            {
+              "place": 1,
+              "firstname": "Georgie",
+              "surname": "O'CALLAGHAN",
+              "points": 1000
+            },
+            {
+              "place": 2,
+              "firstname": "Nina",
+              "surname": "MUELLER",
+              "points": 968
+            },
+            {
+              "place": 3,
+              "firstname": "Sarah",
+              "surname": "CROSBEE",
+              "points": 935
+            },
+            {
+              "place": 4,
+              "firstname": "Codie",
+              "surname": "DAVIDSON",
+              "points": 903
+            },
+            {
+              "place": 5,
+              "firstname": "Ada",
+              "surname": "MACKIE",
+              "points": 871
+            },
+            {
+              "place": 6,
+              "firstname": "Alexandra",
+              "surname": "ZARB",
+              "points": 839
+            },
+            {
+              "place": 7,
+              "firstname": "Freja",
+              "surname": "BOOCOCK",
+              "points": 806
+            },
+            {
+              "place": 8,
+              "firstname": "Abigail",
+              "surname": "WATSON",
+              "points": 774
+            },
+            {
+              "place": 9,
+              "firstname": "Emily",
+              "surname": "HOGBIN-BOURNE",
+              "points": 742
+            },
+            {
+              "place": 10,
+              "firstname": "Jen",
+              "surname": "BOOCOCK",
+              "points": 710
+            },
+            {
+              "place": 11,
+              "firstname": "Madeline",
+              "surname": "BOOCOCK",
+              "points": 677
+            },
+            {
+              "place": 12,
+              "firstname": "Ally",
+              "surname": "CORK",
+              "points": 645
+            },
+            {
+              "place": 13,
+              "firstname": "Imogen",
+              "surname": "LEIGH",
+              "points": 613
+            },
+            {
+              "place": 14,
+              "firstname": "Isabella",
+              "surname": "FLORISSON",
+              "points": 581
+            },
+            {
+              "place": 15,
+              "firstname": "Olivia",
+              "surname": "OATES",
+              "points": 548
+            },
+            {
+              "place": 16,
+              "firstname": "Marlene",
+              "surname": "DAVEY",
+              "points": 516
+            },
+            {
+              "place": 17,
+              "firstname": "Maggie",
+              "surname": "CARR",
+              "points": 484
+            },
+            {
+              "place": 18,
+              "firstname": "Kate",
+              "surname": "DELANEY",
+              "points": 452
+            },
+            {
+              "place": 19,
+              "firstname": "Amelia",
+              "surname": "WATSON",
+              "points": 419
+            },
+            {
+              "place": 20,
+              "firstname": "Ella",
+              "surname": "MARINELLI",
+              "points": 387
+            },
+            {
+              "place": 21,
+              "firstname": "Jasmin",
+              "surname": "MUIR",
+              "points": 355
+            },
+            {
+              "place": 22,
+              "firstname": "Michelle",
+              "surname": "DELANEY",
+              "points": 323
+            },
+            {
+              "place": 23,
+              "firstname": "Amelia",
+              "surname": "LINDUS",
+              "points": 290
+            },
+            {
+              "place": 24,
+              "firstname": "Kate",
+              "surname": "ANDREWS",
+              "points": 258
+            },
+            {
+              "place": 25,
+              "firstname": "Lara",
+              "surname": "WYLIE",
+              "points": 226
+            },
+            {
+              "place": 26,
+              "firstname": "Eliza",
+              "surname": "HERBERT",
+              "points": 194
+            },
+            {
+              "place": 27,
+              "firstname": "Perri",
+              "surname": "HUTCHINGS",
+              "points": 161
+            },
+            {
+              "place": 28,
+              "firstname": "Maggie",
+              "surname": "POTUGUNTLA",
+              "points": 129
+            },
+            {
+              "place": 29,
+              "firstname": "Lucy",
+              "surname": "CASSERLEY",
+              "points": 97
+            },
+            {
+              "place": 30,
+              "firstname": "Georgette",
+              "surname": "DOHERTY",
+              "points": 65
+            },
+            {
+              "place": 31,
+              "firstname": "Khloe",
+              "surname": "SCHWARZER",
+              "points": 32
+            }
+          ]
+        }
+      }
+    }
+  },
+  "combined": {
+    "women": {
+      "classes": [
+        "C1W",
+        "K1W"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "firstname": "Sarah",
+          "surname": "CROSBEE",
+          "c1": 1818,
+          "k1": 1935,
+          "avg": 1877
+        },
+        {
+          "rank": 2,
+          "firstname": "Alexandra",
+          "surname": "ZARB",
+          "c1": 1727,
+          "k1": 1714,
+          "avg": 1721
+        },
+        {
+          "rank": 3,
+          "firstname": "Georgie",
+          "surname": "O'CALLAGHAN",
+          "c1": 1800,
+          "k1": 1429,
+          "avg": 1615
+        },
+        {
+          "rank": 4,
+          "firstname": "Freja",
+          "surname": "BOOCOCK",
+          "c1": 1255,
+          "k1": 1663,
+          "avg": 1459
+        },
+        {
+          "rank": 5,
+          "firstname": "Emily",
+          "surname": "HOGBIN-BOURNE",
+          "c1": 1303,
+          "k1": 1555,
+          "avg": 1429
+        },
+        {
+          "rank": 6,
+          "firstname": "Ada",
+          "surname": "MACKIE",
+          "c1": 1045,
+          "k1": 1809,
+          "avg": 1427
+        },
+        {
+          "rank": 7,
+          "firstname": "Isabella",
+          "surname": "FLORISSON",
+          "c1": 1000,
+          "k1": 1181,
+          "avg": 1091
+        },
+        {
+          "rank": 8,
+          "firstname": "Claire",
+          "surname": "CLEMENTS",
+          "c1": 1000,
+          "k1": 1000,
+          "avg": 1000
+        },
+        {
+          "rank": 9,
+          "firstname": "Georgia",
+          "surname": "RANKIN",
+          "c1": 833,
+          "k1": 1000,
+          "avg": 917
+        },
+        {
+          "rank": 10,
+          "firstname": "Codie",
+          "surname": "DAVIDSON",
+          "c1": 909,
+          "k1": 903,
+          "avg": 906
+        },
+        {
+          "rank": 11,
+          "firstname": "Maggie",
+          "surname": "CARR",
+          "c1": 424,
+          "k1": 1234,
+          "avg": 829
+        },
+        {
+          "rank": 12,
+          "firstname": "Abigail",
+          "surname": "WATSON",
+          "c1": 0,
+          "k1": 1631,
+          "avg": 816
+        },
+        {
+          "rank": 13,
+          "firstname": "Kate",
+          "surname": "DELANEY",
+          "c1": 349,
+          "k1": 1140,
+          "avg": 745
+        },
+        {
+          "rank": 14,
+          "firstname": "Olivia",
+          "surname": "OATES",
+          "c1": 0,
+          "k1": 1262,
+          "avg": 631
+        },
+        {
+          "rank": 15,
+          "firstname": "Marlene",
+          "surname": "DAVEY",
+          "c1": 0,
+          "k1": 1230,
+          "avg": 615
+        },
+        {
+          "rank": 16,
+          "firstname": "Ally",
+          "surname": "CORK",
+          "c1": 364,
+          "k1": 645,
+          "avg": 505
+        },
+        {
+          "rank": 17,
+          "firstname": "Georgina",
+          "surname": "COLLIN",
+          "c1": 0,
+          "k1": 1000,
+          "avg": 500
+        },
+        {
+          "rank": 18,
+          "firstname": "Amelia",
+          "surname": "WATSON",
+          "c1": 0,
+          "k1": 990,
+          "avg": 495
+        },
+        {
+          "rank": 19,
+          "firstname": "Nina",
+          "surname": "MUELLER",
+          "c1": 0,
+          "k1": 968,
+          "avg": 484
+        },
+        {
+          "rank": 20,
+          "firstname": "Madeline",
+          "surname": "BOOCOCK",
+          "c1": 273,
+          "k1": 677,
+          "avg": 475
+        },
+        {
+          "rank": 21,
+          "firstname": "Alzbeta",
+          "surname": "DVORAKOVA",
+          "c1": 0,
+          "k1": 800,
+          "avg": 400
+        },
+        {
+          "rank": 22,
+          "firstname": "Perri",
+          "surname": "HUTCHINGS",
+          "c1": 0,
+          "k1": 724,
+          "avg": 362
+        },
+        {
+          "rank": 23,
+          "firstname": "Jen",
+          "surname": "BOOCOCK",
+          "c1": 0,
+          "k1": 710,
+          "avg": 355
+        },
+        {
+          "rank": 24,
+          "firstname": "Eliza",
+          "surname": "HERBERT",
+          "c1": 0,
+          "k1": 694,
+          "avg": 347
+        },
+        {
+          "rank": 25,
+          "firstname": "Louise",
+          "surname": "GATES",
+          "c1": 0,
+          "k1": 625,
+          "avg": 313
+        },
+        {
+          "rank": 26,
+          "firstname": "Imogen",
+          "surname": "LEIGH",
+          "c1": 0,
+          "k1": 613,
+          "avg": 307
+        },
+        {
+          "rank": 27,
+          "firstname": "Finn",
+          "surname": "STEPHENSON",
+          "c1": 0,
+          "k1": 571,
+          "avg": 286
+        },
+        {
+          "rank": 28,
+          "firstname": "Lara",
+          "surname": "WYLIE",
+          "c1": 0,
+          "k1": 539,
+          "avg": 270
+        },
+        {
+          "rank": 29,
+          "firstname": "Emma",
+          "surname": "STEEL",
+          "c1": 0,
+          "k1": 438,
+          "avg": 219
+        },
+        {
+          "rank": 30,
+          "firstname": "Millie",
+          "surname": "LINDUS",
+          "c1": 0,
+          "k1": 429,
+          "avg": 215
+        },
+        {
+          "rank": 31,
+          "firstname": "Maggie",
+          "surname": "POTUGUNTLA",
+          "c1": 0,
+          "k1": 415,
+          "avg": 208
+        },
+        {
+          "rank": 32,
+          "firstname": "Khloe",
+          "surname": "SCHWARZER",
+          "c1": 0,
+          "k1": 407,
+          "avg": 204
+        },
+        {
+          "rank": 33,
+          "firstname": "Mary",
+          "surname": "DARK",
+          "c1": 0,
+          "k1": 400,
+          "avg": 200
+        },
+        {
+          "rank": 34,
+          "firstname": "Ella",
+          "surname": "MARINELLI",
+          "c1": 0,
+          "k1": 387,
+          "avg": 194
+        },
+        {
+          "rank": 35,
+          "firstname": "Jasmin",
+          "surname": "MUIR",
+          "c1": 0,
+          "k1": 355,
+          "avg": 178
+        },
+        {
+          "rank": 36,
+          "firstname": "Michelle",
+          "surname": "DELANEY",
+          "c1": 0,
+          "k1": 323,
+          "avg": 162
+        },
+        {
+          "rank": 37,
+          "firstname": "Amelia",
+          "surname": "LINDUS",
+          "c1": 0,
+          "k1": 290,
+          "avg": 145
+        },
+        {
+          "rank": 38,
+          "firstname": "Lucy",
+          "surname": "CASSERLEY",
+          "c1": 0,
+          "k1": 285,
+          "avg": 143
+        },
+        {
+          "rank": 38,
+          "firstname": "Hannah",
+          "surname": "BROWN",
+          "c1": 0,
+          "k1": 286,
+          "avg": 143
+        },
+        {
+          "rank": 40,
+          "firstname": "Kate",
+          "surname": "ANDREWS",
+          "c1": 0,
+          "k1": 258,
+          "avg": 129
+        },
+        {
+          "rank": 41,
+          "firstname": "Sophie",
+          "surname": "LENNIE",
+          "c1": 0,
+          "k1": 250,
+          "avg": 125
+        },
+        {
+          "rank": 42,
+          "firstname": "Georgette",
+          "surname": "DOHERTY",
+          "c1": 0,
+          "k1": 208,
+          "avg": 104
+        },
+        {
+          "rank": 43,
+          "firstname": "Matilda",
+          "surname": "LEWIS",
+          "c1": 0,
+          "k1": 143,
+          "avg": 72
+        },
+        {
+          "rank": 44,
+          "firstname": "Madeline",
+          "surname": "BLACKLOCK",
+          "c1": 0,
+          "k1": 125,
+          "avg": 63
+        },
+        {
+          "rank": 45,
+          "firstname": "Pippa",
+          "surname": "FREEMAN",
+          "c1": 0,
+          "k1": 63,
+          "avg": 32
+        }
+      ]
+    },
+    "men": {
+      "classes": [
+        "C1M",
+        "K1M"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "firstname": "Declan",
+          "surname": "ELLIS",
+          "c1": 1923,
+          "k1": 1873,
+          "avg": 1898
+        },
+        {
+          "rank": 2,
+          "firstname": "Dominic",
+          "surname": "CURTIN",
+          "c1": 1686,
+          "k1": 1852,
+          "avg": 1769
+        },
+        {
+          "rank": 3,
+          "firstname": "Warwick",
+          "surname": "DRAPER",
+          "c1": 1708,
+          "k1": 1789,
+          "avg": 1749
+        },
+        {
+          "rank": 4,
+          "firstname": "Hunter",
+          "surname": "FLORISSON",
+          "c1": 1550,
+          "k1": 1825,
+          "avg": 1688
+        },
+        {
+          "rank": 5,
+          "firstname": "James",
+          "surname": "STAMP",
+          "c1": 1375,
+          "k1": 1691,
+          "avg": 1533
+        },
+        {
+          "rank": 6,
+          "firstname": "Justin",
+          "surname": "BOOCOCK",
+          "c1": 833,
+          "k1": 1895,
+          "avg": 1364
+        },
+        {
+          "rank": 7,
+          "firstname": "Ewan",
+          "surname": "MACKIE",
+          "c1": 1484,
+          "k1": 1210,
+          "avg": 1347
+        },
+        {
+          "rank": 8,
+          "firstname": "Charlie",
+          "surname": "SHAMIEH",
+          "c1": 1167,
+          "k1": 1475,
+          "avg": 1321
+        },
+        {
+          "rank": 9,
+          "firstname": "Toby",
+          "surname": "WATKINS",
+          "c1": 1333,
+          "k1": 1241,
+          "avg": 1287
+        },
+        {
+          "rank": 10,
+          "firstname": "Bradley",
+          "surname": "WOOD",
+          "c1": 1038,
+          "k1": 1534,
+          "avg": 1286
+        },
+        {
+          "rank": 11,
+          "firstname": "Sevan",
+          "surname": "BILLAUT",
+          "c1": 0,
+          "k1": 2489,
+          "avg": 1245
+        },
+        {
+          "rank": 12,
+          "firstname": "Robert",
+          "surname": "MCCONNELL",
+          "c1": 834,
+          "k1": 1433,
+          "avg": 1134
+        },
+        {
+          "rank": 13,
+          "firstname": "Fergus",
+          "surname": "PAGE-BROWN",
+          "c1": 625,
+          "k1": 1612,
+          "avg": 1119
+        },
+        {
+          "rank": 14,
+          "firstname": "Josh",
+          "surname": "FRASER",
+          "c1": 750,
+          "k1": 1312,
+          "avg": 1031
+        },
+        {
+          "rank": 15,
+          "firstname": "Tristan",
+          "surname": "CARTER",
+          "c1": 1000,
+          "k1": 1000,
+          "avg": 1000
+        },
+        {
+          "rank": 15,
+          "firstname": "George",
+          "surname": "PANKHURST",
+          "c1": 1000,
+          "k1": 1000,
+          "avg": 1000
+        },
+        {
+          "rank": 17,
+          "firstname": "Riley",
+          "surname": "GALEA",
+          "c1": 0,
+          "k1": 1889,
+          "avg": 945
+        },
+        {
+          "rank": 18,
+          "firstname": "Ben",
+          "surname": "ROSS",
+          "c1": 917,
+          "k1": 963,
+          "avg": 940
+        },
+        {
+          "rank": 19,
+          "firstname": "Daniel",
+          "surname": "SHAMIEH",
+          "c1": 875,
+          "k1": 934,
+          "avg": 905
+        },
+        {
+          "rank": 20,
+          "firstname": "Alastair",
+          "surname": "ANDERSON",
+          "c1": 0,
+          "k1": 1702,
+          "avg": 851
+        },
+        {
+          "rank": 21,
+          "firstname": "Lucien",
+          "surname": "DELFOUR",
+          "c1": 615,
+          "k1": 1000,
+          "avg": 808
+        },
+        {
+          "rank": 22,
+          "firstname": "Craig",
+          "surname": "ELLIOTT",
+          "c1": 0,
+          "k1": 1490,
+          "avg": 745
+        },
+        {
+          "rank": 23,
+          "firstname": "Chris",
+          "surname": "TUBB",
+          "c1": 0,
+          "k1": 1483,
+          "avg": 742
+        },
+        {
+          "rank": 24,
+          "firstname": "Luke",
+          "surname": "DELANEY",
+          "c1": 516,
+          "k1": 950,
+          "avg": 733
+        },
+        {
+          "rank": 25,
+          "firstname": "Luca",
+          "surname": "FAELIS",
+          "c1": 0,
+          "k1": 1424,
+          "avg": 712
+        },
+        {
+          "rank": 26,
+          "firstname": "Oscar",
+          "surname": "CAPES",
+          "c1": 792,
+          "k1": 539,
+          "avg": 666
+        },
+        {
+          "rank": 27,
+          "firstname": "Rhys",
+          "surname": "MACRAE",
+          "c1": 458,
+          "k1": 855,
+          "avg": 657
+        },
+        {
+          "rank": 28,
+          "firstname": "Kevin",
+          "surname": "SONGBERG",
+          "c1": 0,
+          "k1": 1303,
+          "avg": 652
+        },
+        {
+          "rank": 29,
+          "firstname": "Munro",
+          "surname": "MACQUEEN",
+          "c1": 0,
+          "k1": 1230,
+          "avg": 615
+        },
+        {
+          "rank": 30,
+          "firstname": "Tom",
+          "surname": "BILLAUT",
+          "c1": 154,
+          "k1": 1071,
+          "avg": 613
+        },
+        {
+          "rank": 31,
+          "firstname": "Scott",
+          "surname": "BRAIN",
+          "c1": 167,
+          "k1": 1036,
+          "avg": 602
+        },
+        {
+          "rank": 32,
+          "firstname": "Cooper",
+          "surname": "AULT",
+          "c1": 0,
+          "k1": 1177,
+          "avg": 589
+        },
+        {
+          "rank": 33,
+          "firstname": "Zack",
+          "surname": "KYSELA",
+          "c1": 250,
+          "k1": 831,
+          "avg": 541
+        },
+        {
+          "rank": 34,
+          "firstname": "Archie",
+          "surname": "NELSON",
+          "c1": 833,
+          "k1": 222,
+          "avg": 528
+        },
+        {
+          "rank": 35,
+          "firstname": "Doug",
+          "surname": "HEMER",
+          "c1": 0,
+          "k1": 1050,
+          "avg": 525
+        },
+        {
+          "rank": 36,
+          "firstname": "Chris",
+          "surname": "RUNTING",
+          "c1": 0,
+          "k1": 1004,
+          "avg": 502
+        },
+        {
+          "rank": 37,
+          "firstname": "Kaylen",
+          "surname": "BASSETT",
+          "c1": 1000,
+          "k1": 0,
+          "avg": 500
+        },
+        {
+          "rank": 38,
+          "firstname": "Gary",
+          "surname": "NELSON",
+          "c1": 0,
+          "k1": 995,
+          "avg": 498
+        },
+        {
+          "rank": 39,
+          "firstname": "Matthew",
+          "surname": "DELANEY",
+          "c1": 375,
+          "k1": 618,
+          "avg": 497
+        },
+        {
+          "rank": 40,
+          "firstname": "Sebastian",
+          "surname": "MONTALTO",
+          "c1": 0,
+          "k1": 926,
+          "avg": 463
+        },
+        {
+          "rank": 41,
+          "firstname": "Matt",
+          "surname": "DELANEY",
+          "c1": 385,
+          "k1": 524,
+          "avg": 455
+        },
+        {
+          "rank": 42,
+          "firstname": "Merle",
+          "surname": "LONG",
+          "c1": 0,
+          "k1": 857,
+          "avg": 429
+        },
+        {
+          "rank": 43,
+          "firstname": "Ben",
+          "surname": "LEE",
+          "c1": 0,
+          "k1": 855,
+          "avg": 428
+        },
+        {
+          "rank": 44,
+          "firstname": "Alex",
+          "surname": "REDLICH",
+          "c1": 375,
+          "k1": 479,
+          "avg": 427
+        },
+        {
+          "rank": 45,
+          "firstname": "Joshua",
+          "surname": "MONTALTO",
+          "c1": 0,
+          "k1": 852,
+          "avg": 426
+        },
+        {
+          "rank": 46,
+          "firstname": "Lachlan",
+          "surname": "BASSETT",
+          "c1": 846,
+          "k1": 0,
+          "avg": 423
+        },
+        {
+          "rank": 47,
+          "firstname": "Anton",
+          "surname": "KING",
+          "c1": 0,
+          "k1": 842,
+          "avg": 421
+        },
+        {
+          "rank": 48,
+          "firstname": "Cody",
+          "surname": "POPE",
+          "c1": 0,
+          "k1": 833,
+          "avg": 417
+        },
+        {
+          "rank": 49,
+          "firstname": "Andrew",
+          "surname": "HOUGHTON",
+          "c1": 0,
+          "k1": 813,
+          "avg": 407
+        },
+        {
+          "rank": 50,
+          "firstname": "Josh",
+          "surname": "JORDAN",
+          "c1": 462,
+          "k1": 333,
+          "avg": 398
+        },
+        {
+          "rank": 51,
+          "firstname": "Aiden",
+          "surname": "O'CALLAGHAN",
+          "c1": 0,
+          "k1": 778,
+          "avg": 389
+        },
+        {
+          "rank": 52,
+          "firstname": "Maximilian",
+          "surname": "MYERS",
+          "c1": 0,
+          "k1": 763,
+          "avg": 382
+        },
+        {
+          "rank": 53,
+          "firstname": "Lucas",
+          "surname": "KENT",
+          "c1": 0,
+          "k1": 759,
+          "avg": 380
+        },
+        {
+          "rank": 54,
+          "firstname": "James",
+          "surname": "MCLAUGHLIN",
+          "c1": 0,
+          "k1": 750,
+          "avg": 375
+        },
+        {
+          "rank": 54,
+          "firstname": "Luke",
+          "surname": "DOOLEY",
+          "c1": 0,
+          "k1": 750,
+          "avg": 375
+        },
+        {
+          "rank": 54,
+          "firstname": "Cam",
+          "surname": "FOLDER",
+          "c1": 0,
+          "k1": 750,
+          "avg": 375
+        },
+        {
+          "rank": 57,
+          "firstname": "Michael",
+          "surname": "COX",
+          "c1": 0,
+          "k1": 717,
+          "avg": 359
+        },
+        {
+          "rank": 58,
+          "firstname": "Brian",
+          "surname": "CORK",
+          "c1": 0,
+          "k1": 711,
+          "avg": 356
+        },
+        {
+          "rank": 59,
+          "firstname": "Connor",
+          "surname": "JACOB",
+          "c1": 0,
+          "k1": 697,
+          "avg": 349
+        },
+        {
+          "rank": 60,
+          "firstname": "Rhys",
+          "surname": "MCRAE",
+          "c1": 0,
+          "k1": 667,
+          "avg": 334
+        },
+        {
+          "rank": 61,
+          "firstname": "Dan",
+          "surname": "ANDREWS",
+          "c1": 0,
+          "k1": 632,
+          "avg": 316
+        },
+        {
+          "rank": 62,
+          "firstname": "Chris",
+          "surname": "DELANEY",
+          "c1": 0,
+          "k1": 628,
+          "avg": 314
+        },
+        {
+          "rank": 63,
+          "firstname": "Zlatan",
+          "surname": "IBRAHIMBEGOVIC",
+          "c1": 0,
+          "k1": 583,
+          "avg": 292
+        },
+        {
+          "rank": 63,
+          "firstname": "Richard",
+          "surname": "MERJAN",
+          "c1": 583,
+          "k1": 0,
+          "avg": 292
+        },
+        {
+          "rank": 65,
+          "firstname": "Beau",
+          "surname": "JACOB",
+          "c1": 0,
+          "k1": 579,
+          "avg": 290
+        },
+        {
+          "rank": 66,
+          "firstname": "James",
+          "surname": "DEAKIN",
+          "c1": 0,
+          "k1": 571,
+          "avg": 286
+        },
+        {
+          "rank": 67,
+          "firstname": "Colin",
+          "surname": "CALDERWOOD",
+          "c1": 231,
+          "k1": 301,
+          "avg": 266
+        },
+        {
+          "rank": 68,
+          "firstname": "Simon",
+          "surname": "WATSON",
+          "c1": 0,
+          "k1": 526,
+          "avg": 263
+        },
+        {
+          "rank": 69,
+          "firstname": "Cameron",
+          "surname": "FOLDER",
+          "c1": 0,
+          "k1": 513,
+          "avg": 257
+        },
+        {
+          "rank": 70,
+          "firstname": "Aidan",
+          "surname": "MENZIES",
+          "c1": 125,
+          "k1": 382,
+          "avg": 254
+        },
+        {
+          "rank": 71,
+          "firstname": "Grayson",
+          "surname": "PEPI",
+          "c1": 0,
+          "k1": 500,
+          "avg": 250
+        },
+        {
+          "rank": 72,
+          "firstname": "Philip",
+          "surname": "MINGERULLI",
+          "c1": 0,
+          "k1": 481,
+          "avg": 241
+        },
+        {
+          "rank": 73,
+          "firstname": "Warren",
+          "surname": "ELMS",
+          "c1": 0,
+          "k1": 447,
+          "avg": 224
+        },
+        {
+          "rank": 74,
+          "firstname": "Peter",
+          "surname": "MENZIES",
+          "c1": 0,
+          "k1": 434,
+          "avg": 217
+        },
+        {
+          "rank": 75,
+          "firstname": "James",
+          "surname": "SAWERS",
+          "c1": 0,
+          "k1": 422,
+          "avg": 211
+        },
+        {
+          "rank": 76,
+          "firstname": "Jimmy",
+          "surname": "AITCHISON",
+          "c1": 0,
+          "k1": 417,
+          "avg": 209
+        },
+        {
+          "rank": 77,
+          "firstname": "Tom",
+          "surname": "HOWARD",
+          "c1": 0,
+          "k1": 408,
+          "avg": 204
+        },
+        {
+          "rank": 77,
+          "firstname": "Luca",
+          "surname": "THAVARASAH",
+          "c1": 0,
+          "k1": 407,
+          "avg": 204
+        },
+        {
+          "rank": 79,
+          "firstname": "Roland",
+          "surname": "HEMER",
+          "c1": 0,
+          "k1": 375,
+          "avg": 188
+        },
+        {
+          "rank": 79,
+          "firstname": "Russell",
+          "surname": "HORTON",
+          "c1": 0,
+          "k1": 375,
+          "avg": 188
+        },
+        {
+          "rank": 81,
+          "firstname": "Kai",
+          "surname": "STAFFORD",
+          "c1": 0,
+          "k1": 359,
+          "avg": 180
+        },
+        {
+          "rank": 82,
+          "firstname": "Zayd",
+          "surname": "BHAYAT",
+          "c1": 0,
+          "k1": 353,
+          "avg": 177
+        },
+        {
+          "rank": 83,
+          "firstname": "Dougal",
+          "surname": "FOLDER",
+          "c1": 0,
+          "k1": 352,
+          "avg": 176
+        },
+        {
+          "rank": 84,
+          "firstname": "Stephen",
+          "surname": "TUBB",
+          "c1": 0,
+          "k1": 335,
+          "avg": 168
+        },
+        {
+          "rank": 85,
+          "firstname": "Jack",
+          "surname": "PEAD",
+          "c1": 333,
+          "k1": 0,
+          "avg": 167
+        },
+        {
+          "rank": 85,
+          "firstname": "Robin",
+          "surname": "SANDERS",
+          "c1": 0,
+          "k1": 333,
+          "avg": 167
+        },
+        {
+          "rank": 87,
+          "firstname": "Maximus",
+          "surname": "KARAMZALIS",
+          "c1": 0,
+          "k1": 329,
+          "avg": 165
+        },
+        {
+          "rank": 88,
+          "firstname": "Johnathan",
+          "surname": "KNOX",
+          "c1": 0,
+          "k1": 313,
+          "avg": 157
+        },
+        {
+          "rank": 88,
+          "firstname": "Jye",
+          "surname": "DEAVES",
+          "c1": 160,
+          "k1": 153,
+          "avg": 157
+        },
+        {
+          "rank": 90,
+          "firstname": "Samuel",
+          "surname": "LINDUS",
+          "c1": 0,
+          "k1": 303,
+          "avg": 152
+        },
+        {
+          "rank": 91,
+          "firstname": "Alex",
+          "surname": "ELLUL",
+          "c1": 0,
+          "k1": 263,
+          "avg": 132
+        },
+        {
+          "rank": 92,
+          "firstname": "Bevan",
+          "surname": "DASHWOOD",
+          "c1": 0,
+          "k1": 250,
+          "avg": 125
+        },
+        {
+          "rank": 92,
+          "firstname": "Dave",
+          "surname": "LINDUS",
+          "c1": 0,
+          "k1": 250,
+          "avg": 125
+        },
+        {
+          "rank": 94,
+          "firstname": "David",
+          "surname": "LINDUS",
+          "c1": 0,
+          "k1": 224,
+          "avg": 112
+        },
+        {
+          "rank": 95,
+          "firstname": "Dominic",
+          "surname": "MARINELLI",
+          "c1": 0,
+          "k1": 211,
+          "avg": 106
+        },
+        {
+          "rank": 96,
+          "firstname": "Heath",
+          "surname": "KYRIAKOU",
+          "c1": 0,
+          "k1": 197,
+          "avg": 99
+        },
+        {
+          "rank": 97,
+          "firstname": "Sam",
+          "surname": "LINDUS",
+          "c1": 0,
+          "k1": 188,
+          "avg": 94
+        },
+        {
+          "rank": 98,
+          "firstname": "Alex",
+          "surname": "XU",
+          "c1": 0,
+          "k1": 184,
+          "avg": 92
+        },
+        {
+          "rank": 99,
+          "firstname": "Joseph",
+          "surname": "MENZIES",
+          "c1": 0,
+          "k1": 171,
+          "avg": 86
+        },
+        {
+          "rank": 100,
+          "firstname": "Andrew",
+          "surname": "POPE",
+          "c1": 0,
+          "k1": 167,
+          "avg": 84
+        },
+        {
+          "rank": 101,
+          "firstname": "Alexander",
+          "surname": "ELLUL",
+          "c1": 0,
+          "k1": 148,
+          "avg": 74
+        },
+        {
+          "rank": 102,
+          "firstname": "Oliver",
+          "surname": "GEORGE",
+          "c1": 42,
+          "k1": 92,
+          "avg": 67
+        },
+        {
+          "rank": 103,
+          "firstname": "James",
+          "surname": "SHORT",
+          "c1": 0,
+          "k1": 132,
+          "avg": 66
+        },
+        {
+          "rank": 104,
+          "firstname": "Hugo",
+          "surname": "LETHBRIDGE-FORD",
+          "c1": 0,
+          "k1": 118,
+          "avg": 59
+        },
+        {
+          "rank": 105,
+          "firstname": "Ethan",
+          "surname": "ASHTYN-SMITH",
+          "c1": 0,
+          "k1": 95,
+          "avg": 48
+        },
+        {
+          "rank": 106,
+          "firstname": "Marcel",
+          "surname": "ARGENT",
+          "c1": 0,
+          "k1": 79,
+          "avg": 40
+        },
+        {
+          "rank": 107,
+          "firstname": "Edward",
+          "surname": "REDLICH",
+          "c1": 0,
+          "k1": 74,
+          "avg": 37
+        },
+        {
+          "rank": 108,
+          "firstname": "William",
+          "surname": "NASSERALLAH",
+          "c1": 0,
+          "k1": 66,
+          "avg": 33
+        },
+        {
+          "rank": 109,
+          "firstname": "Riley",
+          "surname": "TYEBJI",
+          "c1": 0,
+          "k1": 53,
+          "avg": 27
+        },
+        {
+          "rank": 110,
+          "firstname": "Jacob",
+          "surname": "HILL",
+          "c1": 0,
+          "k1": 39,
+          "avg": 20
+        },
+        {
+          "rank": 111,
+          "firstname": "Chehan",
+          "surname": "PERERA",
+          "c1": 0,
+          "k1": 26,
+          "avg": 13
+        },
+        {
+          "rank": 112,
+          "firstname": "Louis",
+          "surname": "DING",
+          "c1": 0,
+          "k1": 13,
+          "avg": 7
+        }
+      ]
+    }
+  },
+  "possible_duplicates": {
+    "C1M": [
+      [
+        {
+          "firstname": "Matt",
+          "surname": "DELANEY"
+        },
+        {
+          "firstname": "Matthew",
+          "surname": "DELANEY"
+        }
+      ]
+    ],
+    "K1M": [
+      [
+        {
+          "firstname": "Rhys",
+          "surname": "MCRAE"
+        },
+        {
+          "firstname": "Rhys",
+          "surname": "MACRAE"
+        }
+      ],
+      [
+        {
+          "firstname": "Matt",
+          "surname": "DELANEY"
+        },
+        {
+          "firstname": "Matthew",
+          "surname": "DELANEY"
+        }
+      ],
+      [
+        {
+          "firstname": "Dave",
+          "surname": "LINDUS"
+        },
+        {
+          "firstname": "David",
+          "surname": "LINDUS"
+        }
+      ],
+      [
+        {
+          "firstname": "Sam",
+          "surname": "LINDUS"
+        },
+        {
+          "firstname": "Samuel",
+          "surname": "LINDUS"
+        }
+      ]
+    ],
+    "C1W": [],
+    "K1W": []
+  }
+}
