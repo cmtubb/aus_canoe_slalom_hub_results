@@ -57,10 +57,6 @@ Useful page URLs for testing:
 
 1. Publish the results in the hub series repo, following its README.
 2. Copy the `_final.json` into the season folder unchanged, and check the copy:
-   ```
-   cp ../aus_canoe_slalom_hub_series/official_results/australian_canoe_slalom_hub_series_2026_final.json 2026/
-   cmp 2026/australian_canoe_slalom_hub_series_2026_final.json ../aus_canoe_slalom_hub_series/official_results/australian_canoe_slalom_hub_series_2026_final.json
-   ```
 3. For a new season, add it to the top of `seasons.json`.
 4. Check the page locally against the published pdf.
 5. Commit and push. GitHub Pages updates the live site.
