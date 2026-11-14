@@ -603,7 +603,7 @@ function raceSection(data, race, results, cl, match) {
   const has = key => all.some(r => r.e[key]);
   const showBib = has('bib');
   const showClub = has('club');
-  const detailCols = state.detail ? ['state', 'age_category'].filter(has) : [];
+  const detailCols = ['state', 'age_category'].filter(has);
   const detailHead = { state: 'State', age_category: 'Cat' };
   const runHeads = i => [hf && i === 2 ? '' : null, 'Time', 'Pen', 'Total', bob ? 'Rk' : null].filter(t => t !== null);
 
@@ -655,7 +655,7 @@ function raceSection(data, race, results, cl, match) {
       ['Time', 'Pen', 'Total', 'Pts'].map(t => h('th', {}, t)))),
     rows.map(r => {
       const shown = r.runs.map((run, i) => i).filter(i => r.runs[i]);
-      const sub = [r.e.bib != null && `#${r.e.bib}`, r.e.club, ...detailCols.map(c => r.e[c])].filter(Boolean).join(' · ');
+      const sub = [r.e.bib != null && `#${r.e.bib}`, r.e.club, ...(state.detail ? detailCols.map(c => r.e[c]) : [])].filter(Boolean).join(' · ');
       return h('tbody', {}, shown.map((i, n) => {
         const run = r.runs[i];
         const hl = r.used === i ? 'best' : null;
