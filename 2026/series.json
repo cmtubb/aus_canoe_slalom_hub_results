@@ -1,0 +1,51 @@
+{
+  "name": "Australian Canoe Slalom Hub Series",
+  "year": "2026",
+  "races": [
+    {
+      "id": "wa_state_champs_2026",
+      "short": "WA",
+      "name": "Western Australia State Championships",
+      "start_date": "2026-08-29",
+      "end_date": "2026-08-30",
+      "scaling": 1.0,
+      "results": "wa_state_champs_2026.json"
+    },
+    {
+      "id": "nsw_state_champs_2026",
+      "short": "NSW",
+      "name": "New South Wales State Championships",
+      "start_date": "2026-10-31",
+      "end_date": "2026-11-01",
+      "scaling": 1.0,
+      "results": "nsw_state_champs_2026.json"
+    },
+    {
+      "id": "vic_state_champs_2026",
+      "short": "VIC",
+      "name": "Victoria State Championships",
+      "start_date": "2026-11-28",
+      "end_date": "2026-11-29",
+      "scaling": 1.0,
+      "results": null
+    },
+    {
+      "id": "tas_state_champs_2026",
+      "short": "TAS",
+      "name": "Tasmania State Championships",
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-06",
+      "scaling": 1.0,
+      "results": null 
+    },
+    {
+      "id": "age_nationals_2026",
+      "short": "AGE",
+      "name": "Australia AGE Nationals",
+      "start_date": "2026-04-10",
+      "end_date": "2026-04-12",
+      "scaling": 1.0,
+      "results": null 
+    }
+  ]
+}

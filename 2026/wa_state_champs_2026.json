@@ -1,0 +1,301 @@
+{
+  "id": "wa_state_champs_2026",
+  "venue": "",
+  "format": "best_of_two",
+  "source": "2026_W7_States_By_Class.pdf",
+  "classes": {
+    "C1M": [
+      {
+        "bib": 22,
+        "firstname": "Rhys",
+        "surname": "MCRAE",
+        "club": "",
+        "state": "",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 130.45,
+            "penalty": 2
+          },
+          {
+            "time": 140.05,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 24,
+        "firstname": "Oliver",
+        "surname": "ABBOTT",
+        "club": "",
+        "state": "",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 162.9,
+            "penalty": 16
+          },
+          {
+            "time": 157.05,
+            "penalty": 10
+          }
+        ]
+      },
+      {
+        "bib": 21,
+        "firstname": "Hunter",
+        "surname": "FLORISSON",
+        "club": "",
+        "state": "",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 114.2,
+            "penalty": 2
+          },
+          {
+            "time": 106.0,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 7,
+        "firstname": "Louis",
+        "surname": "VARTESI",
+        "club": "",
+        "state": "",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 170.75,
+            "penalty": 510
+          },
+          {
+            "status": "DNS"
+          }
+        ]
+      }
+    ],
+    "K1M": [
+      {
+        "bib": 9,
+        "firstname": "Bevan",
+        "surname": "DASHWOOD",
+        "club": "",
+        "state": "",
+        "age_category": "Vintage",
+        "runs": [
+          {
+            "time": 149.6,
+            "penalty": 0
+          },
+          {
+            "time": 152.05,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 10,
+        "firstname": "Terry",
+        "surname": "BOLLAND",
+        "club": "",
+        "state": "",
+        "age_category": "Vintage",
+        "runs": [
+          {
+            "time": 168.0,
+            "penalty": 6
+          },
+          {
+            "time": 156.35,
+            "penalty": 6
+          }
+        ]
+      },
+      {
+        "bib": 11,
+        "firstname": "Glen",
+        "surname": "SMITH",
+        "club": "",
+        "state": "",
+        "age_category": "Vintage",
+        "runs": [
+          {
+            "time": 185.2,
+            "penalty": 2
+          },
+          {
+            "time": 176.45,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 1,
+        "firstname": "Hunter",
+        "surname": "FLORISSON",
+        "club": "",
+        "state": "",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 98.8,
+            "penalty": 4
+          },
+          {
+            "time": 98.3,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 8,
+        "firstname": "Vojtech",
+        "surname": "PETRICEK",
+        "club": "",
+        "state": "",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 104.85,
+            "penalty": 4
+          },
+          {
+            "time": 108.95,
+            "penalty": 56
+          }
+        ]
+      },
+      {
+        "bib": 4,
+        "firstname": "David",
+        "surname": "BURDETT",
+        "club": "",
+        "state": "",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 112.35,
+            "penalty": 8
+          },
+          {
+            "time": 118.95,
+            "penalty": 8
+          }
+        ]
+      },
+      {
+        "bib": 3,
+        "firstname": "Cody",
+        "surname": "POPE",
+        "club": "",
+        "state": "",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 121.65,
+            "penalty": 0
+          },
+          {
+            "time": 118.65,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 2,
+        "firstname": "Rhys",
+        "surname": "MCRAE",
+        "club": "",
+        "state": "",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 99.45,
+            "penalty": 4
+          },
+          {
+            "time": 98.01,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 6,
+        "firstname": "Oliver",
+        "surname": "ABBOTT",
+        "club": "",
+        "state": "",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 136.05,
+            "penalty": 114
+          },
+          {
+            "time": 148.25,
+            "penalty": 12
+          }
+        ]
+      },
+      {
+        "bib": 7,
+        "firstname": "Louis",
+        "surname": "VARTESI",
+        "club": "",
+        "state": "",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 143.0,
+            "penalty": 612
+          },
+          {
+            "time": 164.95,
+            "penalty": 416
+          }
+        ]
+      }
+    ],
+    "C1W": [
+      {
+        "bib": 23,
+        "firstname": "Isabella",
+        "surname": "FLORISSON",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 155.0,
+            "penalty": 14
+          },
+          {
+            "status": "DNS"
+          }
+        ]
+      }
+    ],
+    "K1W": [
+      {
+        "bib": 5,
+        "firstname": "Isabella",
+        "surname": "FLORISSON",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 132.71,
+            "penalty": 8
+          },
+          {
+            "status": "DNS"
+          }
+        ]
+      }
+    ]
+  }
+}
