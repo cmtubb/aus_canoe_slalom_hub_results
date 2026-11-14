@@ -6,8 +6,8 @@
   },
   "generated": {
     "source": "2026/series.json",
-    "git_commit": "6ab3cc9bf3feb523cf74cd1c4307ffaeac93b842-dirty",
-    "date": "2026-11-14T18:41:51"
+    "git_commit": "1639be4da464fe85968a5a051d66e8aa179af2fc-dirty",
+    "date": "2026-11-14T19:21:47"
   },
   "rules": {
     "max_points": 1000,
@@ -60,9 +60,9 @@
       "id": "age_nationals_2026",
       "short": "AGE",
       "name": "Australia AGE Nationals",
-      "start_date": "2026-04-10",
-      "end_date": "2026-04-12",
-      "dates_display": "10 - 12 April 2026",
+      "start_date": "2027-01-10",
+      "end_date": "2027-01-12",
+      "dates_display": "10 - 12 January 2027",
       "status": "pending",
       "scaling": 1.0
     }
