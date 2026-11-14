@@ -84,6 +84,9 @@
   tbody tr td.best { background: var(--best); }
   sup.ov { color: var(--accent); font-weight: 700; cursor: help; }
   .narrow-only { display: none; }
+  .pickers { display: none; gap: 8px; margin-top: 12px; }
+  .pickers select { flex: 1; min-width: 0; padding: 8px; font-size: 16px; }
+  .how-link { display: none; white-space: nowrap; }
   .m td, .m th { padding: 4px 3px; }
   .m td:first-child, .m th:first-child { padding-left: 5px; }
   .m td:last-child, .m th:last-child { padding-right: 5px; }
@@ -95,8 +98,15 @@
   .m tbody:nth-of-type(even) td { background: var(--stripe); }
   .m tbody td.best { background: var(--best); }
   @media (max-width: 640px) {
+    body { padding-left: 12px; padding-right: 12px; }
+    .tabs { display: none; }
+    .pickers { display: flex; }
+    .search { max-width: none; font-size: 16px; }
+    #season { font-size: 16px; }
     .wide-only { display: none; }
     .narrow-only { display: block; }
+    .how-link { display: inline; }
+    table { font-size: 13px; }
     table.m { font-size: 12px; }
   }
   @media (max-width: 374px) {
@@ -110,6 +120,10 @@
   <label id="season-control">Season <select id="season" aria-label="Season"></select></label>
   <input class="search" id="search" type="search" placeholder="Search by name…" autocomplete="off" aria-label="Search by name">
   <label><input type="checkbox" id="detail"> Show details</label>
+</div>
+<div class="pickers">
+  <select id="view-select" aria-label="Results page"></select>
+  <select id="sub-select" aria-label="Class"></select>
 </div>
 <nav class="tabs" id="views"></nav>
 <nav class="tabs sub" id="subs"></nav>
@@ -227,13 +241,21 @@ function readUrl() {
     view: p.has('paddler') ? 'paddler' : p.has('race') ? 'race' : p.get('view') || 'standings',
     paddler: p.has('paddler') ? norm(p.get('paddler')) : '',
     race: p.get('race') || '',
-    sub: p.get('cls') || 'women',
+    picks: { standings: 'women', race: '' },
     q: p.get('q') || '',
     detail: p.has('detail') ? p.get('detail') === '1' : storedDetail(),
   });
   if (!seasons.some(s => s.dir === state.season)) state.season = seasons[0].dir;
   if (!['paddler', 'race'].includes(state.view) && !VIEWS.some(([key]) => key === state.view)) state.view = 'standings';
   if (state.view === 'paddler' && !state.paddler) state.view = 'standings';
+  if (p.get('cls')) state.picks[pageKind(state.view)] = p.get('cls');
+}
+
+// The standings and the race pages each remember their own selected tab
+const pageKind = view => view === 'race' ? 'race' : 'standings';
+
+function pickSub(key) {
+  setState({ picks: { ...state.picks, [pageKind(state.view)]: key } });
 }
 
 function urlFor(s) {
@@ -243,7 +265,8 @@ function urlFor(s) {
     if (s.season !== seasons[0].dir) p.set('season', s.season);
     if (s.view === 'race') p.set('race', s.race);
     else if (s.view !== 'standings') p.set('view', s.view);
-    if (s.sub !== 'women') p.set('cls', s.sub);
+    const pick = s.picks[pageKind(s.view)];
+    if ((s.view === 'standings' && pick !== 'women') || (s.view === 'race' && pick)) p.set('cls', pick);
     if (s.q) p.set('q', s.q);
   }
   if (s.detail) p.set('detail', '1');
@@ -279,13 +302,13 @@ function paddlerLink(e) {
 
 // A link to a race's results, adding a history entry like a paddler link
 function raceLink(season, raceId, cl, text, title) {
-  const to = { view: 'race', season, race: raceId, sub: cl, q: '' };
+  const to = () => ({ view: 'race', season, race: raceId, picks: { ...state.picks, race: cl }, q: '' });
   return h('a', {
-    href: urlFor({ ...state, ...to }), title,
+    href: urlFor({ ...state, ...to() }), title,
     onclick: ev => {
       if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
       ev.preventDefault();
-      setState(to, true);
+      setState(to(), true);
       window.scrollTo(0, 0);
     },
   }, text);
@@ -376,7 +399,7 @@ function racesTable(data) {
       state.detail && classes.map(cl => h('th', { title: `${cl}: number placed (N used)` }, cl)))),
     h('tbody', {}, data.races.map(race => h('tr', {},
       h('td', { class: 'l' }, race.status === 'completed'
-        ? raceLink(state.season, race.id, state.sub, `${race.name} (${race.short})`, 'Race results')
+        ? raceLink(state.season, race.id, state.picks.race, `${race.name} (${race.short})`, 'Race results')
         : `${race.name} (${race.short})`),
       h('td', { class: 'l' }, race.dates_display),
       h('td', { class: race.status === 'completed' ? 'l' : 'l dim' }, cap(race.status)),
@@ -418,6 +441,9 @@ function rankOf(r) {
   return [r.rank, h('span', { class: 'dim' }, ` of ${r.of}`)];
 }
 
+const toSeason = (season, g) =>
+  ({ view: 'standings', season: season.dir, picks: { ...state.picks, standings: g.group }, q: '' });
+
 function summaryTable(found) {
   const cell = r => r ? h('td', {}, rankOf(r)) : h('td', { class: 'dim' }, '–');
   const pts = (r, key) => r ? h('td', { class: 'total' }, String(r.entry[key])) : h('td', { class: 'dim' }, '–');
@@ -425,8 +451,8 @@ function summaryTable(found) {
     const [c1, k1] = g.classes;
     return h('tr', {},
       h('td', { class: 'l' }, h('a', {
-        href: urlFor({ ...state, view: 'standings', season: season.dir, sub: g.group, q: '' }),
-        onclick: ev => { ev.preventDefault(); setState({ view: 'standings', season: season.dir, sub: g.group, q: '' }, true); },
+        href: urlFor({ ...state, ...toSeason(season, g) }),
+        onclick: ev => { ev.preventDefault(); setState(toSeason(season, g), true); },
       }, season.label)),
       h('td', { class: 'l' }, `${cap(g.group)}`),
       cell(g), pts(g, 'avg'), cell(c1), pts(c1, 'total'), cell(k1), pts(k1, 'total'));
@@ -664,22 +690,24 @@ function raceView(data) {
   document.title = `${race.name} · ${data.series.name} ${data.series.year}`;
 
   const classes = RACE_CLASSES.filter(cl => data.classes[cl] && data.classes[cl].races[race.id]);
-  if (!classes.includes(state.sub)) state.sub = classes[0];
+  const sub = classes.includes(state.picks.race) ? state.picks.race : classes[0];
+  state.picks.race = sub;
   const q = norm(state.q);
   const match = e => !q || nameKey(e).includes(q);
 
   const subs = document.getElementById('subs');
   subs.hidden = !!q;
   subs.replaceChildren(...classes.map(cl =>
-    h('button', { 'aria-pressed': cl === state.sub, onclick: () => setState({ sub: cl }) }, cl)));
+    h('button', { 'aria-pressed': cl === sub, onclick: () => pickSub(cl) }, cl)));
+  renderPickers(q ? null : classes.map(cl => ({ key: cl, title: cl })), sub);
 
   const out = [
     back,
     h('h2', { class: 'race' }, race.name),
     h('p', { class: 'info' }, [race.dates_display, results.venue].filter(Boolean).join(' · ')),
-    h('p', { class: 'info' }, FORMAT_NOTES[results.format] || ''),
+    h('p', { class: 'info' }, FORMAT_NOTES[results.format] || '', ' ', howLink()),
   ];
-  for (const o of (data.points_overrides || []).filter(o => o.race === race.id && (q || o.class === state.sub))) {
+  for (const o of (data.points_overrides || []).filter(o => o.race === race.id && (q || o.class === sub))) {
     out.push(h('p', { class: 'note' }, h('sup', { class: 'ov' }, '*'), ` ${o.class} points override: ${o.reason}.`));
   }
 
@@ -688,9 +716,37 @@ function raceView(data) {
     if (!found.length) out.push(h('p', { class: 'empty' }, `No paddlers matching “${state.q}”.`));
     for (const [cl, el] of found) out.push(h('h3', {}, cl), el);
   } else {
-    out.push(raceSection(data, race, results, state.sub, match) || h('p', { class: 'empty' }, 'No results.'));
+    out.push(raceSection(data, race, results, sub, match) || h('p', { class: 'empty' }, 'No results.'));
   }
   return out;
+}
+
+// The tabs don't fit on a phone, so narrow screens use a page and a class dropdown
+function renderPickers(secs, sub) {
+  const data = seasonData[state.season];
+  const viewSelect = document.getElementById('view-select');
+  viewSelect.replaceChildren(
+    h('option', { value: 'standings' }, 'Standings'),
+    h('option', { value: 'races' }, 'Races'),
+    ...(data ? completedRaces(data) : []).map(r => h('option', { value: `race:${r.id}` }, `${r.short} results`)),
+    h('option', { value: 'about' }, 'How it works'),
+    state.view === 'paddler' && h('option', { value: 'paddler' }, 'Paddler results'));
+  viewSelect.value = state.view === 'race' ? `race:${state.race}` : state.view;
+
+  const subSelect = document.getElementById('sub-select');
+  subSelect.hidden = !secs;
+  if (secs) {
+    subSelect.replaceChildren(...secs.map(s => h('option', { value: s.key }, s.title)));
+    subSelect.value = sub;
+  }
+}
+
+// The page dropdown's "How it works" is easy to miss, so phones also get a link
+function howLink() {
+  return h('a', {
+    href: '?view=about', class: 'how-link',
+    onclick: ev => { ev.preventDefault(); setState({ view: 'about' }); window.scrollTo(0, 0); },
+  }, 'How it works');
 }
 
 function render() {
@@ -712,6 +768,7 @@ function render() {
   document.getElementById('about').hidden = !about;
   content.hidden = about;
   subs.hidden = true;
+  renderPickers(null);
   if (about) return;
 
   const needed = paddler ? seasons.map(s => s.dir) : [state.season];
@@ -752,27 +809,29 @@ function render() {
     : `Standings for ${data.series.year} after ${done} of ${data.races.length} races.`;
 
   if (state.view === 'races') {
-    content.replaceChildren(h('p', { class: 'info' }, `Races in the ${data.series.year} series. Select a race to see its full results.`), racesTable(data));
+    content.replaceChildren(h('p', { class: 'info' }, `Races in the ${data.series.year} series. Select a race to see its full results. `, howLink()), racesTable(data));
     return;
   }
 
   const secs = sections(data);
-  if (!secs.some(s => s.key === state.sub)) state.sub = secs[0].key;
+  const sub = secs.some(s => s.key === state.picks.standings) ? state.picks.standings : secs[0].key;
+  state.picks.standings = sub;
   const q = norm(state.q);
   const match = e => !q || nameKey(e).includes(q);
 
   subs.hidden = !!q;
   subs.replaceChildren(...secs.map(s =>
-    h('button', { 'aria-pressed': s.key === state.sub, onclick: () => setState({ sub: s.key }) }, s.title)));
+    h('button', { 'aria-pressed': s.key === sub, onclick: () => pickSub(s.key) }, s.title)));
+  renderPickers(q ? null : secs, sub);
 
   content.replaceChildren(h('p', { class: 'info' },
-    `${progress} Each race awards up to 1000 points per class. Select a name to see that paddler's results in every season.`));
+    `${progress} Each race awards up to 1000 points per class. Select a name to see that paddler's results in every season. `, howLink()));
   if (q) {
     const found = secs.map(s => [s, s.build(match)]).filter(([, el]) => el);
     if (!found.length) content.append(h('p', { class: 'empty' }, `No paddlers matching “${state.q}”.`));
     for (const [s, el] of found) content.append(h('h2', {}, s.title), ...[el].flat().filter(Boolean));
   } else {
-    const el = secs.find(s => s.key === state.sub).build(match);
+    const el = secs.find(s => s.key === sub).build(match);
     content.append(...[el || h('p', { class: 'empty' }, 'No results.')].flat().filter(Boolean));
   }
 }
@@ -796,6 +855,13 @@ async function main() {
 
   const search = document.getElementById('search');
   search.oninput = () => setState({ q: search.value, view: state.view === 'race' ? 'race' : 'standings' });
+
+  document.getElementById('view-select').onchange = e => {
+    const v = e.target.value;
+    if (v.startsWith('race:')) setState({ view: 'race', race: v.slice(5) });
+    else if (v !== 'paddler') setState({ view: v });
+  };
+  document.getElementById('sub-select').onchange = e => pickSub(e.target.value);
 
   window.onpopstate = () => { readUrl(); render(); };
 

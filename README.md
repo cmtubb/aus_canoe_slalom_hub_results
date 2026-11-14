@@ -237,6 +237,8 @@ Run the unit tests with `uv run python -m unittest discover -s tests`.
 
 Equal ranks are shown as "=13". The "Show details" setting is remembered in the browser.
 
+On phones (640px wide or less), the page and class tabs become two dropdowns, a "How it works" link is added to the line above the tables, and race results show one line per run under each paddler's name. The standings and the race pages each remember their own selected class.
+
 Useful page URLs for testing:
 
 - `?season=2023&cls=K1M&detail=1`: a season and class, with details
