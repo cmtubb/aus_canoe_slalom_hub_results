@@ -6,8 +6,8 @@
   },
   "generated": {
     "source": "2024/series.json",
-    "git_commit": "b14f00de433c161fc3c47f40a9f76ecfb9e3afee-dirty",
-    "date": "2026-11-14T16:40:44"
+    "git_commit": "1271db4330ae3f4b30dbedd665e4d38b6248b54d-dirty",
+    "date": "2026-11-14T17:02:17"
   },
   "rules": {
     "max_points": 1000,
