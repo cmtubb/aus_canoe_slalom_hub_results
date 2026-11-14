@@ -5,9 +5,9 @@
     "year": "2023/2024"
   },
   "generated": {
-    "source": "raw_results_2023/races.json",
-    "git_commit": "fd8d24f35acd8acce726fd0f1c50948714070192",
-    "date": "2026-09-27T16:19:03"
+    "source": "2023/series.json",
+    "git_commit": "b14f00de433c161fc3c47f40a9f76ecfb9e3afee-dirty",
+    "date": "2026-11-14T16:40:44"
   },
   "rules": {
     "max_points": 1000,
@@ -5885,6 +5885,7 @@
       ]
     }
   },
+  "points_overrides": [],
   "possible_duplicates": {
     "C1M": [
       [

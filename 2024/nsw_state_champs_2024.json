@@ -1,0 +1,1056 @@
+{
+  "id": "nsw_state_champs_2024",
+  "venue": "Penrith NSW",
+  "format": "best_of_two",
+  "source": "nsw_state_slalom_results.pdf",
+  "classes": {
+    "C1M": [
+      {
+        "bib": 100,
+        "firstname": "Declan",
+        "surname": "ELLIS",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 79.41,
+            "penalty": 2
+          },
+          {
+            "time": 79.65,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 101,
+        "firstname": "Ewan",
+        "surname": "MACKIE",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 88.25,
+            "penalty": 10
+          },
+          {
+            "time": 86.0,
+            "penalty": 6
+          }
+        ]
+      },
+      {
+        "bib": 102,
+        "firstname": "Bradley",
+        "surname": "WOOD",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 94.06,
+            "penalty": 2
+          },
+          {
+            "time": 92.86,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 103,
+        "firstname": "Matt",
+        "surname": "DELANEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 91.29,
+            "penalty": 6
+          },
+          {
+            "time": 91.1,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 123,
+        "firstname": "Oscar",
+        "surname": "KAPERS",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 95.88,
+            "penalty": 2
+          },
+          {
+            "status": "DNF",
+            "penalty": 152
+          }
+        ]
+      },
+      {
+        "bib": 105,
+        "firstname": "Luke",
+        "surname": "DELANEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 92.07,
+            "penalty": 6
+          },
+          {
+            "time": 103.29,
+            "penalty": 12
+          }
+        ]
+      },
+      {
+        "bib": 107,
+        "firstname": "Tom",
+        "surname": "BILLAUT",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 110.03,
+            "penalty": 2
+          },
+          {
+            "time": 103.47,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 104,
+        "firstname": "Aidan",
+        "surname": "MENZIES",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 105.86,
+            "penalty": 4
+          },
+          {
+            "time": 103.56,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 110,
+        "firstname": "Alex",
+        "surname": "XU",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 118.54,
+            "penalty": 2
+          },
+          {
+            "time": 116.59,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 106,
+        "firstname": "Oliver",
+        "surname": "GEORGE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 115.75,
+            "penalty": 4
+          },
+          {
+            "time": 123.9,
+            "penalty": 62
+          }
+        ]
+      },
+      {
+        "bib": 108,
+        "firstname": "Jye",
+        "surname": "DEAVES",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 136.73,
+            "penalty": 10
+          },
+          {
+            "time": 135.51,
+            "penalty": 8
+          }
+        ]
+      },
+      {
+        "bib": 111,
+        "firstname": "William",
+        "surname": "CASSERLEY",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 137.64,
+            "penalty": 12
+          },
+          {
+            "status": "DNS"
+          }
+        ]
+      },
+      {
+        "bib": 109,
+        "firstname": "Joseph",
+        "surname": "MENZIES",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 226.59,
+            "penalty": 106
+          },
+          {
+            "status": "DNS"
+          }
+        ]
+      }
+    ],
+    "K1M": [
+      {
+        "bib": 17,
+        "firstname": "Declan",
+        "surname": "ELLIS",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 76.72,
+            "penalty": 0
+          },
+          {
+            "time": 75.3,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 18,
+        "firstname": "Ewan",
+        "surname": "MACKIE",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 79.01,
+            "penalty": 12
+          },
+          {
+            "time": 80.14,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 19,
+        "firstname": "Bradley",
+        "surname": "WOOD",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 80.77,
+            "penalty": 4
+          },
+          {
+            "time": 80.65,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 10,
+        "firstname": "Brian",
+        "surname": "CORK",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 89.68,
+            "penalty": 0
+          },
+          {
+            "time": 87.47,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 12,
+        "firstname": "Chris",
+        "surname": "TUBB",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 87.7,
+            "penalty": 0
+          },
+          {
+            "time": 86.16,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 20,
+        "firstname": "Matt",
+        "surname": "DELANEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 85.8,
+            "penalty": 2
+          },
+          {
+            "time": 85.82,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 6,
+        "firstname": "Kevin",
+        "surname": "SONGBERG",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Legends",
+        "runs": [
+          {
+            "time": 88.57,
+            "penalty": 0
+          },
+          {
+            "time": 87.06,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 22,
+        "firstname": "Luke",
+        "surname": "DELANEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 90.84,
+            "penalty": 0
+          },
+          {
+            "time": 89.64,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 24,
+        "firstname": "Tom",
+        "surname": "BILLAUT",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 92.81,
+            "penalty": 4
+          },
+          {
+            "time": 94.16,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 11,
+        "firstname": "Peter",
+        "surname": "MENZIES",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 99.28,
+            "penalty": 4
+          },
+          {
+            "time": 96.86,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 23,
+        "firstname": "Oliver",
+        "surname": "GEORGE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 93.15,
+            "penalty": 52
+          },
+          {
+            "time": 95.06,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 21,
+        "firstname": "Aidan",
+        "surname": "MENZIES",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 99.47,
+            "penalty": 10
+          },
+          {
+            "time": 95.12,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 9,
+        "firstname": "Paul",
+        "surname": "MOSES",
+        "club": "CSKC",
+        "state": "NSW",
+        "age_category": "Vintage",
+        "runs": [
+          {
+            "time": 100.65,
+            "penalty": 0
+          },
+          {
+            "time": 99.46,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 27,
+        "firstname": "Alex",
+        "surname": "XU",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 104.27,
+            "penalty": 6
+          },
+          {
+            "time": 101.17,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 26,
+        "firstname": "Joseph",
+        "surname": "MENZIES",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 106.58,
+            "penalty": 2
+          },
+          {
+            "time": 106.28,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 8,
+        "firstname": "Richard",
+        "surname": "WILLIAMS",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "Vintage",
+        "runs": [
+          {
+            "time": 111.28,
+            "penalty": 4
+          },
+          {
+            "time": 109.02,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 7,
+        "firstname": "Laurie",
+        "surname": "LAWRENCE",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 118.65,
+            "penalty": 2
+          },
+          {
+            "time": 109.04,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 28,
+        "firstname": "William",
+        "surname": "CASSERLEY",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 109.24,
+            "penalty": 8
+          },
+          {
+            "time": 114.82,
+            "penalty": 8
+          }
+        ]
+      },
+      {
+        "bib": 25,
+        "firstname": "Jye",
+        "surname": "DEAVES",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 116.96,
+            "penalty": 10
+          },
+          {
+            "time": 123.25,
+            "penalty": 8
+          }
+        ]
+      },
+      {
+        "bib": 15,
+        "firstname": "Torsten",
+        "surname": "LACHMANN",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 136.64,
+            "penalty": 8
+          },
+          {
+            "time": 130.94,
+            "penalty": 10
+          }
+        ]
+      }
+    ],
+    "C1W": [
+      {
+        "bib": 112,
+        "firstname": "Georgia",
+        "surname": "RANKIN",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 95.51,
+            "penalty": 2
+          },
+          {
+            "time": 95.91,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 113,
+        "firstname": "Ally",
+        "surname": "CORK",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 97.97,
+            "penalty": 4
+          },
+          {
+            "time": 98.3,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 115,
+        "firstname": "Ada",
+        "surname": "MACKIE",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 94.61,
+            "penalty": 4
+          },
+          {
+            "time": 92.88,
+            "penalty": 8
+          }
+        ]
+      },
+      {
+        "bib": 114,
+        "firstname": "Maggie",
+        "surname": "CARR",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 105.8,
+            "penalty": 0
+          },
+          {
+            "time": 105.48,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 116,
+        "firstname": "Kate",
+        "surname": "DELANEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 110.3,
+            "penalty": 0
+          },
+          {
+            "time": 106.86,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 120,
+        "firstname": "Lucy",
+        "surname": "CASSERLEY",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 101.04,
+            "penalty": 8
+          },
+          {
+            "time": 101.87,
+            "penalty": 14
+          }
+        ]
+      },
+      {
+        "bib": 119,
+        "firstname": "Lara",
+        "surname": "WYLIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 109.78,
+            "penalty": 6
+          },
+          {
+            "time": 113.01,
+            "penalty": 6
+          }
+        ]
+      },
+      {
+        "bib": 118,
+        "firstname": "Stella",
+        "surname": "DAVIES",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 119.81,
+            "penalty": 0
+          },
+          {
+            "time": 121.98,
+            "penalty": 10
+          }
+        ]
+      },
+      {
+        "bib": 121,
+        "firstname": "Khloe",
+        "surname": "SCHWARZER",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 146.12,
+            "penalty": 10
+          },
+          {
+            "time": 133.13,
+            "penalty": 8
+          }
+        ]
+      },
+      {
+        "bib": 117,
+        "firstname": "Madeline",
+        "surname": "BLACKLOCK",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 142.74,
+            "penalty": 58
+          },
+          {
+            "time": 143.73,
+            "penalty": 10
+          }
+        ]
+      }
+    ],
+    "K1W": [
+      {
+        "bib": 30,
+        "firstname": "Georgia",
+        "surname": "RANKIN",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 84.41,
+            "penalty": 0
+          },
+          {
+            "status": "DNS"
+          }
+        ]
+      },
+      {
+        "bib": 35,
+        "firstname": "Ada",
+        "surname": "MACKIE",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 99.29,
+            "penalty": 2
+          },
+          {
+            "time": 92.31,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 40,
+        "firstname": "Lucy",
+        "surname": "CASSERLEY",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 97.25,
+            "penalty": 10
+          },
+          {
+            "time": 97.51,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 34,
+        "firstname": "Maggie",
+        "surname": "CARR",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 99.61,
+            "penalty": 4
+          },
+          {
+            "time": 108.9,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 33,
+        "firstname": "Ally",
+        "surname": "CORK",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 96.54,
+            "penalty": 8
+          },
+          {
+            "time": 97.81,
+            "penalty": 50
+          }
+        ]
+      },
+      {
+        "bib": 39,
+        "firstname": "Lara",
+        "surname": "WYLIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 95.76,
+            "penalty": 10
+          },
+          {
+            "time": 100.49,
+            "penalty": 6
+          }
+        ]
+      },
+      {
+        "bib": 36,
+        "firstname": "Kate",
+        "surname": "DELANEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 107.6,
+            "penalty": 6
+          },
+          {
+            "time": 107.11,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 37,
+        "firstname": "Madeline",
+        "surname": "BLACKLOCK",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 107.09,
+            "penalty": 6
+          },
+          {
+            "time": 111.28,
+            "penalty": 6
+          }
+        ]
+      },
+      {
+        "bib": 38,
+        "firstname": "Stella",
+        "surname": "DAVIES",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 104.14,
+            "penalty": 10
+          },
+          {
+            "time": 108.31,
+            "penalty": 10
+          }
+        ]
+      },
+      {
+        "bib": 31,
+        "firstname": "Perri",
+        "surname": "HUTCHINGS",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 113.31,
+            "penalty": 2
+          },
+          {
+            "status": "DNS"
+          }
+        ]
+      },
+      {
+        "bib": 41,
+        "firstname": "Khloe",
+        "surname": "SCHWARZER",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 113.3,
+            "penalty": 16
+          },
+          {
+            "time": 114.3,
+            "penalty": 8
+          }
+        ]
+      },
+      {
+        "bib": 32,
+        "firstname": "Eliza",
+        "surname": "HERBERT",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 146.94,
+            "penalty": 16
+          },
+          {
+            "time": 125.1,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 42,
+        "firstname": "Pippa",
+        "surname": "FREEMAN",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 129.5,
+            "penalty": 66
+          },
+          {
+            "time": 132.18,
+            "penalty": 64
+          }
+        ]
+      },
+      {
+        "bib": 43,
+        "firstname": "Sophie",
+        "surname": "LENNIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 137.36,
+            "penalty": 114
+          },
+          {
+            "time": 140.09,
+            "penalty": 114
+          }
+        ]
+      },
+      {
+        "bib": 29,
+        "firstname": "Tracy",
+        "surname": "DEARHAM",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "Masters",
+        "runs": [
+          {
+            "time": 138.49,
+            "penalty": 166
+          },
+          {
+            "time": 150.92,
+            "penalty": 110
+          }
+        ]
+      }
+    ]
+  }
+}

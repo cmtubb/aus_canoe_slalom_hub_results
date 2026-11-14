@@ -1,0 +1,520 @@
+{
+  "id": "nsw_state_champs_2023",
+  "venue": "",
+  "format": "placings",
+  "source": "nsw_state_champs_2023.json",
+  "classes": {
+    "C1M": [
+      {
+        "bib": null,
+        "firstname": "Kaylen",
+        "surname": "BASSETT",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Open",
+        "place": 1
+      },
+      {
+        "bib": null,
+        "firstname": "Declan",
+        "surname": "ELLIS",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U23",
+        "place": 2
+      },
+      {
+        "bib": null,
+        "firstname": "Lachlan",
+        "surname": "BASSETT",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Open",
+        "place": 3
+      },
+      {
+        "bib": null,
+        "firstname": "Dominic",
+        "surname": "CURTIN",
+        "club": "",
+        "state": "",
+        "age_category": "U18",
+        "place": 4
+      },
+      {
+        "bib": null,
+        "firstname": "Ewan",
+        "surname": "MACKIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U23",
+        "place": 5
+      },
+      {
+        "bib": null,
+        "firstname": "Lucien",
+        "surname": "DELFOUR",
+        "club": "",
+        "state": "",
+        "age_category": "Masters",
+        "place": 6
+      },
+      {
+        "bib": null,
+        "firstname": "Bradley",
+        "surname": "WOOD",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U18",
+        "place": 7
+      },
+      {
+        "bib": null,
+        "firstname": "Josh",
+        "surname": "JORDAN",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 8
+      },
+      {
+        "bib": null,
+        "firstname": "Matt",
+        "surname": "DELANEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "place": 9
+      },
+      {
+        "bib": null,
+        "firstname": "Luke",
+        "surname": "DELANEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U14",
+        "place": 10
+      },
+      {
+        "bib": null,
+        "firstname": "Colin",
+        "surname": "CALDERWOOD",
+        "club": "",
+        "state": "",
+        "age_category": "Vintage",
+        "place": 11
+      },
+      {
+        "bib": null,
+        "firstname": "Tom",
+        "surname": "BILLAUT",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "place": 12
+      },
+      {
+        "bib": null,
+        "firstname": "Jye",
+        "surname": "DEAVES",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "place": 13
+      }
+    ],
+    "K1M": [
+      {
+        "bib": null,
+        "firstname": "Lucien",
+        "surname": "DELFOUR",
+        "club": "",
+        "state": "",
+        "age_category": "Masters",
+        "place": 1
+      },
+      {
+        "bib": null,
+        "firstname": "Declan",
+        "surname": "ELLIS",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U23",
+        "place": 2
+      },
+      {
+        "bib": null,
+        "firstname": "Dominic",
+        "surname": "CURTIN",
+        "club": "",
+        "state": "",
+        "age_category": "U18",
+        "place": 3
+      },
+      {
+        "bib": null,
+        "firstname": "Merle",
+        "surname": "LONG",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U18",
+        "place": 4
+      },
+      {
+        "bib": null,
+        "firstname": "Bradley",
+        "surname": "WOOD",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U18",
+        "place": 5
+      },
+      {
+        "bib": null,
+        "firstname": "Sevan",
+        "surname": "BILLAUT",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "place": 6
+      },
+      {
+        "bib": null,
+        "firstname": "Craig",
+        "surname": "ELLIOTT",
+        "club": "",
+        "state": "",
+        "age_category": "Veterans",
+        "place": 7
+      },
+      {
+        "bib": null,
+        "firstname": "Chris",
+        "surname": "TUBB",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Veterans",
+        "place": 8
+      },
+      {
+        "bib": null,
+        "firstname": "Kevin",
+        "surname": "SONGBERG",
+        "club": "RCC",
+        "state": "NSW",
+        "age_category": "Legends",
+        "place": 9
+      },
+      {
+        "bib": null,
+        "firstname": "James",
+        "surname": "DEAKIN",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 10
+      },
+      {
+        "bib": null,
+        "firstname": "Matt",
+        "surname": "DELANEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "place": 11
+      },
+      {
+        "bib": null,
+        "firstname": "Luke",
+        "surname": "DELANEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U14",
+        "place": 12
+      },
+      {
+        "bib": null,
+        "firstname": "Gary",
+        "surname": "NELSON",
+        "club": "ICC",
+        "state": "NSW",
+        "age_category": "Legends",
+        "place": 13
+      },
+      {
+        "bib": null,
+        "firstname": "Ewan",
+        "surname": "MACKIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U23",
+        "place": 14
+      },
+      {
+        "bib": null,
+        "firstname": "Josh",
+        "surname": "JORDAN",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 15
+      },
+      {
+        "bib": null,
+        "firstname": "Chris",
+        "surname": "DELANEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "Veterans",
+        "place": 16
+      },
+      {
+        "bib": null,
+        "firstname": "Tom",
+        "surname": "BILLAUT",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "place": 17
+      },
+      {
+        "bib": null,
+        "firstname": "Stephen",
+        "surname": "TUBB",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "place": 18
+      },
+      {
+        "bib": null,
+        "firstname": "Colin",
+        "surname": "CALDERWOOD",
+        "club": "",
+        "state": "",
+        "age_category": "Vintage",
+        "place": 19
+      },
+      {
+        "bib": null,
+        "firstname": "Ethan",
+        "surname": "ASHTYN-SMITH",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 20
+      },
+      {
+        "bib": null,
+        "firstname": "Jye",
+        "surname": "DEAVES",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "place": 21
+      }
+    ],
+    "C1W": [
+      {
+        "bib": null,
+        "firstname": "Alexandra",
+        "surname": "ZARB",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 1
+      },
+      {
+        "bib": null,
+        "firstname": "Georgia",
+        "surname": "RANKIN",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Open",
+        "place": 2
+      },
+      {
+        "bib": null,
+        "firstname": "Emily",
+        "surname": "HOGBIN-BOURNE",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 3
+      },
+      {
+        "bib": null,
+        "firstname": "Ada",
+        "surname": "MACKIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "place": 4
+      },
+      {
+        "bib": null,
+        "firstname": "Maggie",
+        "surname": "CARR",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "place": 5
+      },
+      {
+        "bib": null,
+        "firstname": "Kate",
+        "surname": "DELANEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U14",
+        "place": 6
+      }
+    ],
+    "K1W": [
+      {
+        "bib": null,
+        "firstname": "Georgia",
+        "surname": "RANKIN",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Open",
+        "place": 1
+      },
+      {
+        "bib": null,
+        "firstname": "Ada",
+        "surname": "MACKIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "place": 2
+      },
+      {
+        "bib": null,
+        "firstname": "Alexandra",
+        "surname": "ZARB",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 3
+      },
+      {
+        "bib": null,
+        "firstname": "Emily",
+        "surname": "HOGBIN-BOURNE",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 4
+      },
+      {
+        "bib": null,
+        "firstname": "Maggie",
+        "surname": "CARR",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "place": 5
+      },
+      {
+        "bib": null,
+        "firstname": "Kate",
+        "surname": "DELANEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U14",
+        "place": 6
+      },
+      {
+        "bib": null,
+        "firstname": "Louise",
+        "surname": "GATES",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 7
+      },
+      {
+        "bib": null,
+        "firstname": "Perri",
+        "surname": "HUTCHINGS",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Open",
+        "place": 8
+      },
+      {
+        "bib": null,
+        "firstname": "Eliza",
+        "surname": "HERBERT",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Open",
+        "place": 9
+      },
+      {
+        "bib": null,
+        "firstname": "Emma",
+        "surname": "STEEL",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 10
+      },
+      {
+        "bib": null,
+        "firstname": "Khloe",
+        "surname": "SCHWARZER",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "place": 11
+      },
+      {
+        "bib": null,
+        "firstname": "Lara",
+        "surname": "WYLIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "place": 12
+      },
+      {
+        "bib": null,
+        "firstname": "Sophie",
+        "surname": "LENNIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "place": 13
+      },
+      {
+        "bib": null,
+        "firstname": "Lucy",
+        "surname": "CASSERLEY",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "place": 14
+      },
+      {
+        "bib": null,
+        "firstname": "Madeline",
+        "surname": "BLACKLOCK",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "place": 15
+      },
+      {
+        "bib": null,
+        "firstname": "Pippa",
+        "surname": "FREEMAN",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "place": 16
+      }
+    ]
+  }
+}

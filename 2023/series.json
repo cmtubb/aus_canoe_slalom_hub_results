@@ -1,0 +1,52 @@
+{
+  "name": "Australian Canoe Slalom Hub Series",
+  "year": "2023/2024",
+  "races": [
+    {
+      "id": "wa_state_champs_2023",
+      "short": "WA",
+      "name": "Western Australia State Championships",
+      "start_date": "2023-08-26",
+      "end_date": "2023-08-27",
+      "scaling": 1.0,
+      "results": "wa_state_champs_2023.json"
+    },
+    {
+      "id": "nsw_state_champs_2023",
+      "short": "NSW",
+      "name": "New South Wales State Championships",
+      "start_date": "2023-10-28",
+      "end_date": "2023-10-29",
+      "scaling": 1.0,
+      "results": "nsw_state_champs_2023.json"
+    },
+    {
+      "id": "vic_state_champs_2023",
+      "short": "VIC",
+      "name": "Victoria State Championships",
+      "start_date": "2023-11-25",
+      "end_date": "2023-11-26",
+      "scaling": 1.0,
+      "results": "vic_state_champs_2023.json"
+    },
+    {
+      "id": "tas_state_champs_2023",
+      "short": "TAS",
+      "name": "Tasmania State Championships",
+      "start_date": "2023-12-01",
+      "end_date": "2023-12-03",
+      "scaling": 1.0,
+      "results": "tas_state_champs_2023.json"
+    },
+    {
+      "id": "age_nationals_2024",
+      "short": "AGE",
+      "name": "Australia AGE Nationals",
+      "start_date": "2024-01-04",
+      "end_date": "2024-01-07",
+      "scaling": 1.0,
+      "results": "age_nationals_2024.json"
+    }
+  ],
+  "points_overrides": []
+}

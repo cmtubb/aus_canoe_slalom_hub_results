@@ -15,6 +15,7 @@
     --text: #1f2933;
     --bg: #ffffff;
     --stripe: #f7f9fb;
+    --best: #fff4c2;
   }
   * { box-sizing: border-box; }
   [hidden] { display: none !important; }
@@ -75,6 +76,32 @@
   .about p, .about li { margin: 6px 0; }
   .about ul { padding-left: 20px; }
   code { background: var(--stripe); padding: 1px 4px; border-radius: 3px; }
+  th a, h4 a { color: inherit; }
+
+  /* Race results */
+  h2.race { font-size: 1.15rem; margin-top: 12px; }
+  thead tr:first-child th[colspan] { border-left: 2px solid var(--bg); }
+  tbody tr td.best { background: var(--best); }
+  sup.ov { color: var(--accent); font-weight: 700; cursor: help; }
+  .narrow-only { display: none; }
+  .m td, .m th { padding: 4px 3px; }
+  .m td:first-child, .m th:first-child { padding-left: 5px; }
+  .m td:last-child, .m th:last-child { padding-right: 5px; }
+  .m td.name { white-space: normal; min-width: 5em; }
+  .m td.sub { font-size: 0.85em; color: var(--muted); }
+  .m td.run { color: var(--muted); font-size: 0.8rem; text-align: center; }
+  .m tbody tr:not(:last-child) td:not([rowspan]) { border-bottom: none; }
+  .m tbody tr td { background: var(--bg); }
+  .m tbody:nth-of-type(even) td { background: var(--stripe); }
+  .m tbody td.best { background: var(--best); }
+  @media (max-width: 640px) {
+    .wide-only { display: none; }
+    .narrow-only { display: block; }
+    table.m { font-size: 12px; }
+  }
+  @media (max-width: 374px) {
+    table.m { font-size: 11px; }
+  }
 </style>
 </head>
 <body>
@@ -111,6 +138,16 @@
   <p><code>Avg = (C1 total + K1 total) ÷ 2</code>, rounded to the nearest whole number (halves round up).</p>
   <p>If you race only one class, the other counts as 0, so paddling both classes is rewarded.</p>
 
+  <h2>Race results</h2>
+  <p>Select a race on the Races tab, or a race heading in the standings, to see its full results: each paddler's runs, penalties and the points they scored.</p>
+  <ul>
+    <li><strong>Best of two runs:</strong> each run's total is its time plus penalties, and paddlers are ranked on their better run.</li>
+    <li><strong>Heats and finals</strong> (Victoria): paddlers are ranked in order of the A final, then the B final, then everyone else on their better heat run. A paddler who doesn't complete their final run is ranked on their heats.</li>
+    <li>Equal totals (to 0.01 s) share the rank. Paddlers without a completed run aren't ranked and get no points.</li>
+    <li>For the 2023/2024 season only the finishing places are available.</li>
+    <li>In a few races the published points were based on a different order from these rules. Those points are kept and marked with <sup class="ov">*</sup>.</li>
+  </ul>
+
   <h2>Paddler results</h2>
   <p>Select any name to see that paddler's results in every season: their combined and class ranks, and their place and points at each race.</p>
 
@@ -131,7 +168,10 @@ const state = {};
 
 let seasons = [];
 const seasonData = {};
+const raceData = {};
 const loading = {};
+
+const RACE_CLASSES = ['C1M', 'K1M', 'C1W', 'K1W'];
 
 function storedDetail() {
   try { return localStorage.getItem('detail') === '1'; } catch { return false; }
@@ -164,23 +204,35 @@ async function getJSON(file) {
 }
 
 function loadSeason(dir) {
-  const s = seasons.find(x => x.dir === dir);
-  loading[dir] = loading[dir] || getJSON(`${s.dir}/${s.file}`).then(d => { seasonData[dir] = d; });
+  loading[dir] = loading[dir] || getJSON(`${dir}/points.json`).then(d => { seasonData[dir] = d; });
   return loading[dir];
+}
+
+// A race's results file is named in the season's series.json
+function loadRace(dir, raceId) {
+  const key = `${dir}/${raceId}`;
+  loading[`${dir}/series`] = loading[`${dir}/series`] || getJSON(`${dir}/series.json`);
+  loading[key] = loading[key] || loading[`${dir}/series`].then(series => {
+    const race = series.races.find(r => r.id === raceId);
+    if (!race || !race.results) throw new Error(`no results for ${raceId}`);
+    return getJSON(`${dir}/${race.results}`);
+  }).then(d => { raceData[key] = d; });
+  return loading[key];
 }
 
 function readUrl() {
   const p = new URLSearchParams(location.search);
   Object.assign(state, {
     season: p.get('season'),
-    view: p.has('paddler') ? 'paddler' : p.get('view') || 'standings',
+    view: p.has('paddler') ? 'paddler' : p.has('race') ? 'race' : p.get('view') || 'standings',
     paddler: p.has('paddler') ? norm(p.get('paddler')) : '',
+    race: p.get('race') || '',
     sub: p.get('cls') || 'women',
     q: p.get('q') || '',
     detail: p.has('detail') ? p.get('detail') === '1' : storedDetail(),
   });
   if (!seasons.some(s => s.dir === state.season)) state.season = seasons[0].dir;
-  if (state.view !== 'paddler' && !VIEWS.some(([key]) => key === state.view)) state.view = 'standings';
+  if (!['paddler', 'race'].includes(state.view) && !VIEWS.some(([key]) => key === state.view)) state.view = 'standings';
   if (state.view === 'paddler' && !state.paddler) state.view = 'standings';
 }
 
@@ -189,7 +241,8 @@ function urlFor(s) {
   if (s.view === 'paddler') p.set('paddler', s.paddler);
   else {
     if (s.season !== seasons[0].dir) p.set('season', s.season);
-    if (s.view !== 'standings') p.set('view', s.view);
+    if (s.view === 'race') p.set('race', s.race);
+    else if (s.view !== 'standings') p.set('view', s.view);
     if (s.sub !== 'women') p.set('cls', s.sub);
     if (s.q) p.set('q', s.q);
   }
@@ -224,6 +277,20 @@ function paddlerLink(e) {
   }, fullName(e));
 }
 
+// A link to a race's results, adding a history entry like a paddler link
+function raceLink(season, raceId, cl, text, title) {
+  const to = { view: 'race', season, race: raceId, sub: cl, q: '' };
+  return h('a', {
+    href: urlFor({ ...state, ...to }), title,
+    onclick: ev => {
+      if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+      ev.preventDefault();
+      setState(to, true);
+      window.scrollTo(0, 0);
+    },
+  }, text);
+}
+
 function rankLabels(rows) {
   const counts = {};
   for (const r of rows) counts[r.rank] = (counts[r.rank] || 0) + 1;
@@ -239,7 +306,7 @@ function standingsTable(rows, cols, totalLabel, totalKey, match) {
   return h('div', { class: 'scroll' }, h('table', {},
     h('thead', {}, h('tr', {},
       h('th', {}, 'Rank'), h('th', { class: 'l' }, 'Athlete'),
-      cols.map(c => h('th', { title: c.title }, c.label)),
+      cols.map(c => h('th', { title: c.head ? null : c.title }, c.head || c.label)),
       h('th', {}, totalLabel))),
     h('tbody', {}, shown.map(r => h('tr', {},
       h('td', {}, label(r)),
@@ -259,7 +326,7 @@ function raceCards(data, cl, match) {
     const shown = res.placings.filter(match);
     if (!shown.length) return null;
     return h('div', { class: 'card' },
-      h('h4', {}, `${race.short} · ${race.name}`),
+      h('h4', {}, raceLink(state.season, race.id, cl, `${race.short} · ${race.name}`, 'Race results')),
       h('p', {}, fieldNote(res)),
       h('div', { class: 'scroll' }, h('table', {},
         h('thead', {}, h('tr', {}, h('th', {}, 'Place'), h('th', { class: 'l' }, 'Athlete'), h('th', {}, 'Points'))),
@@ -271,7 +338,9 @@ function raceCards(data, cl, match) {
 
 function classSection(data, cl, match) {
   const table = standingsTable(data.classes[cl].standings,
-    completedRaces(data).map(r => ({ label: r.short, title: r.name, value: e => e.points[r.id] })),
+    completedRaces(data).map(r => ({
+      label: r.short, value: e => e.points[r.id],
+      head: raceLink(state.season, r.id, cl, r.short, `${r.name}: race results`) })),
     'Total', 'total', match);
   if (!table || !state.detail) return table;
   return [
@@ -306,7 +375,9 @@ function racesTable(data) {
       h('th', { class: 'l' }, 'Race'), h('th', { class: 'l' }, 'Dates'), h('th', { class: 'l' }, 'Status'),
       state.detail && classes.map(cl => h('th', { title: `${cl}: number placed (N used)` }, cl)))),
     h('tbody', {}, data.races.map(race => h('tr', {},
-      h('td', { class: 'l' }, `${race.name} (${race.short})`),
+      h('td', { class: 'l' }, race.status === 'completed'
+        ? raceLink(state.season, race.id, state.sub, `${race.name} (${race.short})`, 'Race results')
+        : `${race.name} (${race.short})`),
       h('td', { class: 'l' }, race.dates_display),
       h('td', { class: race.status === 'completed' ? 'l' : 'l dim' }, cap(race.status)),
       state.detail && classes.map(cl => {
@@ -369,7 +440,7 @@ function summaryTable(found) {
     h('tbody', {}, rows)));
 }
 
-function paddlerClassCard(c) {
+function paddlerClassCard(season, c) {
   return h('div', { class: 'card' },
     h('h4', {}, c.cl),
     h('p', {}, 'Rank ', rankOf(c), ` · Total ${c.entry.total}`),
@@ -379,7 +450,7 @@ function paddlerClassCard(c) {
         state.detail && [h('th', {}, 'Field'), h('th', {}, 'N')],
         h('th', {}, 'Points'))),
       h('tbody', {}, c.races.map(({ race, res, placing }) => h('tr', {},
-        h('td', { class: 'l', title: `${race.name}, ${race.dates_display}` }, race.short),
+        h('td', { class: 'l' }, raceLink(season.dir, race.id, c.cl, race.short, `${race.name}, ${race.dates_display}: race results`)),
         placing ? h('td', {}, String(placing.place)) : h('td', { class: 'dim' }, '–'),
         state.detail && [h('td', {}, String(res.field_size)), h('td', {}, String(res.n_used))],
         h('td', { class: placing ? null : 'dim' }, String(placing ? placing.points : 0))))),
@@ -408,10 +479,218 @@ function paddlerView(key) {
       h('h3', {}, `${season.label} season`),
       groups.map(g => [
         h('p', { class: 'note' }, `${cap(g.group)} combined: rank `, rankOf(g), ` · Avg ${g.entry.avg}`),
-        h('div', { class: 'cards' }, g.classes.filter(Boolean).map(paddlerClassCard)),
+        h('div', { class: 'cards' }, g.classes.filter(Boolean).map(c => paddlerClassCard(season, c))),
       ]),
     ]),
   ];
+}
+
+// ---- Race results ----
+//
+// Ranked the same way as ranking.py: best of two runs, heats and finals (A
+// final, then B final, then the best heat run), or the given placings. Totals
+// are compared in hundredths of a second, equal totals share the rank.
+
+const hundredths = t => Math.round(t * 100);
+const fmt = t => (t / 100).toFixed(2);
+
+function runTotal(run) {
+  return !run || run.status || run.time == null ? null : hundredths(run.time + (run.penalty || 0));
+}
+
+function bestIndex(totals, indexes) {
+  let best = -1;
+  for (const i of indexes) if (totals[i] !== null && (best < 0 || totals[i] < totals[best])) best = i;
+  return best;
+}
+
+// Groups of rows already in order, ties share a rank only within a group
+function rankGroups(groups) {
+  let n = 0;
+  for (const g of groups) {
+    g.forEach((r, i) => { r.rank = i > 0 && g[i - 1].score === r.score ? g[i - 1].rank : n + i + 1; });
+    n += g.length;
+  }
+}
+
+const byScore = rows => rows.slice().sort((a, b) => a.score - b.score);
+
+// Each row: { e, runs, totals, used (index of the run ranked on, -1 if none), score, rank }
+function raceRows(format, entries) {
+  const dns = { status: 'DNS' };
+  if (format === 'placings') {
+    const rows = entries.map(e => ({ e, runs: [], totals: [], used: -1, score: e.place, rank: e.place }));
+    return [...byScore(rows.filter(r => r.rank != null)), ...rows.filter(r => r.rank == null)];
+  }
+
+  const rows = entries.map(e => {
+    const runs = format === 'heats_finals'
+      ? [e.heats[0] || dns, e.heats[1] || dns, e.final || null]
+      : [e.runs[0] || dns, e.runs[1] || dns];
+    const totals = runs.map(runTotal);
+    const used = format === 'heats_finals' && totals[2] !== null ? 2 : bestIndex(totals, [0, 1]);
+    return { e, runs, totals, used, score: used < 0 ? null : totals[used], rank: null };
+  });
+  const placed = rows.filter(r => r.used >= 0);
+  const groups = format === 'heats_finals'
+    ? ['A', 'B'].map(name => byScore(placed.filter(r => r.used === 2 && r.e.final.name === name)))
+        .concat([byScore(placed.filter(r => r.used < 2))])
+    : [byScore(placed)];
+  rankGroups(groups);
+  return [...groups.flat(), ...rows.filter(r => r.used < 0)];
+}
+
+// Rank of each completed run on its own, for the best of two runs table
+function runRanks(rows, i) {
+  const done = byScore(rows.filter(r => r.totals[i] !== null).map(r => ({ r, score: r.totals[i] })));
+  rankGroups([done]);
+  return new Map(done.map(d => [d.r, d.rank]));
+}
+
+function raceSection(data, race, results, cl, match) {
+  const all = raceRows(results.format, results.classes[cl] || []);
+  const rows = all.filter(r => match(r.e));
+  if (!rows.length) return null;
+
+  const res = data.classes[cl].races[race.id];
+  const placings = new Map(res.placings.map(p => [nameKey(p), p]));
+  const overrides = (data.points_overrides || []).filter(o => o.race === race.id && o.class === cl);
+
+  const counts = {};
+  for (const r of all) if (r.rank != null) counts[r.rank] = (counts[r.rank] || 0) + 1;
+  const rankLabel = r => r.rank == null ? '' : counts[r.rank] > 1 ? `=${r.rank}` : String(r.rank);
+
+  // Points come from the published points, so they include any override
+  const points = r => {
+    const p = placings.get(nameKey(r.e));
+    const overridden = overrides.length && (p ? p.place !== r.rank : r.rank != null);
+    return [p ? String(p.points) : '',
+      overridden ? h('sup', { class: 'ov', title: p ? `Points for place ${p.place} (override)` : 'Left out of the points (override)' }, '*') : null];
+  };
+
+  const bob = results.format === 'best_of_two';
+  const hf = results.format === 'heats_finals';
+  const timed = bob || hf;
+  const winner = all[0] && all[0].score;
+  const ranks = bob ? [0, 1].map(i => runRanks(all, i)) : null;
+  const groups = bob ? ['1st Run', '2nd Run'] : hf ? ['Heat 1', 'Heat 2', 'Final'] : [];
+  const has = key => all.some(r => r.e[key]);
+  const showBib = has('bib');
+  const showClub = has('club');
+  const detailCols = state.detail ? ['state', 'age_category'].filter(has) : [];
+  const detailHead = { state: 'State', age_category: 'Cat' };
+  const runHeads = i => [hf && i === 2 ? '' : null, 'Time', 'Pen', 'Total', bob ? 'Rk' : null].filter(t => t !== null);
+
+  const runCells = (r, i) => {
+    const run = r.runs[i];
+    const n = runHeads(i).length;
+    if (!run) return h('td', { colspan: n });
+    const hl = r.used === i ? 'best' : null;
+    const name = hf && i === 2 ? [h('td', { class: hl }, run.name)] : [];
+    if (run.status) {
+      return [...name, h('td', {}, run.status), h('td', { class: 'dim' }, run.penalty ?? ''), h('td'), bob ? h('td') : null];
+    }
+    return [...name,
+      h('td', { class: hl }, run.time.toFixed(2)),
+      h('td', { class: hl }, String(run.penalty)),
+      h('td', { class: hl ? 'best total' : 'total' }, fmt(r.totals[i])),
+      bob ? h('td', { class: hl }, ranks[i].has(r) ? String(ranks[i].get(r)) : '') : null];
+  };
+
+  const wide = h('div', { class: timed ? 'scroll wide-only' : 'scroll' }, h('table', {},
+    h('thead', {},
+      h('tr', {},
+        h('th', { rowspan: 2 }, 'Rk'), showBib && h('th', { rowspan: 2 }, 'Bib'),
+        h('th', { rowspan: 2, class: 'l' }, 'Name'), showClub && h('th', { rowspan: 2, class: 'l' }, 'Club'),
+        detailCols.map(c => h('th', { rowspan: 2, class: 'l' }, detailHead[c])),
+        groups.map((g, i) => h('th', { colspan: runHeads(i).length }, g)),
+        bob && [h('th', { rowspan: 2 }, 'Best'), h('th', { rowspan: 2 }, 'Behind')],
+        h('th', { rowspan: 2 }, 'Points')),
+      h('tr', {}, groups.flatMap((g, i) => runHeads(i).map(t => h('th', {}, t))))),
+    h('tbody', {}, rows.map(r => h('tr', {},
+      h('td', {}, rankLabel(r)),
+      showBib && h('td', {}, r.e.bib == null ? '' : String(r.e.bib)),
+      h('td', { class: 'l' }, paddlerLink(r.e)),
+      showClub && h('td', { class: 'l' }, r.e.club || ''),
+      detailCols.map(c => h('td', { class: 'l' }, r.e[c] || '')),
+      groups.map((g, i) => runCells(r, i)),
+      bob && [h('td', { class: 'total' }, r.score == null ? '' : fmt(r.score)),
+        h('td', {}, r.score == null ? '' : fmt(r.score - winner))],
+      h('td', { class: 'total' }, points(r)))))));
+
+  const field = state.detail && h('p', { class: 'note' }, fieldNote(res));
+  if (!timed) return [field, wide];
+
+  // Phones: one line per run under the paddler's name
+  const runLabel = (r, i) => hf ? (i === 2 ? r.runs[2].name : `H${i + 1}`) : String(i + 1);
+  const narrow = h('div', { class: 'scroll narrow-only' }, h('table', { class: 'm' },
+    h('thead', {}, h('tr', {},
+      h('th', {}, 'Rk'), h('th', { class: 'l' }, 'Name'), h('th', { 'aria-label': 'Run' }),
+      ['Time', 'Pen', 'Total', 'Pts'].map(t => h('th', {}, t)))),
+    rows.map(r => {
+      const shown = r.runs.map((run, i) => i).filter(i => r.runs[i]);
+      const sub = [r.e.bib != null && `#${r.e.bib}`, r.e.club, ...detailCols.map(c => r.e[c])].filter(Boolean).join(' · ');
+      return h('tbody', {}, shown.map((i, n) => {
+        const run = r.runs[i];
+        const hl = r.used === i ? 'best' : null;
+        return h('tr', {},
+          n === 0 && h('td', { rowspan: shown.length }, rankLabel(r)),
+          n === 0 ? h('td', { class: 'l name' }, paddlerLink(r.e)) : h('td', { class: 'l sub' }, n === 1 ? sub : ''),
+          h('td', { class: 'run' }, runLabel(r, i)),
+          run.status
+            ? [h('td', {}, run.status), h('td', { class: 'dim' }, run.penalty ?? ''), h('td')]
+            : [h('td', { class: hl }, run.time.toFixed(2)), h('td', { class: hl }, String(run.penalty)),
+               h('td', { class: hl ? 'best total' : 'total' }, fmt(r.totals[i]))],
+          n === 0 && h('td', { rowspan: shown.length, class: 'total' }, points(r)));
+      }));
+    })));
+
+  return [field, wide, narrow];
+}
+
+const FORMAT_NOTES = {
+  best_of_two: 'Ranked on the better of two runs (time + penalties). The run that counts is highlighted.',
+  heats_finals: 'Ranked by the A final, then the B final, then everyone else on their better heat run. The run that counts is highlighted.',
+  placings: 'Only the finishing places are available for this race.',
+};
+
+function raceView(data) {
+  const race = data.races.find(r => r.id === state.race);
+  const results = raceData[`${state.season}/${state.race}`];
+  const back = h('button', {
+    class: 'back',
+    onclick: () => history.state && history.state.app ? history.back() : setState({ view: 'races' }),
+  }, '← Back');
+  document.title = `${race.name} · ${data.series.name} ${data.series.year}`;
+
+  const classes = RACE_CLASSES.filter(cl => data.classes[cl] && data.classes[cl].races[race.id]);
+  if (!classes.includes(state.sub)) state.sub = classes[0];
+  const q = norm(state.q);
+  const match = e => !q || nameKey(e).includes(q);
+
+  const subs = document.getElementById('subs');
+  subs.hidden = !!q;
+  subs.replaceChildren(...classes.map(cl =>
+    h('button', { 'aria-pressed': cl === state.sub, onclick: () => setState({ sub: cl }) }, cl)));
+
+  const out = [
+    back,
+    h('h2', { class: 'race' }, race.name),
+    h('p', { class: 'info' }, [race.dates_display, results.venue].filter(Boolean).join(' · ')),
+    h('p', { class: 'info' }, FORMAT_NOTES[results.format] || ''),
+  ];
+  for (const o of (data.points_overrides || []).filter(o => o.race === race.id && (q || o.class === state.sub))) {
+    out.push(h('p', { class: 'note' }, h('sup', { class: 'ov' }, '*'), ` ${o.class} points override: ${o.reason}.`));
+  }
+
+  if (q) {
+    const found = classes.map(cl => [cl, raceSection(data, race, results, cl, match)]).filter(([, el]) => el);
+    if (!found.length) out.push(h('p', { class: 'empty' }, `No paddlers matching “${state.q}”.`));
+    for (const [cl, el] of found) out.push(h('h3', {}, cl), el);
+  } else {
+    out.push(raceSection(data, race, results, state.sub, match) || h('p', { class: 'empty' }, 'No results.'));
+  }
+  return out;
 }
 
 function render() {
@@ -422,7 +701,10 @@ function render() {
   const search = document.getElementById('search');
   if (search.value !== state.q) search.value = state.q;
   document.getElementById('views').replaceChildren(...VIEWS.map(([key, label]) =>
-    h('button', { 'aria-pressed': state.view === key, onclick: () => setState({ view: key }) }, label)));
+    h('button', {
+      'aria-pressed': state.view === key || (key === 'races' && state.view === 'race'),
+      onclick: () => setState({ view: key }),
+    }, label)));
 
   const content = document.getElementById('content');
   const subs = document.getElementById('subs');
@@ -440,6 +722,22 @@ function render() {
     return;
   }
 
+  if (state.view === 'race') {
+    const data = seasonData[state.season];
+    if (!data.races.some(r => r.id === state.race && r.status === 'completed')) {
+      setState({ view: 'races', race: '' });
+      return;
+    }
+    if (!raceData[`${state.season}/${state.race}`]) {
+      content.replaceChildren(h('p', { class: 'note' }, 'Loading race results…'));
+      loadRace(state.season, state.race).then(render, err => content.replaceChildren(
+        h('p', { class: 'empty' }, `Could not load race results (${err.message}).`)));
+      return;
+    }
+    content.replaceChildren(...raceView(data).flat(Infinity).filter(Boolean));
+    return;
+  }
+
   if (paddler) {
     content.replaceChildren(...paddlerView(state.paddler).flat(Infinity).filter(Boolean));
     return;
@@ -454,7 +752,7 @@ function render() {
     : `Standings for ${data.series.year} after ${done} of ${data.races.length} races.`;
 
   if (state.view === 'races') {
-    content.replaceChildren(h('p', { class: 'info' }, `Races in the ${data.series.year} series.`), racesTable(data));
+    content.replaceChildren(h('p', { class: 'info' }, `Races in the ${data.series.year} series. Select a race to see its full results.`), racesTable(data));
     return;
   }
 
@@ -491,13 +789,13 @@ async function main() {
 
   const select = document.getElementById('season');
   select.replaceChildren(...seasons.map(s => h('option', { value: s.dir }, s.label)));
-  select.onchange = () => setState({ season: select.value });
+  select.onchange = () => setState({ season: select.value, view: state.view === 'race' ? 'races' : state.view });
 
   const detail = document.getElementById('detail');
   detail.onchange = () => { storeDetail(detail.checked); setState({ detail: detail.checked }); };
 
   const search = document.getElementById('search');
-  search.oninput = () => setState({ q: search.value, view: 'standings' });
+  search.oninput = () => setState({ q: search.value, view: state.view === 'race' ? 'race' : 'standings' });
 
   window.onpopstate = () => { readUrl(); render(); };
 

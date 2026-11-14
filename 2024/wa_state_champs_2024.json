@@ -1,0 +1,321 @@
+{
+  "id": "wa_state_champs_2024",
+  "venue": "Walyunga",
+  "format": "best_of_two",
+  "source": "Race_4_States_ResultsByClass.pdf",
+  "classes": {
+    "C1M": [
+      {
+        "bib": 21,
+        "firstname": "George",
+        "surname": "PANKHURST",
+        "club": "",
+        "state": "",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 84.9,
+            "penalty": 4
+          },
+          {
+            "time": 85.8,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 22,
+        "firstname": "Hunter",
+        "surname": "FLORISSON",
+        "club": "",
+        "state": "",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 91.95,
+            "penalty": 4
+          },
+          {
+            "time": 91.85,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 25,
+        "firstname": "Rhys",
+        "surname": "MCRAE",
+        "club": "",
+        "state": "",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 121.25,
+            "penalty": 10
+          },
+          {
+            "time": 150.0,
+            "penalty": 8
+          }
+        ]
+      },
+      {
+        "bib": 26,
+        "firstname": "Kai",
+        "surname": "STAFFORD",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 166.9,
+            "penalty": 6
+          },
+          {
+            "time": 182.25,
+            "penalty": 106
+          }
+        ]
+      }
+    ],
+    "K1M": [
+      {
+        "bib": 1,
+        "firstname": "Hunter",
+        "surname": "FLORISSON",
+        "club": "",
+        "state": "",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 85.45,
+            "penalty": 6
+          },
+          {
+            "time": 88.35,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": 2,
+        "firstname": "George",
+        "surname": "PANKHURST",
+        "club": "",
+        "state": "",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 84.05,
+            "penalty": 54
+          },
+          {
+            "time": 87.75,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 4,
+        "firstname": "David",
+        "surname": "BURDETT",
+        "club": "",
+        "state": "",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 92.8,
+            "penalty": 0
+          },
+          {
+            "time": 90.8,
+            "penalty": 6
+          }
+        ]
+      },
+      {
+        "bib": 3,
+        "firstname": "Cody",
+        "surname": "POPE",
+        "club": "",
+        "state": "",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 99.45,
+            "penalty": 2
+          },
+          {
+            "time": 96.7,
+            "penalty": 6
+          }
+        ]
+      },
+      {
+        "bib": 7,
+        "firstname": "Jayden",
+        "surname": "HART",
+        "club": "",
+        "state": "",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 100.05,
+            "penalty": 2
+          },
+          {
+            "time": 99.5,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": 5,
+        "firstname": "Rhys",
+        "surname": "MCRAE",
+        "club": "",
+        "state": "",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 95.6,
+            "penalty": 8
+          },
+          {
+            "time": 110.35,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 9,
+        "firstname": "Zlatan",
+        "surname": "IBRAHIMBEGOVIC",
+        "club": "",
+        "state": "",
+        "age_category": "Vintage",
+        "runs": [
+          {
+            "time": 118.1,
+            "penalty": 0
+          },
+          {
+            "time": 116.45,
+            "penalty": 50
+          }
+        ]
+      },
+      {
+        "bib": 10,
+        "firstname": "Kai",
+        "surname": "STAFFORD",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 112.15,
+            "penalty": 6
+          },
+          {
+            "time": 128.65,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": 11,
+        "firstname": "Andrew",
+        "surname": "POPE",
+        "club": "",
+        "state": "",
+        "age_category": "Vintage",
+        "runs": [
+          {
+            "time": 191.1,
+            "penalty": 18
+          },
+          {
+            "time": 133.05,
+            "penalty": 4
+          }
+        ]
+      }
+    ],
+    "C1W": [
+      {
+        "bib": 23,
+        "firstname": "Nina",
+        "surname": "MUELLER",
+        "club": "",
+        "state": "",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 110.5,
+            "penalty": 6
+          },
+          {
+            "time": 118.5,
+            "penalty": 6
+          }
+        ]
+      },
+      {
+        "bib": 24,
+        "firstname": "Isabella",
+        "surname": "FLORISSON",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 154.7,
+            "penalty": 8
+          },
+          {
+            "status": "DNS"
+          }
+        ]
+      }
+    ],
+    "K1W": [
+      {
+        "bib": 6,
+        "firstname": "Nina",
+        "surname": "MUELLER",
+        "club": "",
+        "state": "",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 96.65,
+            "penalty": 2
+          },
+          {
+            "time": 96.8,
+            "penalty": 8
+          }
+        ]
+      },
+      {
+        "bib": 8,
+        "firstname": "Isabella",
+        "surname": "FLORISSON",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 153.55,
+            "penalty": 10
+          },
+          {
+            "time": 157.0,
+            "penalty": 2
+          }
+        ]
+      }
+    ]
+  }
+}

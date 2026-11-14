@@ -5,9 +5,9 @@
     "year": "2025"
   },
   "generated": {
-    "source": "raw_results_2025/races.json",
-    "git_commit": "fd8d24f35acd8acce726fd0f1c50948714070192",
-    "date": "2026-09-27T16:19:05"
+    "source": "2025/series.json",
+    "git_commit": "b14f00de433c161fc3c47f40a9f76ecfb9e3afee-dirty",
+    "date": "2026-11-14T16:40:45"
   },
   "rules": {
     "max_points": 1000,
@@ -6219,6 +6219,25 @@
       ]
     }
   },
+  "points_overrides": [
+    {
+      "race": "vic_state_champs_2025",
+      "class": "K1W",
+      "places": [
+        {
+          "firstname": "Maggie",
+          "surname": "POTUGUNTLA",
+          "place": 15
+        },
+        {
+          "firstname": "Elodie",
+          "surname": "HAMMOND",
+          "place": 16
+        }
+      ],
+      "reason": "The published 2025 points used the A final order for a CAP and a DNS in the final, rather than ranking them on their heats"
+    }
+  ],
   "possible_duplicates": {
     "C1M": [],
     "K1M": [],

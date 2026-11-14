@@ -5,9 +5,9 @@
     "year": "2024/2025"
   },
   "generated": {
-    "source": "raw_results_2024/races.json",
-    "git_commit": "fd8d24f35acd8acce726fd0f1c50948714070192",
-    "date": "2026-09-27T16:19:04"
+    "source": "2024/series.json",
+    "git_commit": "b14f00de433c161fc3c47f40a9f76ecfb9e3afee-dirty",
+    "date": "2026-11-14T16:40:44"
   },
   "rules": {
     "max_points": 1000,
@@ -6799,6 +6799,154 @@
       ]
     }
   },
+  "points_overrides": [
+    {
+      "race": "vic_state_champs_2024",
+      "class": "K1M",
+      "places": [
+        {
+          "firstname": "Robert",
+          "surname": "MCCONNELL",
+          "place": null
+        },
+        {
+          "firstname": "Kai",
+          "surname": "STAFFORD",
+          "place": null
+        },
+        {
+          "firstname": "Jacob",
+          "surname": "HILL",
+          "place": null
+        }
+      ],
+      "reason": "The published 2024 points left out the finalists with a DNS or CAP in the final, rather than ranking them on their heats"
+    },
+    {
+      "race": "tas_state_champs_2024",
+      "class": "K1M",
+      "places": [
+        {
+          "firstname": "Cameron",
+          "surname": "FOLDER",
+          "place": 7
+        },
+        {
+          "firstname": "Doug",
+          "surname": "HEMER",
+          "place": 8
+        },
+        {
+          "firstname": "Paul",
+          "surname": "DAVEY",
+          "place": 17
+        },
+        {
+          "firstname": "Pippin",
+          "surname": "WAKEFIELD",
+          "place": 18
+        },
+        {
+          "firstname": "Dougal",
+          "surname": "FOLDER",
+          "place": 19
+        },
+        {
+          "firstname": "Jonathan",
+          "surname": "KNOX",
+          "place": 20
+        },
+        {
+          "firstname": "Brodie",
+          "surname": "JEAVONS",
+          "place": 21
+        },
+        {
+          "firstname": "Leith",
+          "surname": "WAKEFIELD",
+          "place": 22
+        }
+      ],
+      "reason": "The published 2024 points ranked on the results spreadsheet's run totals, several of which don't equal the run time plus penalty"
+    },
+    {
+      "race": "age_nationals_2024",
+      "class": "K1M",
+      "places": [
+        {
+          "firstname": "Connor",
+          "surname": "JACOB",
+          "place": 40
+        },
+        {
+          "firstname": "Scott",
+          "surname": "BRAIN",
+          "place": 43
+        },
+        {
+          "firstname": "Roland",
+          "surname": "HEMER",
+          "place": 44
+        },
+        {
+          "firstname": "Dougal",
+          "surname": "FOLDER",
+          "place": 45
+        },
+        {
+          "firstname": "Keith",
+          "surname": "MACQUEEN",
+          "place": 46
+        },
+        {
+          "firstname": "Samuel",
+          "surname": "LINDUS",
+          "place": 47
+        },
+        {
+          "firstname": "Gary",
+          "surname": "NELSON",
+          "place": 48
+        },
+        {
+          "firstname": "Simon",
+          "surname": "WATSON",
+          "place": 49
+        },
+        {
+          "firstname": "Peter",
+          "surname": "MENZIES",
+          "place": 50
+        },
+        {
+          "firstname": "John",
+          "surname": "BOROJEVIC",
+          "place": 51
+        },
+        {
+          "firstname": "Andy",
+          "surname": "HALLIDAY",
+          "place": 52
+        },
+        {
+          "firstname": "Alex",
+          "surname": "XU",
+          "place": 56
+        },
+        {
+          "firstname": "Daniel",
+          "surname": "ELLUL",
+          "place": 57
+        },
+        {
+          "firstname": "Joseph",
+          "surname": "MENZIES",
+          "place": 58
+        }
+      ],
+      "reason": "The published 2024 points used the results export, which took the slower run as the best for Andy HALLIDAY and Joseph MENZIES, and gave Warren ELMS and Connor JACOB (tied on 123.85) 39th and 40th"
+    }
+  ],
   "possible_duplicates": {
     "C1M": [
       [

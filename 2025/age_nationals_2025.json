@@ -1,0 +1,5350 @@
+{
+  "id": "age_nationals_2025",
+  "venue": "Penrith NSW",
+  "format": "best_of_two",
+  "source": "2026_Paddle_Australia_Canoe_Slalom_Age_Nationals.xml",
+  "classes": {
+    "C1M": [
+      {
+        "bib": 7,
+        "firstname": "Mark",
+        "surname": "CROSBEE",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 48.05,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 47.42,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 4,
+        "firstname": "Ben",
+        "surname": "ROSS",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 47.51,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 46.72,
+            "penalty": 2,
+            "gates": [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 2,
+        "firstname": "Kaylen",
+        "surname": "BASSETT",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 48.09,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 45.69,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 5,
+        "firstname": "Declan",
+        "surname": "ELLIS",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 50.64,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 48.49,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 8,
+        "firstname": "Archie",
+        "surname": "NELSON",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 52.72,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 48.84,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 9,
+        "firstname": "Fergus",
+        "surname": "PAGE-BROWN",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 52.54,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 52.97,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 13,
+        "firstname": "Alexander",
+        "surname": "REDLICH",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 56.01,
+            "penalty": 6,
+            "gates": [
+              2,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 54.09,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 11,
+        "firstname": "Munro",
+        "surname": "MACQUEEN",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 57.21,
+            "penalty": 2,
+            "gates": [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 55.44,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 14,
+        "firstname": "Bradley",
+        "surname": "WOOD",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 58.78,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 56.51,
+            "penalty": 2,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 10,
+        "firstname": "Toby",
+        "surname": "WATKINS",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 62.68,
+            "penalty": 2,
+            "gates": [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 60.17,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 20,
+        "firstname": "Timothy",
+        "surname": "WALKER",
+        "club": "",
+        "state": "",
+        "age_category": "Masters",
+        "runs": [
+          {
+            "time": 61.6,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 60.3,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 18,
+        "firstname": "Louis",
+        "surname": "KUEK",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 59.99,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 61.01,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 16,
+        "firstname": "Tom",
+        "surname": "BILLAUT",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 62.1,
+            "penalty": 6,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 61.46,
+            "penalty": 4,
+            "gates": [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 25,
+        "firstname": "Alex",
+        "surname": "XU",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 65.08,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 64.55,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 12,
+        "firstname": "Zack",
+        "surname": "KYSELA",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 66.27,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 63.69,
+            "penalty": 10,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 19,
+        "firstname": "Kai",
+        "surname": "STAFFORD",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 72.28,
+            "penalty": 10,
+            "gates": [
+              2,
+              2,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 68.57,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 22,
+        "firstname": "Ari",
+        "surname": "DAVEY",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 77.6,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 68.85,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 23,
+        "firstname": "Leith",
+        "surname": "WAKEFIELD",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 69.13,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 72.25,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 21,
+        "firstname": "Daniel",
+        "surname": "ELLUL",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 70.9,
+            "penalty": 6,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 68.14,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 17,
+        "firstname": "Jake",
+        "surname": "WHERRETT",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 69.07,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 78.31,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 26,
+        "firstname": "William",
+        "surname": "CASSERLEY",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 76.04,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              2,
+              0,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 73.41,
+            "penalty": 8,
+            "gates": [
+              2,
+              2,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 28,
+        "firstname": "Robert",
+        "surname": "MCCONNELL",
+        "club": "ECC",
+        "state": "VIC",
+        "age_category": "Legends",
+        "runs": [
+          {
+            "time": 85.01,
+            "penalty": 6,
+            "gates": [
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 80.16,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 27,
+        "firstname": "Oliver",
+        "surname": "EISENHAMMER",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 88.95,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 90.83,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 24,
+        "firstname": "Joshua",
+        "surname": "FAIRBANK",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 83.1,
+            "penalty": 10,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2
+            ]
+          },
+          {
+            "time": 87.48,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              2,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 29,
+        "firstname": "Jye",
+        "surname": "DEAVES",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 91.04,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 98.73,
+            "penalty": 54,
+            "gates": [
+              0,
+              2,
+              0,
+              0,
+              50,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 30,
+        "firstname": "Hugo",
+        "surname": "GILES",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 84.18,
+            "penalty": 212,
+            "gates": [
+              0,
+              0,
+              0,
+              50,
+              50,
+              50,
+              0,
+              50,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ]
+          },
+          {
+            "time": 101.73,
+            "penalty": 60,
+            "gates": [
+              50,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              2,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    "K1M": [
+      {
+        "bib": 8,
+        "firstname": "Mark",
+        "surname": "CROSBEE",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 43.83,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 43.43,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 6,
+        "firstname": "Riley",
+        "surname": "GALEA",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 43.64,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 44.29,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 11,
+        "firstname": "Ben",
+        "surname": "ROSS",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 45.0,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 45.21,
+            "penalty": 50,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              50,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 9,
+        "firstname": "Fergus",
+        "surname": "PAGE-BROWN",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 50.29,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 48.07,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 29,
+        "firstname": "Declan",
+        "surname": "ELLIS",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 51.08,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 49.38,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 10,
+        "firstname": "Bradley",
+        "surname": "WOOD",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 49.28,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 55.57,
+            "penalty": 56,
+            "gates": [
+              0,
+              0,
+              0,
+              50,
+              0,
+              0,
+              2,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 20,
+        "firstname": "Jake",
+        "surname": "WHERRETT",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 51.84,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 52.08,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 14,
+        "firstname": "Munro",
+        "surname": "MACQUEEN",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 48.68,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 54.4,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 12,
+        "firstname": "Luca",
+        "surname": "THAVARASAH",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 50.98,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 48.47,
+            "penalty": 100,
+            "gates": [
+              0,
+              50,
+              0,
+              0,
+              50,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 30,
+        "firstname": "Archie",
+        "surname": "NELSON",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 49.05,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 50.98,
+            "penalty": 8,
+            "gates": [
+              2,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 21,
+        "firstname": "Louis",
+        "surname": "KUEK",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 53.48,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 57.2,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 16,
+        "firstname": "Alexander",
+        "surname": "REDLICH",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 53.5,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 51.74,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 35,
+        "firstname": "Alex",
+        "surname": "XU",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 57.19,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 55.86,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 23,
+        "firstname": "Alexander",
+        "surname": "ELLUL",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 59.08,
+            "penalty": 4,
+            "gates": [
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 54.12,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 17,
+        "firstname": "Zack",
+        "surname": "KYSELA",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 57.0,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 51.05,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 27,
+        "firstname": "Daniel",
+        "surname": "ELLUL",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 59.15,
+            "penalty": 4,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 55.15,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 31,
+        "firstname": "Ari",
+        "surname": "DAVEY",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 54.22,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 56.23,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 26,
+        "firstname": "Kevin",
+        "surname": "SONGBERG",
+        "club": "RCC",
+        "state": "NSW",
+        "age_category": "Legends",
+        "runs": [
+          {
+            "time": 60.86,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 59.71,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 19,
+        "firstname": "Robert",
+        "surname": "MCCONNELL",
+        "club": "ECC",
+        "state": "VIC",
+        "age_category": "Legends",
+        "runs": [
+          {
+            "time": 58.22,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 58.4,
+            "penalty": 2,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 13,
+        "firstname": "Toby",
+        "surname": "WATKINS",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 53.82,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 59.02,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 24,
+        "firstname": "Kai",
+        "surname": "STAFFORD",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 59.27,
+            "penalty": 4,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 57.32,
+            "penalty": 50,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              50,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 40,
+        "firstname": "Brian",
+        "surname": "CORK",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 65.0,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 61.29,
+            "penalty": 2,
+            "gates": [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 32,
+        "firstname": "Leith",
+        "surname": "WAKEFIELD",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 61.79,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 64.57,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 47,
+        "firstname": "Oliver",
+        "surname": "GEORGE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 63.06,
+            "penalty": 6,
+            "gates": [
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          },
+          {
+            "time": 59.2,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 33,
+        "firstname": "Joshua",
+        "surname": "FAIRBANK",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 66.05,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 64.02,
+            "penalty": 6,
+            "gates": [
+              2,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 41,
+        "firstname": "Keith",
+        "surname": "MACQUEEN",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 69.41,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 74.52,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 36,
+        "firstname": "William",
+        "surname": "CASSERLEY",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 61.43,
+            "penalty": 8,
+            "gates": [
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 66.17,
+            "penalty": 56,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              50,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 39,
+        "firstname": "Gary",
+        "surname": "NELSON",
+        "club": "ICC",
+        "state": "NSW",
+        "age_category": "Legends",
+        "runs": [
+          {
+            "time": 73.15,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 69.83,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 46,
+        "firstname": "James",
+        "surname": "HAMMOND",
+        "club": "",
+        "state": "",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 72.93,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 67.39,
+            "penalty": 6,
+            "gates": [
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 34,
+        "firstname": "Nick",
+        "surname": "HARRIS",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 74.38,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 72.11,
+            "penalty": 6,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 44,
+        "firstname": "Pippin",
+        "surname": "WAKEFIELD",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 75.46,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 81.17,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 42,
+        "firstname": "Paul",
+        "surname": "DAVEY",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 78.05,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          },
+          {
+            "time": 73.71,
+            "penalty": 10,
+            "gates": [
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 37,
+        "firstname": "Oliver",
+        "surname": "EISENHAMMER",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 83.8,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 83.51,
+            "penalty": 6,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 45,
+        "firstname": "Paul",
+        "surname": "MOSES",
+        "club": "CSKC",
+        "state": "NSW",
+        "age_category": "Vintage",
+        "runs": [
+          {
+            "time": 101.86,
+            "penalty": 8,
+            "gates": [
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 84.7,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 25,
+        "firstname": "Jye",
+        "surname": "DEAVES",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 76.57,
+            "penalty": 12,
+            "gates": [
+              2,
+              0,
+              0,
+              2,
+              2,
+              0,
+              2,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 83.29,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 38,
+        "firstname": "Hugo",
+        "surname": "GILES",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 91.69,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 112.29,
+            "penalty": 306,
+            "gates": [
+              0,
+              50,
+              2,
+              50,
+              2,
+              0,
+              0,
+              50,
+              50,
+              50,
+              0,
+              2,
+              0,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 22,
+        "firstname": "Tom",
+        "surname": "BILLAUT",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 52.49,
+            "penalty": 50,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              50,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 54.43,
+            "penalty": 52,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              50,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 43,
+        "firstname": "Jonathan",
+        "surname": "KNOX",
+        "club": "TCC",
+        "state": "TAS",
+        "age_category": "Legends",
+        "runs": [
+          {
+            "time": 102.71,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 106.95,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 48,
+        "firstname": "Zac",
+        "surname": "WILLIAMS",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 120.39,
+            "penalty": 158,
+            "gates": [
+              0,
+              50,
+              2,
+              2,
+              2,
+              0,
+              0,
+              50,
+              50,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 106.42,
+            "penalty": 64,
+            "gates": [
+              0,
+              2,
+              2,
+              50,
+              2,
+              0,
+              2,
+              2,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 49,
+        "firstname": "Patrick",
+        "surname": "XU",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 85.26,
+            "penalty": 104,
+            "gates": [
+              0,
+              0,
+              0,
+              50,
+              50,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 124.27,
+            "penalty": 160,
+            "gates": [
+              0,
+              50,
+              0,
+              50,
+              50,
+              2,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 28,
+        "firstname": "Kaylen",
+        "surname": "BASSETT",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "Open",
+        "runs": [
+          {
+            "status": "DNS"
+          },
+          {
+            "status": "DNS"
+          }
+        ]
+      }
+    ],
+    "C1W": [
+      {
+        "bib": 5,
+        "firstname": "Ada",
+        "surname": "MACKIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 64.66,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 59.44,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 8,
+        "firstname": "Lucy",
+        "surname": "CASSERLEY",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 68.88,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 70.02,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 10,
+        "firstname": "Lara",
+        "surname": "WYLIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 71.38,
+            "penalty": 10,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              2,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 76.06,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 11,
+        "firstname": "Stella",
+        "surname": "DAVIES",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 71.61,
+            "penalty": 8,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2
+            ]
+          },
+          {
+            "time": 68.47,
+            "penalty": 56,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              50,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 19,
+        "firstname": "Amelia",
+        "surname": "WATSON",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 94.87,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          },
+          {
+            "time": 78.21,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 9,
+        "firstname": "Madeline",
+        "surname": "BLACKLOCK",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 76.48,
+            "penalty": 4,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 98.26,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 17,
+        "firstname": "Abigail",
+        "surname": "WATSON",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 86.22,
+            "penalty": 2,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 80.76,
+            "penalty": 4,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 13,
+        "firstname": "Khloe",
+        "surname": "SCHWARZER",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 84.16,
+            "penalty": 10,
+            "gates": [
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 79.64,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 18,
+        "firstname": "Fin",
+        "surname": "STEPHENSON",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 82.78,
+            "penalty": 10,
+            "gates": [
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 77.81,
+            "penalty": 8,
+            "gates": [
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 16,
+        "firstname": "Mia",
+        "surname": "CARMICHAEL",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 94.15,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 85.67,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 14,
+        "firstname": "Nia",
+        "surname": "DAVEY",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 90.02,
+            "penalty": 108,
+            "gates": [
+              0,
+              0,
+              0,
+              50,
+              50,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              2
+            ]
+          },
+          {
+            "time": 90.76,
+            "penalty": 6,
+            "gates": [
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 21,
+        "firstname": "Lilly",
+        "surname": "HENDRIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 99.86,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          },
+          {
+            "time": 109.42,
+            "penalty": 10,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              2,
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 15,
+        "firstname": "Iona",
+        "surname": "MACQUEEN",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 102.07,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 111.01,
+            "penalty": 52,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              50,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 7,
+        "firstname": "Isabella",
+        "surname": "FLORISSON",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 75.26,
+            "penalty": 60,
+            "gates": [
+              2,
+              50,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 71.01,
+            "penalty": 54,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              50,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 22,
+        "firstname": "Helena",
+        "surname": "DORE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 122.3,
+            "penalty": 206,
+            "gates": [
+              2,
+              0,
+              0,
+              50,
+              50,
+              50,
+              2,
+              50,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 120.73,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 6,
+        "firstname": "Lucy",
+        "surname": "CARMICHAEL",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 90.78,
+            "penalty": 56,
+            "gates": [
+              0,
+              0,
+              0,
+              50,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2
+            ]
+          },
+          {
+            "time": 94.06,
+            "penalty": 54,
+            "gates": [
+              0,
+              2,
+              0,
+              2,
+              50,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 20,
+        "firstname": "Sophie",
+        "surname": "LENNIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 87.61,
+            "penalty": 206,
+            "gates": [
+              50,
+              2,
+              0,
+              50,
+              50,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              50,
+              2
+            ]
+          },
+          {
+            "status": "CAP",
+            "penalty": 650
+          }
+        ]
+      },
+      {
+        "bib": 23,
+        "firstname": "Dominique",
+        "surname": "CALLAGHAN",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 93.25,
+            "penalty": 452,
+            "gates": [
+              50,
+              50,
+              50,
+              50,
+              50,
+              50,
+              2,
+              50,
+              50,
+              50,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 83.87,
+            "penalty": 304,
+            "gates": [
+              2,
+              50,
+              0,
+              50,
+              50,
+              0,
+              50,
+              50,
+              2,
+              0,
+              0,
+              0,
+              0,
+              50
+            ]
+          }
+        ]
+      }
+    ],
+    "K1W": [
+      {
+        "bib": 5,
+        "firstname": "Ada",
+        "surname": "MACKIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U23",
+        "runs": [
+          {
+            "time": 57.59,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 55.9,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 10,
+        "firstname": "Lara",
+        "surname": "WYLIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 62.17,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "time": 57.87,
+            "penalty": 56,
+            "gates": [
+              0,
+              50,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 8,
+        "firstname": "Lucy",
+        "surname": "CASSERLEY",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 67.1,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 64.64,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 9,
+        "firstname": "Fin",
+        "surname": "STEPHENSON",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 73.09,
+            "penalty": 52,
+            "gates": [
+              0,
+              0,
+              0,
+              50,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          },
+          {
+            "time": 63.65,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 6,
+        "firstname": "Isabella",
+        "surname": "FLORISSON",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 68.38,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 66.49,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 7,
+        "firstname": "Abigail",
+        "surname": "WATSON",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 62.69,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 64.61,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 12,
+        "firstname": "Amelia",
+        "surname": "WATSON",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 67.57,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 69.91,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 11,
+        "firstname": "Stella",
+        "surname": "DAVIES",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 70.65,
+            "penalty": 4,
+            "gates": [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 64.03,
+            "penalty": 8,
+            "gates": [
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 16,
+        "firstname": "Lucy",
+        "surname": "CARMICHAEL",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 75.74,
+            "penalty": 10,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              2,
+              0,
+              0,
+              2,
+              0,
+              2
+            ]
+          },
+          {
+            "time": 71.64,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 15,
+        "firstname": "Khloe",
+        "surname": "SCHWARZER",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 75.27,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              2
+            ]
+          },
+          {
+            "time": 70.15,
+            "penalty": 6,
+            "gates": [
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 17,
+        "firstname": "Mia",
+        "surname": "CARMICHAEL",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 85.61,
+            "penalty": 10,
+            "gates": [
+              2,
+              0,
+              2,
+              2,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 72.92,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 13,
+        "firstname": "Madeline",
+        "surname": "BLACKLOCK",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 77.49,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              2
+            ]
+          },
+          {
+            "time": 75.37,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 21,
+        "firstname": "Iona",
+        "surname": "MACQUEEN",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 81.05,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 82.6,
+            "penalty": 0,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 19,
+        "firstname": "Nia",
+        "surname": "DAVEY",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 84.26,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 92.1,
+            "penalty": 6,
+            "gates": [
+              0,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 18,
+        "firstname": "Lilly",
+        "surname": "HENDRIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 123.14,
+            "penalty": 54,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              50,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2
+            ]
+          },
+          {
+            "time": 84.16,
+            "penalty": 6,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 20,
+        "firstname": "Helena",
+        "surname": "DORE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 94.59,
+            "penalty": 4,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 94.38,
+            "penalty": 2,
+            "gates": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 22,
+        "firstname": "Erin",
+        "surname": "CLARK",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 98.88,
+            "penalty": 10,
+            "gates": [
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2
+            ]
+          },
+          {
+            "time": 111.02,
+            "penalty": 10,
+            "gates": [
+              2,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 26,
+        "firstname": "Sophie",
+        "surname": "LENNIE",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 100.98,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 122.17,
+            "penalty": 8,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 23,
+        "firstname": "Isabella",
+        "surname": "CEN",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 98.85,
+            "penalty": 52,
+            "gates": [
+              0,
+              0,
+              0,
+              50,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 110.61,
+            "penalty": 12,
+            "gates": [
+              2,
+              2,
+              0,
+              2,
+              2,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 27,
+        "firstname": "Hannah",
+        "surname": "CLARKE",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 138.84,
+            "penalty": 14,
+            "gates": [
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              2,
+              2,
+              2,
+              0,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 132.18,
+            "penalty": 6,
+            "gates": [
+              2,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 25,
+        "firstname": "Eliana",
+        "surname": "PASSEY",
+        "club": "BRCC",
+        "state": "NSW",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 125.54,
+            "penalty": 14,
+            "gates": [
+              0,
+              0,
+              0,
+              2,
+              2,
+              0,
+              2,
+              2,
+              2,
+              0,
+              0,
+              0,
+              2,
+              2
+            ]
+          },
+          {
+            "status": "CAP",
+            "penalty": 104
+          }
+        ]
+      },
+      {
+        "bib": 24,
+        "firstname": "Elodie",
+        "surname": "HAMMOND",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 135.43,
+            "penalty": 108,
+            "gates": [
+              2,
+              2,
+              0,
+              50,
+              50,
+              0,
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 149.5,
+            "penalty": 56,
+            "gates": [
+              0,
+              0,
+              0,
+              50,
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "bib": 28,
+        "firstname": "Dominique",
+        "surname": "CALLAGHAN",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 102.89,
+            "penalty": 256,
+            "gates": [
+              0,
+              0,
+              50,
+              50,
+              50,
+              0,
+              2,
+              0,
+              50,
+              0,
+              2,
+              2,
+              0,
+              50
+            ]
+          },
+          {
+            "status": "CAP",
+            "penalty": 202
+          }
+        ]
+      },
+      {
+        "bib": 29,
+        "firstname": "Neive",
+        "surname": "WILLIAMS",
+        "club": "WSWC",
+        "state": "NSW",
+        "age_category": "U12",
+        "runs": [
+          {
+            "status": "DNS"
+          },
+          {
+            "status": "DNS"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "id": "wa_state_champs_2023",
+  "venue": "",
+  "format": "placings",
+  "source": "wa_state_champs_2023.json",
+  "classes": {
+    "C1M": [
+      {
+        "bib": null,
+        "firstname": "George",
+        "surname": "PANKHURST",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 1
+      },
+      {
+        "bib": null,
+        "firstname": "Hunter",
+        "surname": "FLORISSON",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 2
+      }
+    ],
+    "K1M": [
+      {
+        "bib": null,
+        "firstname": "George",
+        "surname": "PANKHURST",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 1
+      },
+      {
+        "bib": null,
+        "firstname": "Hunter",
+        "surname": "FLORISSON",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 2
+      },
+      {
+        "bib": null,
+        "firstname": "Cody",
+        "surname": "POPE",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 3
+      },
+      {
+        "bib": null,
+        "firstname": "Luke",
+        "surname": "DOOLEY",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 4
+      },
+      {
+        "bib": null,
+        "firstname": "Rhys",
+        "surname": "MCRAE",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 5
+      },
+      {
+        "bib": null,
+        "firstname": "Zlatan",
+        "surname": "IBRAHIMBEGOVIC",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 6
+      },
+      {
+        "bib": null,
+        "firstname": "Grayson",
+        "surname": "PEPI",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 7
+      },
+      {
+        "bib": null,
+        "firstname": "Jimmy",
+        "surname": "AITCHISON",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 8
+      },
+      {
+        "bib": null,
+        "firstname": "Robin",
+        "surname": "SANDERS",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 9
+      },
+      {
+        "bib": null,
+        "firstname": "Bevan",
+        "surname": "DASHWOOD",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 10
+      },
+      {
+        "bib": null,
+        "firstname": "Andrew",
+        "surname": "POPE",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 11
+      },
+      {
+        "bib": null,
+        "firstname": "Kai",
+        "surname": "STAFFORD",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "U14",
+        "place": 12
+      }
+    ],
+    "C1W": [
+      {
+        "bib": null,
+        "firstname": "Isabella",
+        "surname": "FLORISSON",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "U14",
+        "place": 1
+      }
+    ],
+    "K1W": [
+      {
+        "bib": null,
+        "firstname": "Georgina",
+        "surname": "COLLIN",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 1
+      },
+      {
+        "bib": null,
+        "firstname": "Alzbeta",
+        "surname": "DVORAKOVA",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 2
+      },
+      {
+        "bib": null,
+        "firstname": "Isabella",
+        "surname": "FLORISSON",
+        "club": "AKC",
+        "state": "WA",
+        "age_category": "U14",
+        "place": 3
+      },
+      {
+        "bib": null,
+        "firstname": "Mary",
+        "surname": "DARK",
+        "club": "",
+        "state": "",
+        "age_category": "",
+        "place": 4
+      }
+    ]
+  }
+}

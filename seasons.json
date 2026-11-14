@@ -1,5 +1,5 @@
 [
-  {"dir": "2025", "label": "2025", "file": "australian_canoe_slalom_hub_series_2025_final.json"},
-  {"dir": "2024", "label": "2024/2025", "file": "australian_canoe_slalom_hub_series_2024_final.json"},
-  {"dir": "2023", "label": "2023/2024", "file": "australian_canoe_slalom_hub_series_2023_final.json"}
+  {"dir": "2025", "label": "2025"},
+  {"dir": "2024", "label": "2024/2025"},
+  {"dir": "2023", "label": "2023/2024"}
 ]

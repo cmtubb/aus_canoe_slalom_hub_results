@@ -1,0 +1,807 @@
+{
+  "id": "tas_state_champs_2024",
+  "venue": "Mersey River",
+  "format": "best_of_two",
+  "source": "tas_age_champs_2024_slalom.xlsx",
+  "classes": {
+    "C1M": [
+      {
+        "bib": null,
+        "firstname": "Justin",
+        "surname": "BOOCOCK",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 69.79,
+            "penalty": 0
+          },
+          {
+            "time": 69.22,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Toby",
+        "surname": "WATKINS",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 100.75,
+            "penalty": 2
+          },
+          {
+            "time": 105.6,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Munro",
+        "surname": "MACQUEEN",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 102.82,
+            "penalty": 4
+          },
+          {
+            "time": 101.39,
+            "penalty": 8
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Nick",
+        "surname": "HYNAT",
+        "club": "",
+        "state": "",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 150.17,
+            "penalty": 6
+          },
+          {
+            "status": "DNF"
+          }
+        ]
+      }
+    ],
+    "K1M": [
+      {
+        "bib": null,
+        "firstname": "Justin",
+        "surname": "BOOCOCK",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 65.13,
+            "penalty": 0
+          },
+          {
+            "time": 61.78,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Munro",
+        "surname": "MACQUEEN",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 85.61,
+            "penalty": 2
+          },
+          {
+            "time": 75.8,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Tim",
+        "surname": "WHERRETT",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 85.3,
+            "penalty": 2
+          },
+          {
+            "time": 79.31,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Andrew",
+        "surname": "HORTON",
+        "club": "",
+        "state": "",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 79.95,
+            "penalty": 6
+          },
+          {
+            "time": 84.1,
+            "penalty": 54
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Jake",
+        "surname": "WHERRETT",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 88.4,
+            "penalty": 4
+          },
+          {
+            "time": 87.97,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Stewart",
+        "surname": "BENNETT",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "Masters",
+        "runs": [
+          {
+            "time": 89.71,
+            "penalty": 0
+          },
+          {
+            "time": 90.26,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Doug",
+        "surname": "HEMER",
+        "club": "",
+        "state": "",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 94.8,
+            "penalty": 52
+          },
+          {
+            "time": 86.37,
+            "penalty": 6
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Cameron",
+        "surname": "FOLDER",
+        "club": "TCC",
+        "state": "TAS",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 92.35,
+            "penalty": 2
+          },
+          {
+            "time": 91.35,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Toby",
+        "surname": "WATKINS",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 91.57,
+            "penalty": 4
+          },
+          {
+            "time": 135.59,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Sam",
+        "surname": "LINDUS",
+        "club": "",
+        "state": "",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 110.15,
+            "penalty": 2
+          },
+          {
+            "time": 101.77,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Dave",
+        "surname": "LINDUS",
+        "club": "",
+        "state": "",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 110.68,
+            "penalty": 4
+          },
+          {
+            "time": 98.37,
+            "penalty": 8
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Nick",
+        "surname": "HYNAT",
+        "club": "",
+        "state": "",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 103.06,
+            "penalty": 4
+          },
+          {
+            "time": 108.11,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Ben",
+        "surname": "LEE",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 110.34,
+            "penalty": 60
+          },
+          {
+            "time": 101.66,
+            "penalty": 8
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Roland",
+        "surname": "HEMER",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 106.35,
+            "penalty": 100
+          },
+          {
+            "time": 110.72,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Keith",
+        "surname": "MACQUEEN",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 111.45,
+            "penalty": 6
+          },
+          {
+            "time": 90.36,
+            "penalty": 60
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Russell",
+        "surname": "HORTON",
+        "club": "TCC",
+        "state": "TAS",
+        "age_category": "Legends",
+        "runs": [
+          {
+            "time": 108.64,
+            "penalty": 54
+          },
+          {
+            "time": 105.43,
+            "penalty": 14
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Pippin",
+        "surname": "WAKEFIELD",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 148.48,
+            "penalty": 106
+          },
+          {
+            "time": 76.21,
+            "penalty": 52
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Dougal",
+        "surname": "FOLDER",
+        "club": "TCC",
+        "state": "TAS",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 125.46,
+            "penalty": 4
+          },
+          {
+            "time": 112.53,
+            "penalty": 52
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Jonathan",
+        "surname": "KNOX",
+        "club": "TCC",
+        "state": "TAS",
+        "age_category": "Legends",
+        "runs": [
+          {
+            "time": 132.34,
+            "penalty": 6
+          },
+          {
+            "time": 132.73,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Paul",
+        "surname": "DAVEY",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 131.29,
+            "penalty": 10
+          },
+          {
+            "time": 113.07,
+            "penalty": 54
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Leith",
+        "surname": "WAKEFIELD",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 150.96,
+            "penalty": 2
+          },
+          {
+            "time": 141.51,
+            "penalty": 2
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Brodie",
+        "surname": "JEAVONS",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 121.02,
+            "penalty": 54
+          },
+          {
+            "time": 117.82,
+            "penalty": 58
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Richard",
+        "surname": "MCMINN",
+        "club": "TCC",
+        "state": "TAS",
+        "age_category": "Masters",
+        "runs": [
+          {
+            "time": 126.75,
+            "penalty": 58
+          },
+          {
+            "time": 127.99,
+            "penalty": 104
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Jorden",
+        "surname": "CHE",
+        "club": "",
+        "state": "",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 134.35,
+            "penalty": 58
+          },
+          {
+            "time": 140.13,
+            "penalty": 56
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Ari",
+        "surname": "DAVEY",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 128.08,
+            "penalty": 210
+          },
+          {
+            "time": 159.18,
+            "penalty": 262
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Matthew",
+        "surname": "SANDERSON",
+        "club": "",
+        "state": "",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 114.71,
+            "penalty": 510
+          },
+          {
+            "time": 106.26,
+            "penalty": 360
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Luke",
+        "surname": "BENNETT",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 159.89,
+            "penalty": 554
+          },
+          {
+            "time": 144.21,
+            "penalty": 452
+          }
+        ]
+      }
+    ],
+    "C1W": [
+      {
+        "bib": null,
+        "firstname": "Claire",
+        "surname": "CLEMENTS",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 82.51,
+            "penalty": 0
+          },
+          {
+            "time": 83.96,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Freja",
+        "surname": "BOOCOCK",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 95.14,
+            "penalty": 6
+          },
+          {
+            "time": 97.23,
+            "penalty": 2
+          }
+        ]
+      }
+    ],
+    "K1W": [
+      {
+        "bib": null,
+        "firstname": "Claire",
+        "surname": "CLEMENTS",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 74.32,
+            "penalty": 0
+          },
+          {
+            "time": 75.31,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Freja",
+        "surname": "BOOCOCK",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 85.58,
+            "penalty": 4
+          },
+          {
+            "time": 83.72,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Jane",
+        "surname": "STEPHENSON",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "Veterans",
+        "runs": [
+          {
+            "time": 134.52,
+            "penalty": 2
+          },
+          {
+            "time": 92.23,
+            "penalty": 0
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Marlene",
+        "surname": "DAVEY",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "Vintage",
+        "runs": [
+          {
+            "time": 117.37,
+            "penalty": 0
+          },
+          {
+            "time": 154.32,
+            "penalty": 4
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Fin",
+        "surname": "STEPHENSON",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 113.88,
+            "penalty": 6
+          },
+          {
+            "time": 129.23,
+            "penalty": 6
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Sienna",
+        "surname": "BENT",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U14",
+        "runs": [
+          {
+            "time": 115.42,
+            "penalty": 256
+          },
+          {
+            "time": 142.93,
+            "penalty": 58
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Amelia",
+        "surname": "LINDUS",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U16",
+        "runs": [
+          {
+            "time": 202.3,
+            "penalty": 6
+          },
+          {
+            "time": 116.54,
+            "penalty": 106
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Matilda",
+        "surname": "LEWIS",
+        "club": "",
+        "state": "",
+        "age_category": "U18",
+        "runs": [
+          {
+            "time": 157.4,
+            "penalty": 106
+          },
+          {
+            "time": 137.56,
+            "penalty": 162
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Bronwyn",
+        "surname": "WAKEFIELD",
+        "club": "",
+        "state": "",
+        "age_category": "Open",
+        "runs": [
+          {
+            "time": 135.51,
+            "penalty": 402
+          },
+          {
+            "time": 159.55,
+            "penalty": 154
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Nia",
+        "surname": "DAVEY",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 116.01,
+            "penalty": 406
+          },
+          {
+            "time": 120.67,
+            "penalty": 210
+          }
+        ]
+      },
+      {
+        "bib": null,
+        "firstname": "Iona",
+        "surname": "MACQUEEN",
+        "club": "DCC",
+        "state": "TAS",
+        "age_category": "U12",
+        "runs": [
+          {
+            "time": 87.77,
+            "penalty": 308
+          },
+          {
+            "time": 82.93,
+            "penalty": 254
+          }
+        ]
+      }
+    ]
+  }
+}
