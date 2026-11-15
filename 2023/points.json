@@ -2,12 +2,12 @@
   "schema_version": 1,
   "series": {
     "name": "Australian Canoe Slalom Hub Series",
-    "year": "2023/2024"
+    "year": "2023"
   },
   "generated": {
     "source": "2023/series.json",
-    "git_commit": "1271db4330ae3f4b30dbedd665e4d38b6248b54d",
-    "date": "2026-11-14T17:02:16"
+    "git_commit": "9cdfb92b2af69d424819c64cd267845063fe090c-dirty",
+    "date": "2026-11-15T17:36:02"
   },
   "rules": {
     "max_points": 1000,

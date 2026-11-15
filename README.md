@@ -78,7 +78,7 @@ A race with `"results": null` has not been run yet and is shown as pending.
   |---|---|
   | `best_of_two` | `"runs": [run, run]`, and `"course": "short"` for a paddler on a different course (Tas 2023) |
   | `heats_finals` | `"heats": [run, run]`, `"final": {"name": "A", ...run}` or `null` if not in a final |
-  | `placings` | `"place": 1`, no run details (2023/2024 season) |
+  | `placings` | `"place": 1`, no run details (2023 season) |
 
 ### Points (`points.json`)
 
@@ -87,7 +87,7 @@ A race with `"results": null` has not been run yet and is shown as pending.
 ```jsonc
 {
   "schema_version": 1,
-  "series": {"name": "Australian Canoe Slalom Hub Series", "year": "2024/2025"},
+  "series": {"name": "Australian Canoe Slalom Hub Series", "year": "2024"},
   "generated": {"source": "2024/series.json", "git_commit": "...", "date": "..."},
   "rules": {"max_points": 1000, "min_n": 5, "race_points": "...", "combined": "..."},
   "races": [{"id": "wa_state_champs_2024", "short": "WA", "name": "Western Australia State Championships",
@@ -129,7 +129,7 @@ These are implemented in `ranking.py` and `compute_points.py`. The page ranks th
 - **Best of two runs:** a run's total is `time + penalty`. Paddlers are ranked on their best total from their completed runs.
   Paddlers with a `course` (Tas 2023's short course) are ranked after everyone on the main course, on their own best totals.
 - **Heats and finals** (VIC): paddlers are ranked in the order of the A final, then the B final, then everyone else on their best heat run. A paddler with a DNS, DNF or CAP in a final is ranked on their heats.
-- **Placings** (2023/2024): only the finishing order is known.
+- **Placings** (2023): only the finishing order is known.
 - **Ties:** equal totals (to 0.01 s) share the rank and the next rank is skipped: 1, 2, 2, 4. Ties are only within an A final, B final or course.
 - A paddler without any completed run is not ranked, gets 0 points and isn't counted in N.
 
@@ -215,7 +215,7 @@ It needs `pdflatex`. To publish a pdf, check it and copy it into `_archive/` as 
 - checks that tied entries share a rank and the rank after a tie is skipped
 - rebuilds the pdf and compares its text with the published pdf in `_archive/` (needs `pdftotext`)
 
-The 2023/2024 and 2024/2025 pdfs were published with surnames in title case ("Sarah Crosbee"), so those two are compared ignoring case. Every rank and point value still has to match.
+The 2023 and 2024 pdfs were published with surnames in title case ("Sarah Crosbee"), so those two are compared ignoring case. Every rank and point value still has to match. They were also published with the season as "2023/2024" and "2024/2025" in the title, so they are rebuilt with that year for the comparison.
 
 Run the unit tests with `uv run python -m unittest discover -s tests`.
 

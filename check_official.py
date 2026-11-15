@@ -25,6 +25,11 @@ ARCHIVE_DIR = os.path.join(compute_points.REPO_DIR, "_archive")
 CASE_INSENSITIVE = {"australian_canoe_slalom_hub_series_2023_final",
                     "australian_canoe_slalom_hub_series_2024_final"}
 
+# These were published with the season as "2023/2024" and "2024/2025" in the
+# title, before the series year was shortened, so they are rebuilt with it
+PUBLISHED_YEAR = {"2023": "2023/2024",
+                  "2024": "2024/2025"}
+
 def pdf_stem(results, season_dir):
     """ Name of the published pdf, named by the season folder (the year the
     season starts), e.g. australian_canoe_slalom_hub_series_2024_final """
@@ -49,6 +54,9 @@ def check_pdf(results, season_dir, tmpdir):
         return []
 
     ignore_case = stem in CASE_INSENSITIVE
+
+    if season_dir in PUBLISHED_YEAR:
+        results = {**results, "series": {**results["series"], "year": PUBLISHED_YEAR[season_dir]}}
 
     render_pdf.render(results, os.path.join(tmpdir, stem + ".tex"), quiet=True)
 
