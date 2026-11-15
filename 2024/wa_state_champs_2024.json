@@ -9,8 +9,8 @@
         "bib": 21,
         "firstname": "George",
         "surname": "PANKHURST",
-        "club": "",
-        "state": "",
+        "club": "AKC",
+        "state": "WA",
         "age_category": "U23",
         "runs": [
           {
@@ -27,8 +27,8 @@
         "bib": 22,
         "firstname": "Hunter",
         "surname": "FLORISSON",
-        "club": "",
-        "state": "",
+        "club": "AKC",
+        "state": "WA",
         "age_category": "U18",
         "runs": [
           {
@@ -45,8 +45,8 @@
         "bib": 25,
         "firstname": "Rhys",
         "surname": "MCRAE",
-        "club": "",
-        "state": "",
+        "club": "AKC",
+        "state": "WA",
         "age_category": "U18",
         "runs": [
           {
@@ -83,8 +83,8 @@
         "bib": 1,
         "firstname": "Hunter",
         "surname": "FLORISSON",
-        "club": "",
-        "state": "",
+        "club": "AKC",
+        "state": "WA",
         "age_category": "U18",
         "runs": [
           {
@@ -101,8 +101,8 @@
         "bib": 2,
         "firstname": "George",
         "surname": "PANKHURST",
-        "club": "",
-        "state": "",
+        "club": "AKC",
+        "state": "WA",
         "age_category": "U23",
         "runs": [
           {
@@ -119,8 +119,8 @@
         "bib": 4,
         "firstname": "David",
         "surname": "BURDETT",
-        "club": "",
-        "state": "",
+        "club": "AKC",
+        "state": "WA",
         "age_category": "Open",
         "runs": [
           {
@@ -137,8 +137,8 @@
         "bib": 3,
         "firstname": "Cody",
         "surname": "POPE",
-        "club": "",
-        "state": "",
+        "club": "AKC",
+        "state": "WA",
         "age_category": "Open",
         "runs": [
           {
@@ -155,8 +155,8 @@
         "bib": 7,
         "firstname": "Jayden",
         "surname": "HART",
-        "club": "",
-        "state": "",
+        "club": "AKC",
+        "state": "WA",
         "age_category": "U23",
         "runs": [
           {
@@ -173,8 +173,8 @@
         "bib": 5,
         "firstname": "Rhys",
         "surname": "MCRAE",
-        "club": "",
-        "state": "",
+        "club": "AKC",
+        "state": "WA",
         "age_category": "U18",
         "runs": [
           {
@@ -191,8 +191,8 @@
         "bib": 9,
         "firstname": "Zlatan",
         "surname": "IBRAHIMBEGOVIC",
-        "club": "",
-        "state": "",
+        "club": "AKC",
+        "state": "WA",
         "age_category": "Vintage",
         "runs": [
           {
@@ -227,8 +227,8 @@
         "bib": 11,
         "firstname": "Andrew",
         "surname": "POPE",
-        "club": "",
-        "state": "",
+        "club": "AKC",
+        "state": "WA",
         "age_category": "Vintage",
         "runs": [
           {
@@ -247,8 +247,8 @@
         "bib": 23,
         "firstname": "Nina",
         "surname": "MUELLER",
-        "club": "",
-        "state": "",
+        "club": "AKC",
+        "state": "WA",
         "age_category": "Open",
         "runs": [
           {
@@ -284,8 +284,8 @@
         "bib": 6,
         "firstname": "Nina",
         "surname": "MUELLER",
-        "club": "",
-        "state": "",
+        "club": "AKC",
+        "state": "WA",
         "age_category": "Open",
         "runs": [
           {
