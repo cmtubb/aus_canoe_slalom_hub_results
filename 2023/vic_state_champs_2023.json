@@ -1,447 +1,1111 @@
 {
   "id": "vic_state_champs_2023",
   "venue": "",
-  "format": "placings",
-  "source": "vic_state_champs_2023.json",
+  "format": "heats_finals",
+  "source": "Heats_Results_2023_Vic_Champs.pdf",
   "classes": {
     "C1M": [
       {
-        "bib": null,
-        "firstname": "Tristan",
-        "surname": "CARTER",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "",
-        "place": 1
-      },
-      {
-        "bib": null,
-        "firstname": "Ben",
-        "surname": "ROSS",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "U23",
-        "place": 2
-      },
-      {
-        "bib": null,
-        "firstname": "Archie",
-        "surname": "NELSON",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "U18",
-        "place": 3
-      },
-      {
-        "bib": null,
-        "firstname": "Warwick",
-        "surname": "DRAPER",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "Veterans",
-        "place": 4
-      },
-      {
-        "bib": null,
-        "firstname": "James",
-        "surname": "STAMP",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "U16",
-        "place": 5
-      },
-      {
-        "bib": null,
-        "firstname": "Richard",
-        "surname": "MERJAN",
-        "club": "",
-        "state": "",
-        "age_category": "",
-        "place": 6
-      },
-      {
-        "bib": null,
-        "firstname": "Charlie",
-        "surname": "SHAMIEH",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "",
-        "place": 7
-      },
-      {
-        "bib": null,
-        "firstname": "Robert",
-        "surname": "MCCONNELL",
-        "club": "ECC",
-        "state": "VIC",
-        "age_category": "Vintage",
-        "place": 8
-      },
-      {
-        "bib": null,
-        "firstname": "Jack",
-        "surname": "PEAD",
-        "club": "",
-        "state": "",
-        "age_category": "",
-        "place": 9
-      },
-      {
-        "bib": null,
-        "firstname": "Oscar",
-        "surname": "CAPES",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "",
-        "place": 10
-      },
-      {
-        "bib": null,
-        "firstname": "Josh",
-        "surname": "FRASER",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "U18",
-        "place": 11
-      },
-      {
-        "bib": null,
+        "bib": 8,
         "firstname": "Alex",
         "surname": "REDLICH",
         "club": "MCC",
         "state": "VIC",
         "age_category": "U14",
-        "place": 12
-      }
-    ],
-    "K1M": [
-      {
-        "bib": null,
-        "firstname": "Tristan",
-        "surname": "CARTER",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "",
-        "place": 1
+        "heats": [
+          {
+            "time": 117.43,
+            "penalty": 0
+          },
+          {
+            "status": "CAP",
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 138.1,
+          "penalty": 104
+        }
       },
       {
-        "bib": null,
-        "firstname": "Ben",
-        "surname": "ROSS",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "U23",
-        "place": 2
-      },
-      {
-        "bib": null,
-        "firstname": "Sebastian",
-        "surname": "MONTALTO",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "",
-        "place": 3
-      },
-      {
-        "bib": null,
-        "firstname": "Riley",
-        "surname": "GALEA",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "U18",
-        "place": 4
-      },
-      {
-        "bib": null,
-        "firstname": "Joshua",
-        "surname": "MONTALTO",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "",
-        "place": 5
-      },
-      {
-        "bib": null,
-        "firstname": "Warwick",
-        "surname": "DRAPER",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "Veterans",
-        "place": 6
-      },
-      {
-        "bib": null,
-        "firstname": "Aiden",
-        "surname": "O'CALLAGHAN",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "",
-        "place": 7
-      },
-      {
-        "bib": null,
-        "firstname": "Alastair",
-        "surname": "ANDERSON",
-        "club": "",
-        "state": "",
-        "age_category": "",
-        "place": 8
-      },
-      {
-        "bib": null,
+        "bib": 14,
         "firstname": "James",
         "surname": "STAMP",
         "club": "MCC",
         "state": "VIC",
         "age_category": "U16",
-        "place": 9
+        "heats": [
+          {
+            "time": 115.34,
+            "penalty": 2
+          },
+          {
+            "status": "DNS"
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 98.81,
+          "penalty": 0
+        }
       },
       {
-        "bib": null,
-        "firstname": "Josh",
-        "surname": "FRASER",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "U18",
-        "place": 10
-      },
-      {
-        "bib": null,
-        "firstname": "Robert",
-        "surname": "MCCONNELL",
-        "club": "ECC",
-        "state": "VIC",
-        "age_category": "Vintage",
-        "place": 11
-      },
-      {
-        "bib": null,
-        "firstname": "Charlie",
-        "surname": "SHAMIEH",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "",
-        "place": 12
-      },
-      {
-        "bib": null,
-        "firstname": "Luca",
-        "surname": "FAELIS",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "",
-        "place": 13
-      },
-      {
-        "bib": null,
-        "firstname": "Cooper",
-        "surname": "AULT",
-        "club": "",
-        "state": "",
-        "age_category": "",
-        "place": 14
-      },
-      {
-        "bib": null,
-        "firstname": "Philip",
-        "surname": "MINGERULLI",
-        "club": "",
-        "state": "",
-        "age_category": "",
-        "place": 15
-      },
-      {
-        "bib": null,
-        "firstname": "Scott",
-        "surname": "BRAIN",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "U18",
-        "place": 16
-      },
-      {
-        "bib": null,
-        "firstname": "Luca",
-        "surname": "THAVARASAH",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "U16",
-        "place": 17
-      },
-      {
-        "bib": null,
-        "firstname": "Zack",
-        "surname": "KYSELA",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "U16",
-        "place": 18
-      },
-      {
-        "bib": null,
-        "firstname": "Chris",
-        "surname": "RUNTING",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "",
-        "place": 19
-      },
-      {
-        "bib": null,
-        "firstname": "Michael",
-        "surname": "COX",
-        "club": "",
-        "state": "",
-        "age_category": "",
-        "place": 20
-      },
-      {
-        "bib": null,
-        "firstname": "Lucas",
-        "surname": "KENT",
-        "club": "",
-        "state": "",
-        "age_category": "",
-        "place": 21
-      },
-      {
-        "bib": null,
+        "bib": 15,
         "firstname": "Archie",
         "surname": "NELSON",
         "club": "MCC",
         "state": "VIC",
         "age_category": "U18",
-        "place": 22
+        "heats": [
+          {
+            "time": 104.35,
+            "penalty": 0
+          },
+          {
+            "time": 102.58,
+            "penalty": 2
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 91.89,
+          "penalty": 2
+        }
       },
       {
-        "bib": null,
-        "firstname": "James",
-        "surname": "SAWERS",
+        "bib": 13,
+        "firstname": "Charlie",
+        "surname": "SHAMIEH",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "heats": [
+          {
+            "time": 123.32,
+            "penalty": 2
+          },
+          {
+            "status": "DNS"
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 105.8,
+          "penalty": 2
+        }
+      },
+      {
+        "bib": 12,
+        "firstname": "Josh",
+        "surname": "FRASER",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "heats": [
+          {
+            "time": 134.41,
+            "penalty": 4
+          },
+          {
+            "time": 116.54,
+            "penalty": 54
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 115.11,
+          "penalty": 52
+        }
+      },
+      {
+        "bib": 11,
+        "firstname": "Oscar",
+        "surname": "CAPES",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "heats": [
+          {
+            "time": 143.64,
+            "penalty": 6
+          },
+          {
+            "status": "DNS"
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 133.99,
+          "penalty": 6
+        }
+      },
+      {
+        "bib": 16,
+        "firstname": "Ben",
+        "surname": "ROSS",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U23",
+        "heats": [
+          {
+            "time": 103.0,
+            "penalty": 2
+          },
+          {
+            "time": 100.03,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 88.05,
+          "penalty": 0
+        }
+      },
+      {
+        "bib": 5,
+        "firstname": "Tristan",
+        "surname": "CARTER",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "Open",
+        "heats": [
+          {
+            "time": 100.47,
+            "penalty": 2
+          },
+          {
+            "time": 99.09,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 84.39,
+          "penalty": 0
+        }
+      },
+      {
+        "bib": 17,
+        "firstname": "Richard",
+        "surname": "MERJAN",
         "club": "",
         "state": "",
-        "age_category": "",
-        "place": 23
+        "age_category": "Masters",
+        "heats": [
+          {
+            "time": 126.61,
+            "penalty": 2
+          },
+          {
+            "time": 123.37,
+            "penalty": 2
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 106.6,
+          "penalty": 0
+        }
       },
       {
-        "bib": null,
+        "bib": 9,
+        "firstname": "Jack",
+        "surname": "PEAD",
+        "club": "",
+        "state": "",
+        "age_category": "Masters",
+        "heats": [
+          {
+            "time": 148.4,
+            "penalty": 4
+          },
+          {
+            "time": 139.67,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 122.75,
+          "penalty": 2
+        }
+      },
+      {
+        "bib": 19,
+        "firstname": "Warwick",
+        "surname": "DRAPER",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "Veterans",
+        "heats": [
+          {
+            "time": 105.25,
+            "penalty": 0
+          },
+          {
+            "time": 104.0,
+            "penalty": 6
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 92.52,
+          "penalty": 2
+        }
+      },
+      {
+        "bib": 7,
+        "firstname": "Robert",
+        "surname": "MCCONNELL",
+        "club": "ECC",
+        "state": "VIC",
+        "age_category": "Vintage",
+        "heats": [
+          {
+            "time": 147.51,
+            "penalty": 2
+          },
+          {
+            "time": 135.25,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 120.8,
+          "penalty": 0
+        }
+      }
+    ],
+    "K1M": [
+      {
+        "bib": 44,
+        "firstname": "Cooper",
+        "surname": "AULT",
+        "club": "",
+        "state": "",
+        "age_category": "U14",
+        "heats": [
+          {
+            "time": 135.84,
+            "penalty": 6
+          },
+          {
+            "time": 125.58,
+            "penalty": 6
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 105.43,
+          "penalty": 0
+        }
+      },
+      {
+        "bib": 41,
+        "firstname": "Alex",
+        "surname": "REDLICH",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U14",
+        "heats": [
+          {
+            "time": 143.24,
+            "penalty": 2
+          },
+          {
+            "time": 145.74,
+            "penalty": 8
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 153.91,
+          "penalty": 58
+        }
+      },
+      {
+        "bib": 35,
+        "firstname": "Zayd",
+        "surname": "BHAYAT",
+        "club": "",
+        "state": "",
+        "age_category": "U14",
+        "heats": [
+          {
+            "time": 141.87,
+            "penalty": 104
+          },
+          {
+            "time": 142.38,
+            "penalty": 4
+          }
+        ],
+        "final": {
+          "name": "B",
+          "status": "CAP"
+        }
+      },
+      {
+        "bib": 42,
         "firstname": "Alexander",
         "surname": "ELLUL",
         "club": "MCC",
         "state": "VIC",
         "age_category": "U14",
-        "place": 24
+        "heats": [
+          {
+            "time": 156.6,
+            "penalty": 12
+          },
+          {
+            "time": 160.43,
+            "penalty": 54
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 172.23,
+          "penalty": 10
+        }
       },
       {
-        "bib": null,
-        "firstname": "Alex",
-        "surname": "REDLICH",
+        "bib": 43,
+        "firstname": "James",
+        "surname": "SAWERS",
+        "club": "",
+        "state": "",
+        "age_category": "U14",
+        "heats": [
+          {
+            "status": "CAP"
+          },
+          {
+            "time": 163.81,
+            "penalty": 12
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 161.9,
+          "penalty": 10
+        }
+      },
+      {
+        "bib": 57,
+        "firstname": "James",
+        "surname": "STAMP",
         "club": "MCC",
         "state": "VIC",
-        "age_category": "U14",
-        "place": 25
+        "age_category": "U16",
+        "heats": [
+          {
+            "time": 97.25,
+            "penalty": 0
+          },
+          {
+            "time": 96.08,
+            "penalty": 2
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 89.24,
+          "penalty": 2
+        }
       },
       {
-        "bib": null,
+        "bib": 48,
+        "firstname": "Lucas",
+        "surname": "KENT",
+        "club": "",
+        "state": "",
+        "age_category": "U16",
+        "heats": [
+          {
+            "time": 130.18,
+            "penalty": 0
+          },
+          {
+            "time": 126.22,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 126.21,
+          "penalty": 4
+        }
+      },
+      {
+        "bib": 45,
+        "firstname": "Zack",
+        "surname": "KYSELA",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U16",
+        "heats": [
+          {
+            "time": 130.83,
+            "penalty": 4
+          },
+          {
+            "time": 125.34,
+            "penalty": 2
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 112.96,
+          "penalty": 2
+        }
+      },
+      {
+        "bib": 46,
+        "firstname": "Luca",
+        "surname": "THAVARASAH",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U16",
+        "heats": [
+          {
+            "time": 129.04,
+            "penalty": 4
+          },
+          {
+            "time": 128.77,
+            "penalty": 12
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 109.27,
+          "penalty": 4
+        }
+      },
+      {
+        "bib": 56,
+        "firstname": "Riley",
+        "surname": "GALEA",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "heats": [
+          {
+            "time": 98.08,
+            "penalty": 0
+          },
+          {
+            "time": 97.8,
+            "penalty": 2
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 83.72,
+          "penalty": 0
+        }
+      },
+      {
+        "bib": 49,
+        "firstname": "Josh",
+        "surname": "FRASER",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "heats": [
+          {
+            "time": 107.89,
+            "penalty": 4
+          },
+          {
+            "time": 108.21,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 93.95,
+          "penalty": 6
+        }
+      },
+      {
+        "bib": 54,
+        "firstname": "Archie",
+        "surname": "NELSON",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "heats": [
+          {
+            "time": 105.45,
+            "penalty": 60
+          },
+          {
+            "time": 107.18,
+            "penalty": 2
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 94.98,
+          "penalty": 50
+        }
+      },
+      {
+        "bib": 52,
+        "firstname": "Charlie",
+        "surname": "SHAMIEH",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "heats": [
+          {
+            "time": 107.85,
+            "penalty": 2
+          },
+          {
+            "time": 105.51,
+            "penalty": 4
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 97.19,
+          "penalty": 0
+        }
+      },
+      {
+        "bib": 53,
+        "firstname": "Luca",
+        "surname": "FAELIS",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "heats": [
+          {
+            "time": 113.33,
+            "penalty": 2
+          },
+          {
+            "time": 125.69,
+            "penalty": 2
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 99.29,
+          "penalty": 6
+        }
+      },
+      {
+        "bib": 51,
+        "firstname": "Scott",
+        "surname": "BRAIN",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "heats": [
+          {
+            "time": 132.59,
+            "penalty": 2
+          },
+          {
+            "time": 127.61,
+            "penalty": 6
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 113.19,
+          "penalty": 0
+        }
+      },
+      {
+        "bib": 47,
         "firstname": "Edward",
         "surname": "REDLICH",
         "club": "MCC",
         "state": "VIC",
         "age_category": "U18",
-        "place": 26
+        "heats": [
+          {
+            "time": 163.74,
+            "penalty": 4
+          },
+          {
+            "time": 143.0,
+            "penalty": 50
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 157.01,
+          "penalty": 104
+        }
       },
       {
-        "bib": null,
-        "firstname": "Zayd",
-        "surname": "BHAYAT",
+        "bib": 58,
+        "firstname": "Sebastian",
+        "surname": "MONTALTO",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U23",
+        "heats": [
+          {
+            "time": 94.81,
+            "penalty": 0
+          },
+          {
+            "time": 93.05,
+            "penalty": 2
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 83.34,
+          "penalty": 0
+        }
+      },
+      {
+        "bib": 59,
+        "firstname": "Joshua",
+        "surname": "MONTALTO",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U23",
+        "heats": [
+          {
+            "time": 98.5,
+            "penalty": 0
+          },
+          {
+            "time": 97.24,
+            "penalty": 2
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 85.13,
+          "penalty": 2
+        }
+      },
+      {
+        "bib": 55,
+        "firstname": "Ben",
+        "surname": "ROSS",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U23",
+        "heats": [
+          {
+            "time": 97.22,
+            "penalty": 2
+          },
+          {
+            "time": 99.4,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 83.2,
+          "penalty": 0
+        }
+      },
+      {
+        "bib": 61,
+        "firstname": "Tristan",
+        "surname": "CARTER",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "Open",
+        "heats": [
+          {
+            "time": 96.23,
+            "penalty": 0
+          },
+          {
+            "time": 94.14,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 81.1,
+          "penalty": 0
+        }
+      },
+      {
+        "bib": 62,
+        "firstname": "Alastair",
+        "surname": "ANDERSON",
         "club": "",
         "state": "",
-        "age_category": "",
-        "place": 27
+        "age_category": "Open",
+        "heats": [
+          {
+            "time": 103.86,
+            "penalty": 0
+          },
+          {
+            "time": 102.31,
+            "penalty": 2
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 89.21,
+          "penalty": 0
+        }
+      },
+      {
+        "bib": 60,
+        "firstname": "Aiden",
+        "surname": "O'CALLAGHAN",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "Open",
+        "heats": [
+          {
+            "time": 126.92,
+            "penalty": 2
+          },
+          {
+            "time": 101.08,
+            "penalty": 4
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 86.3,
+          "penalty": 2
+        }
+      },
+      {
+        "bib": 40,
+        "firstname": "Philip",
+        "surname": "MINGERULLI",
+        "club": "",
+        "state": "",
+        "age_category": "Masters",
+        "heats": [
+          {
+            "time": 124.27,
+            "penalty": 0
+          },
+          {
+            "time": 120.36,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 108.37,
+          "penalty": 2
+        }
+      },
+      {
+        "bib": 63,
+        "firstname": "Warwick",
+        "surname": "DRAPER",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "Veterans",
+        "heats": [
+          {
+            "time": 95.15,
+            "penalty": 0
+          },
+          {
+            "status": "DNS"
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 85.5,
+          "penalty": 2
+        }
+      },
+      {
+        "bib": 37,
+        "firstname": "Robert",
+        "surname": "MCCONNELL",
+        "club": "ECC",
+        "state": "VIC",
+        "age_category": "Vintage",
+        "heats": [
+          {
+            "time": 113.24,
+            "penalty": 0
+          },
+          {
+            "time": 110.66,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 96.25,
+          "penalty": 0
+        }
+      },
+      {
+        "bib": 36,
+        "firstname": "Chris",
+        "surname": "RUNTING",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "Vintage",
+        "heats": [
+          {
+            "time": 124.92,
+            "penalty": 4
+          },
+          {
+            "time": 123.46,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 105.26,
+          "penalty": 12
+        }
+      },
+      {
+        "bib": 39,
+        "firstname": "Michael",
+        "surname": "COX",
+        "club": "",
+        "state": "",
+        "age_category": "Vintage",
+        "heats": [
+          {
+            "time": 142.07,
+            "penalty": 2
+          },
+          {
+            "time": 142.35,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "B",
+          "time": 117.85,
+          "penalty": 2
+        }
       }
     ],
     "C1W": [
       {
-        "bib": null,
+        "bib": 66,
         "firstname": "Sarah",
         "surname": "CROSBEE",
         "club": "MCC",
         "state": "VIC",
-        "age_category": "",
-        "place": 1
+        "age_category": "U18",
+        "heats": [
+          {
+            "time": 120.03,
+            "penalty": 2
+          },
+          {
+            "time": 120.33,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 111.01,
+          "penalty": 8
+        }
       },
       {
-        "bib": null,
+        "bib": 67,
         "firstname": "Georgie",
         "surname": "O'CALLAGHAN",
         "club": "MCC",
         "state": "VIC",
-        "age_category": "",
-        "place": 2
+        "age_category": "U23",
+        "heats": [
+          {
+            "time": 117.98,
+            "penalty": 0
+          },
+          {
+            "time": 117.43,
+            "penalty": 2
+          }
+        ],
+        "final": {
+          "name": "A",
+          "status": "DNS"
+        }
       }
     ],
     "K1W": [
       {
-        "bib": null,
-        "firstname": "Sarah",
-        "surname": "CROSBEE",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "",
-        "place": 1
-      },
-      {
-        "bib": null,
-        "firstname": "Abigail",
-        "surname": "WATSON",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "U16",
-        "place": 2
-      },
-      {
-        "bib": null,
-        "firstname": "Olivia",
-        "surname": "OATES",
-        "club": "MCC",
-        "state": "VIC",
-        "age_category": "U16",
-        "place": 3
-      },
-      {
-        "bib": null,
+        "bib": 27,
         "firstname": "Amelia",
         "surname": "WATSON",
         "club": "MCC",
         "state": "VIC",
         "age_category": "U14",
-        "place": 4
+        "heats": [
+          {
+            "time": 154.38,
+            "penalty": 54
+          },
+          {
+            "time": 160.25,
+            "penalty": 4
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 169.44,
+          "penalty": 10
+        }
       },
       {
-        "bib": null,
-        "firstname": "Georgie",
-        "surname": "O'CALLAGHAN",
+        "bib": 26,
+        "firstname": "Abigail",
+        "surname": "WATSON",
         "club": "MCC",
         "state": "VIC",
-        "age_category": "",
-        "place": 5
+        "age_category": "U16",
+        "heats": [
+          {
+            "time": 129.14,
+            "penalty": 12
+          },
+          {
+            "time": 136.58,
+            "penalty": 4
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 114.07,
+          "penalty": 2
+        }
       },
       {
-        "bib": null,
+        "bib": 23,
+        "firstname": "Olivia",
+        "surname": "OATES",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U16",
+        "heats": [
+          {
+            "time": 151.6,
+            "penalty": 8
+          },
+          {
+            "time": 158.77,
+            "penalty": 8
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 149.22,
+          "penalty": 8
+        }
+      },
+      {
+        "bib": 24,
         "firstname": "Maggie",
         "surname": "POTUGUNTLA",
         "club": "MCC",
         "state": "VIC",
         "age_category": "U16",
-        "place": 6
+        "heats": [
+          {
+            "time": 267.79,
+            "penalty": 18
+          },
+          {
+            "time": 271.64,
+            "penalty": 208
+          }
+        ],
+        "final": {
+          "name": "A",
+          "status": "CAP",
+          "penalty": 54
+        }
       },
       {
-        "bib": null,
+        "bib": 25,
         "firstname": "Georgette",
         "surname": "DOHERTY",
         "club": "MCC",
         "state": "VIC",
         "age_category": "U16",
-        "place": 7
+        "heats": [
+          {
+            "time": 235.92,
+            "penalty": 166
+          },
+          {
+            "time": 202.23,
+            "penalty": 114
+          }
+        ],
+        "final": {
+          "name": "A",
+          "status": "CAP",
+          "penalty": 52
+        }
+      },
+      {
+        "bib": 28,
+        "firstname": "Sarah",
+        "surname": "CROSBEE",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U18",
+        "heats": [
+          {
+            "time": 127.26,
+            "penalty": 0
+          },
+          {
+            "time": 110.59,
+            "penalty": 0
+          }
+        ],
+        "final": {
+          "name": "A",
+          "time": 95.61,
+          "penalty": 0
+        }
+      },
+      {
+        "bib": 29,
+        "firstname": "Georgie",
+        "surname": "O'CALLAGHAN",
+        "club": "MCC",
+        "state": "VIC",
+        "age_category": "U23",
+        "heats": [
+          {
+            "time": 111.37,
+            "penalty": 2
+          },
+          {
+            "time": 111.02,
+            "penalty": 4
+          }
+        ],
+        "final": {
+          "name": "A",
+          "status": "DNS"
+        }
       }
     ]
   }

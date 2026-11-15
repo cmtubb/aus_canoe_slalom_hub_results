@@ -82,6 +82,7 @@
   h2.race { font-size: 1.15rem; margin-top: 12px; }
   thead tr:first-child th[colspan] { border-left: 2px solid var(--bg); }
   tbody tr td.best { background: var(--best); }
+  tbody tr.course td, .m tbody tr.course td { background: var(--accent-soft); font-weight: 600; text-align: left; }
   sup.ov { color: var(--accent); font-weight: 700; cursor: help; }
   .narrow-only { display: none; }
   .pickers { display: none; gap: 8px; margin-top: 12px; }
@@ -513,9 +514,10 @@ function paddlerView(key) {
 
 // ---- Race results ----
 //
-// Ranked the same way as ranking.py: best of two runs, heats and finals (A
-// final, then B final, then the best heat run), or the given placings. Totals
-// are compared in hundredths of a second, equal totals share the rank.
+// Ranked the same way as ranking.py: best of two runs (the main course, then
+// any other course such as a short course), heats and finals (A final, then B
+// final, then the best heat run), or the given placings. Totals are compared
+// in hundredths of a second, equal totals share the rank.
 
 const hundredths = t => Math.round(t * 100);
 const fmt = t => (t / 100).toFixed(2);
@@ -541,6 +543,12 @@ function rankGroups(groups) {
 
 const byScore = rows => rows.slice().sort((a, b) => a.score - b.score);
 
+// Best of two entries with a "course" ran a different course (e.g. "short"),
+// ranked after the main course (null), one course at a time
+const courseOf = e => e.course || null;
+const coursesOf = entries => [null, ...new Set(entries.map(courseOf).filter(Boolean))];
+const courseTitle = course => `${cap(course)} course`;
+
 // Each row: { e, runs, totals, used (index of the run ranked on, -1 if none), score, rank }
 function raceRows(format, entries) {
   const dns = { status: 'DNS' };
@@ -558,20 +566,38 @@ function raceRows(format, entries) {
     return { e, runs, totals, used, score: used < 0 ? null : totals[used], rank: null };
   });
   const placed = rows.filter(r => r.used >= 0);
-  const groups = format === 'heats_finals'
-    ? ['A', 'B'].map(name => byScore(placed.filter(r => r.used === 2 && r.e.final.name === name)))
-        .concat([byScore(placed.filter(r => r.used < 2))])
-    : [byScore(placed)];
+  if (format === 'heats_finals') {
+    const groups = ['A', 'B'].map(name => byScore(placed.filter(r => r.used === 2 && r.e.final.name === name)))
+      .concat([byScore(placed.filter(r => r.used < 2))]);
+    rankGroups(groups);
+    return [...groups.flat(), ...rows.filter(r => r.used < 0)];
+  }
+
+  // Unranked paddlers are shown at the end of their own course
+  const courses = coursesOf(entries);
+  const groups = courses.map(c => byScore(placed.filter(r => courseOf(r.e) === c)));
   rankGroups(groups);
-  return [...groups.flat(), ...rows.filter(r => r.used < 0)];
+  return courses.flatMap((c, n) => [...groups[n], ...rows.filter(r => r.used < 0 && courseOf(r.e) === c)]);
 }
 
-// Rank of each completed run on its own, for the best of two runs table
+// Rank of each completed run on its own within its course, for the best of two runs table
 function runRanks(rows, i) {
-  const done = byScore(rows.filter(r => r.totals[i] !== null).map(r => ({ r, score: r.totals[i] })));
-  rankGroups([done]);
-  return new Map(done.map(d => [d.r, d.rank]));
+  const ranks = new Map();
+  for (const c of coursesOf(rows.map(r => r.e))) {
+    const done = byScore(rows.filter(r => courseOf(r.e) === c && r.totals[i] !== null).map(r => ({ r, score: r.totals[i] })));
+    rankGroups([done]);
+    for (const d of done) ranks.set(d.r, d.rank);
+  }
+  return ranks;
 }
+
+// A heading row before the first paddler shown on each other course
+const courseHeading = (rows, n, cols) => {
+  const c = courseOf(rows[n].e);
+  return c && (n === 0 || courseOf(rows[n - 1].e) !== c)
+    ? h('tr', { class: 'course' }, h('td', { colspan: cols }, courseTitle(c)))
+    : null;
+};
 
 function raceSection(data, race, results, cl, match) {
   const all = raceRows(results.format, results.classes[cl] || []);
@@ -597,7 +623,9 @@ function raceSection(data, race, results, cl, match) {
   const bob = results.format === 'best_of_two';
   const hf = results.format === 'heats_finals';
   const timed = bob || hf;
-  const winner = all[0] && all[0].score;
+  // Behind is from the leader of the paddler's own course
+  const leaders = new Map();
+  for (const r of all) if (r.score != null && !leaders.has(courseOf(r.e))) leaders.set(courseOf(r.e), r.score);
   const ranks = bob ? [0, 1].map(i => runRanks(all, i)) : null;
   const groups = bob ? ['1st Run', '2nd Run'] : hf ? ['Heat 1', 'Heat 2', 'Final'] : [];
   const has = key => all.some(r => r.e[key]);
@@ -606,6 +634,8 @@ function raceSection(data, race, results, cl, match) {
   const detailCols = ['state', 'age_category'].filter(has);
   const detailHead = { state: 'State', age_category: 'Cat' };
   const runHeads = i => [hf && i === 2 ? '' : null, 'Time', 'Pen', 'Total', bob ? 'Rk' : null].filter(t => t !== null);
+  const wideCols = 3 + showBib + showClub + detailCols.length
+    + groups.reduce((n, g, i) => n + runHeads(i).length, 0) + (bob ? 2 : 0);
 
   const runCells = (r, i) => {
     const run = r.runs[i];
@@ -633,7 +663,7 @@ function raceSection(data, race, results, cl, match) {
         bob && [h('th', { rowspan: 2 }, 'Best'), h('th', { rowspan: 2 }, 'Behind')],
         h('th', { rowspan: 2 }, 'Points')),
       h('tr', {}, groups.flatMap((g, i) => runHeads(i).map(t => h('th', {}, t))))),
-    h('tbody', {}, rows.map(r => h('tr', {},
+    h('tbody', {}, rows.map((r, n) => [courseHeading(rows, n, wideCols), h('tr', {},
       h('td', {}, rankLabel(r)),
       showBib && h('td', {}, r.e.bib == null ? '' : String(r.e.bib)),
       h('td', { class: 'l' }, paddlerLink(r.e)),
@@ -641,8 +671,8 @@ function raceSection(data, race, results, cl, match) {
       detailCols.map(c => h('td', { class: 'l' }, r.e[c] || '')),
       groups.map((g, i) => runCells(r, i)),
       bob && [h('td', { class: 'total' }, r.score == null ? '' : fmt(r.score)),
-        h('td', {}, r.score == null ? '' : fmt(r.score - winner))],
-      h('td', { class: 'total' }, points(r)))))));
+        h('td', {}, r.score == null ? '' : fmt(r.score - leaders.get(courseOf(r.e))))],
+      h('td', { class: 'total' }, points(r)))]))));
 
   const field = state.detail && h('p', { class: 'note' }, fieldNote(res));
   if (!timed) return [field, wide];
@@ -653,10 +683,11 @@ function raceSection(data, race, results, cl, match) {
     h('thead', {}, h('tr', {},
       h('th', {}, 'Rk'), h('th', { class: 'l' }, 'Name'), h('th', { 'aria-label': 'Run' }),
       ['Time', 'Pen', 'Total', 'Pts'].map(t => h('th', {}, t)))),
-    rows.map(r => {
+    rows.map((r, n) => {
+      const heading = courseHeading(rows, n, 7);
       const shown = r.runs.map((run, i) => i).filter(i => r.runs[i]);
       const sub = [r.e.bib != null && `#${r.e.bib}`, r.e.club, ...(state.detail ? detailCols.map(c => r.e[c]) : [])].filter(Boolean).join(' · ');
-      return h('tbody', {}, shown.map((i, n) => {
+      return [heading && h('tbody', {}, heading), h('tbody', {}, shown.map((i, n) => {
         const run = r.runs[i];
         const hl = r.used === i ? 'best' : null;
         return h('tr', {},
@@ -668,7 +699,7 @@ function raceSection(data, race, results, cl, match) {
             : [h('td', { class: hl }, run.time.toFixed(2)), h('td', { class: hl }, String(run.penalty)),
                h('td', { class: hl ? 'best total' : 'total' }, fmt(r.totals[i]))],
           n === 0 && h('td', { rowspan: shown.length, class: 'total' }, points(r)));
-      }));
+      }))];
     })));
 
   return [field, wide, narrow];
@@ -679,6 +710,13 @@ const FORMAT_NOTES = {
   heats_finals: 'Ranked by the A final, then the B final, then everyone else on their better heat run. The run that counts is highlighted.',
   placings: 'Only the finishing places are available for this race.',
 };
+
+// Best of two races with a second course, e.g. Tas 2023's short course
+function courseNote(results) {
+  if (results.format !== 'best_of_two') return '';
+  const others = coursesOf(Object.values(results.classes).flat()).slice(1);
+  return others.map(c => `${courseTitle(c)} paddlers are ranked after the main course. `).join('');
+}
 
 function raceView(data) {
   const race = data.races.find(r => r.id === state.race);
@@ -705,7 +743,7 @@ function raceView(data) {
     back,
     h('h2', { class: 'race' }, race.name),
     h('p', { class: 'info' }, [race.dates_display, results.venue].filter(Boolean).join(' · ')),
-    h('p', { class: 'info' }, FORMAT_NOTES[results.format] || '', ' ', howLink()),
+    h('p', { class: 'info' }, FORMAT_NOTES[results.format] || '', ' ', courseNote(results), howLink()),
   ];
   for (const o of (data.points_overrides || []).filter(o => o.race === race.id && (q || o.class === sub))) {
     out.push(h('p', { class: 'note' }, h('sup', { class: 'ov' }, '*'), ` ${o.class} points override: ${o.reason}.`));

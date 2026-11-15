@@ -44,6 +44,34 @@ class TestBestOfTwo(unittest.TestCase):
         self.assertEqual(ranks(ranked), [("B", 1)])
         self.assertEqual([entry["surname"] for entry in unplaced], ["A", "C"])
 
+    def test_other_course_ranked_after_main_course(self):
+        entries = [{"surname": "S1", "course": "short", "runs": [run(40.0)]},
+                   {"surname": "A", "runs": [run(100.0)]},
+                   {"surname": "S2", "course": "short", "runs": [run(39.0)]},
+                   {"surname": "B", "runs": [run(95.0)]}]
+
+        ranked, _ = ranking.rank_class("best_of_two", entries)
+
+        self.assertEqual(ranks(ranked), [("B", 1), ("A", 2), ("S2", 3), ("S1", 4)])
+
+    def test_ties_share_rank_within_a_course_only(self):
+        entries = [{"surname": "A", "runs": [run(50.0)]},
+                   {"surname": "S1", "course": "short", "runs": [run(50.0)]},
+                   {"surname": "S2", "course": "short", "runs": [run(50.0)]}]
+
+        ranked, _ = ranking.rank_class("best_of_two", entries)
+
+        self.assertEqual(ranks(ranked), [("A", 1), ("S1", 2), ("S2", 2)])
+
+    def test_other_course_without_completed_run_is_unplaced(self):
+        entries = [{"surname": "A", "runs": [run(100.0)]},
+                   {"surname": "S", "course": "short", "runs": [{"status": "DNS"}, {"status": "DNS"}]}]
+
+        ranked, unplaced = ranking.rank_class("best_of_two", entries)
+
+        self.assertEqual(ranks(ranked), [("A", 1)])
+        self.assertEqual([entry["surname"] for entry in unplaced], ["S"])
+
 class TestHeatsFinals(unittest.TestCase):
 
     def test_a_final_then_b_final_then_heats(self):

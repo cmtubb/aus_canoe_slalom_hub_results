@@ -76,7 +76,7 @@ A race with `"results": null` has not been run yet and is shown as pending.
 
   | `format` | Fields |
   |---|---|
-  | `best_of_two` | `"runs": [run, run]` |
+  | `best_of_two` | `"runs": [run, run]`, and `"course": "short"` for a paddler on a different course (Tas 2023) |
   | `heats_finals` | `"heats": [run, run]`, `"final": {"name": "A", ...run}` or `null` if not in a final |
   | `placings` | `"place": 1`, no run details (2023/2024 season) |
 
@@ -127,9 +127,10 @@ These are implemented in `ranking.py` and `compute_points.py`. The page ranks th
 ### Race ranking (per class)
 
 - **Best of two runs:** a run's total is `time + penalty`. Paddlers are ranked on their best total from their completed runs.
+  Paddlers with a `course` (Tas 2023's short course) are ranked after everyone on the main course, on their own best totals.
 - **Heats and finals** (VIC): paddlers are ranked in the order of the A final, then the B final, then everyone else on their best heat run. A paddler with a DNS, DNF or CAP in a final is ranked on their heats.
 - **Placings** (2023/2024): only the finishing order is known.
-- **Ties:** equal totals (to 0.01 s) share the rank and the next rank is skipped: 1, 2, 2, 4.
+- **Ties:** equal totals (to 0.01 s) share the rank and the next rank is skipped: 1, 2, 2, 4. Ties are only within an A final, B final or course.
 - A paddler without any completed run is not ranked, gets 0 points and isn't counted in N.
 
 ### Points

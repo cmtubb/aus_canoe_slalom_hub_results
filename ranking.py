@@ -3,6 +3,8 @@ Ranking of the paddlers in one class of a race, from the race results JSON
 (results/<YEAR>/<race id>.json). Three race formats are supported:
 
   best_of_two   Two runs, ranked on the best run total (time + penalty).
+                Entries with a "course" (e.g. "short") ran a different course,
+                and are ranked after the main course, one course at a time.
   heats_finals  Two heat runs, then an A final and a B final. Ranked in order
                 of the A final, the B final and then the heats. A paddler
                 without a completed final run is ranked on their heats.
@@ -54,14 +56,26 @@ def _sorted_by_total(entries_totals):
     # sorted() is stable, so ties keep the order of the results file
     return sorted(entries_totals, key=lambda et: _hundredths(et[1]))
 
+def courses(entries):
+    """ The courses in a best_of_two class: the main course (None) first, then
+    the others in the order they first appear """
+
+    found = [None]
+    for entry in entries:
+        if entry.get("course") not in found:
+            found.append(entry["course"])
+    return found
+
 def rank_best_of_two(entries):
 
     totals = [(entry, best_total(entry.get("runs", []))) for entry in entries]
 
-    placed = _sorted_by_total([(entry, total) for entry, total in totals if total is not None])
+    groups = [_sorted_by_total([(entry, total) for entry, total in totals
+                                if total is not None and entry.get("course") == course])
+              for course in courses(entries)]
     unplaced = [entry for entry, total in totals if total is None]
 
-    return _rank_groups([placed]), unplaced
+    return _rank_groups(groups), unplaced
 
 def final_total(entry):
 
